@@ -1,0 +1,77 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(0, 0, 0, 0.90);
+}
+
+button {
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #2d1d2d;
+  color: #ffffff;
+  border: 2px solid #2F6C4C;
+  border-radius: 10px;
+}
+
+button:focus, button:active, button:hover {
+	/* 20% Overlay 2, 80% mantle */
+	background-color: rgb(48, 50, 66);
+	outline-style: none;
+}
+
+button#lock{
+  background-image: url("/home/khalyl/.config/wlogout/icons/lock.svg");
+}
+
+#hibernate > label {
+  background-image: url("/home/khalyl/.config/wlogout/icons/hibernate.svg");
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #2d1d2d;
+  color: #ffffff;
+  border: 2px solid #2F6C4C;
+  border-radius: 10px;  
+}
+
+#logout > label {
+  background-image: url("/home/khalyl/.config/wlogout/icons/logout.svg");
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #2d1d2d;
+  color:#ffffff;
+  border: 2px solid #2F6C4C;
+  border-radius: 10px;
+}
+
+#shutdown > label {
+  background-image: url("/home/khalyl/.config/wlogout/icons/power-off.svg");
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #2d1d2d;
+  color: #ffffff;
+  border: 2px solid #2F6C4C;
+  border-radius: 10px;  
+}
+
+#suspend > label {
+  background-image: url("/home/khalyl/.config/wlogout/icons/suspend.svg");
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #2d1d2d;
+  color: #ffffff;
+  border: 2px solid #2F6C4C;
+  border-radius: 10px;  
+}
+
+#reboot > label {
+  background-image: url("/home/khalyl/.config/wlogout/icons/reboot.svg");
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #2d1d2d;
+  color: #ffffff;
+  border: 2px solid #2F6C4C;
+  border-radius: 10px;  
+}

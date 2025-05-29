@@ -1,0 +1,11 @@
+[terminal.shell]
+args = ['--login']
+program = "/usr/bin/fish"
+[window]
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 0.8
+
+[font]
+size = 14.0
+
