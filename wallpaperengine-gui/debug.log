@@ -1,0 +1,784 @@
+Thu Jul 10 13:07:08 2025 Info: Created config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 13:07:08 2025 Info: Using style: "Fusion"
+Thu Jul 10 13:07:08 2025 Info: Using system palette for theme compatibility
+Thu Jul 10 13:07:08 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 13:07:08 2025 Info: Using Qt version: 6.9.1
+Thu Jul 10 13:07:08 2025 Info: Steam API manager initialized with no API key
+Thu Jul 10 13:07:08 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Thu Jul 10 13:07:08 2025 Info: Icon is null: false
+Thu Jul 10 13:07:08 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Thu Jul 10 13:07:08 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Thu Jul 10 13:07:08 2025 Info: System tray icon initialized successfully
+Thu Jul 10 13:07:08 2025 Info: Application started successfully
+Thu Jul 10 13:07:08 2025 Info: First run detected, showing welcome dialog
+Thu Jul 10 13:08:22 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 10 13:08:23 2025 Info: Found 34 wallpapers
+Thu Jul 10 13:08:23 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 13:08:26 2025 Info: Application exiting with code: 0
+Thu Jul 10 13:08:28 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 10 13:08:28 2025 Info: Using system palette for theme compatibility
+Thu Jul 10 13:08:28 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 13:08:28 2025 Info: Using Qt version: 6.9.1
+Thu Jul 10 13:08:28 2025 Info: Steam API manager initialized with no API key
+Thu Jul 10 13:08:28 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Thu Jul 10 13:08:28 2025 Info: Icon is null: false
+Thu Jul 10 13:08:28 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Thu Jul 10 13:08:28 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Thu Jul 10 13:08:28 2025 Info: System tray icon initialized successfully
+Thu Jul 10 13:08:28 2025 Info: Application started successfully
+Thu Jul 10 13:08:28 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 10 13:08:28 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 10 13:08:29 2025 Info: Found 34 wallpapers
+Thu Jul 10 13:08:29 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 13:08:39 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:08:46 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:08:46 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:08:47 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:08:47 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:08:47 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:08:47 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:08:47 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:12:37 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:12:38 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:12:38 2025 Info: Successfully launched wallpaper: "Lunar Tear Garden"
+Thu Jul 10 13:12:40 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:12:47 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 10 13:12:47 2025 Info: Using system palette for theme compatibility
+Thu Jul 10 13:12:47 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 13:12:47 2025 Info: Using Qt version: 6.9.1
+Thu Jul 10 13:12:47 2025 Info: Steam API manager initialized with no API key
+Thu Jul 10 13:12:47 2025 Warning: System tray is not available on this system
+Thu Jul 10 13:12:47 2025 Info: Starting minimized to system tray
+Thu Jul 10 13:12:47 2025 Info: Application started successfully
+Thu Jul 10 13:12:47 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 10 13:12:47 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 10 13:12:47 2025 Info: Will restore last wallpaper: "3028090166" from individual selection
+Thu Jul 10 13:12:48 2025 Info: Found 34 wallpapers
+Thu Jul 10 13:12:48 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 13:12:48 2025 Info: Found wallpaper to restore: "WLOP [Tian Nan2]"
+Thu Jul 10 13:12:48 2025 Info: Restoring wallpaper with auto-launch: "WLOP [Tian Nan2]" (from manual launch )
+Thu Jul 10 13:12:48 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:12:58 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 10 13:12:58 2025 Info: Using system palette for theme compatibility
+Thu Jul 10 13:12:58 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 13:12:58 2025 Info: Using Qt version: 6.9.1
+Thu Jul 10 13:12:58 2025 Info: Steam API manager initialized with no API key
+Thu Jul 10 13:12:58 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Thu Jul 10 13:12:58 2025 Info: Icon is null: false
+Thu Jul 10 13:12:58 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Thu Jul 10 13:12:58 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Thu Jul 10 13:12:58 2025 Info: System tray icon initialized successfully
+Thu Jul 10 13:12:58 2025 Info: Application started successfully
+Thu Jul 10 13:12:58 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 10 13:12:58 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 10 13:12:58 2025 Info: Will restore last wallpaper: "3028090166" from individual selection
+Thu Jul 10 13:12:58 2025 Info: Found 34 wallpapers
+Thu Jul 10 13:12:58 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 13:12:58 2025 Info: Found wallpaper to restore: "WLOP [Tian Nan2]"
+Thu Jul 10 13:12:58 2025 Info: Restoring wallpaper with auto-launch: "WLOP [Tian Nan2]" (from manual launch )
+Thu Jul 10 13:12:58 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:13:01 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:13:02 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:13:02 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:13:02 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:13:02 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:15:42 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:16:22 2025 Info: Found 34 wallpapers
+Thu Jul 10 13:16:22 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 13:16:24 2025 Info: Successfully launched wallpaper: "WLOP [Tian Nan2]"
+Thu Jul 10 13:24:24 2025 Info: Successfully launched wallpaper: "Naruto Konoha"
+Thu Jul 10 13:25:49 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 10 13:25:49 2025 Info: Using system palette for theme compatibility
+Thu Jul 10 13:25:49 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 13:25:49 2025 Info: Using Qt version: 6.9.1
+Thu Jul 10 13:25:50 2025 Info: Steam API manager initialized with no API key
+Thu Jul 10 13:25:50 2025 Warning: System tray is not available on this system
+Thu Jul 10 13:25:50 2025 Info: Starting minimized to system tray
+Thu Jul 10 13:25:50 2025 Info: Application started successfully
+Thu Jul 10 13:25:50 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 10 13:25:50 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 10 13:25:50 2025 Info: Will restore last wallpaper: "1962628637" from individual selection
+Thu Jul 10 13:25:50 2025 Info: Found 34 wallpapers
+Thu Jul 10 13:25:50 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 13:25:50 2025 Info: Found wallpaper to restore: "Naruto Konoha"
+Thu Jul 10 13:25:50 2025 Info: Restoring wallpaper with auto-launch: "Naruto Konoha" (from manual launch )
+Thu Jul 10 13:25:50 2025 Info: Successfully launched wallpaper: "Naruto Konoha"
+Thu Jul 10 13:27:40 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 10 13:27:40 2025 Info: Using system palette for theme compatibility
+Thu Jul 10 13:27:40 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 13:27:40 2025 Info: Using Qt version: 6.9.1
+Thu Jul 10 13:27:40 2025 Info: Steam API manager initialized with no API key
+Thu Jul 10 13:27:40 2025 Warning: System tray is not available on this system
+Thu Jul 10 13:27:40 2025 Info: Starting minimized to system tray
+Thu Jul 10 13:27:40 2025 Info: Application started successfully
+Thu Jul 10 13:27:40 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 10 13:27:40 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 10 13:27:40 2025 Info: Will restore last wallpaper: "1962628637" from individual selection
+Thu Jul 10 13:27:40 2025 Info: Found 34 wallpapers
+Thu Jul 10 13:27:40 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 13:27:40 2025 Info: Found wallpaper to restore: "Naruto Konoha"
+Thu Jul 10 13:27:40 2025 Info: Restoring wallpaper with auto-launch: "Naruto Konoha" (from manual launch )
+Thu Jul 10 13:27:40 2025 Info: Successfully launched wallpaper: "Naruto Konoha"
+Thu Jul 10 23:21:15 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 10 23:21:15 2025 Info: Using system palette for theme compatibility
+Thu Jul 10 23:21:15 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 10 23:21:15 2025 Info: Using Qt version: 6.9.1
+Thu Jul 10 23:21:15 2025 Info: Steam API manager initialized with no API key
+Thu Jul 10 23:21:15 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Thu Jul 10 23:21:15 2025 Info: Icon is null: false
+Thu Jul 10 23:21:15 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Thu Jul 10 23:21:15 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Thu Jul 10 23:21:15 2025 Info: System tray icon initialized successfully
+Thu Jul 10 23:21:15 2025 Info: Starting minimized to system tray
+Thu Jul 10 23:21:15 2025 Info: Application started successfully
+Thu Jul 10 23:21:16 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 10 23:21:16 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 10 23:21:16 2025 Info: Will restore last wallpaper: "1962628637" from individual selection
+Thu Jul 10 23:21:16 2025 Info: Found 34 wallpapers
+Thu Jul 10 23:21:16 2025 Info: Loaded 34 wallpapers successfully
+Thu Jul 10 23:21:16 2025 Info: Found wallpaper to restore: "Naruto Konoha"
+Thu Jul 10 23:21:16 2025 Info: Restoring wallpaper with auto-launch: "Naruto Konoha" (from manual launch )
+Thu Jul 10 23:21:16 2025 Info: Successfully launched wallpaper: "Naruto Konoha"
+Fri Jul 11 02:13:16 2025 Info: Successfully launched wallpaper: "Naruto Valley of the End"
+Fri Jul 11 02:14:16 2025 Info: Successfully launched wallpaper: "Naruto Valley of the End"
+Fri Jul 11 02:14:26 2025 Info: Successfully launched wallpaper: "Naruto Valley of the End"
+Fri Jul 11 02:15:11 2025 Info: Successfully launched wallpaper: "守岸人"
+Fri Jul 11 02:15:38 2025 Info: Successfully launched wallpaper: "Painting the Sharks 4K"
+Fri Jul 11 02:16:15 2025 Info: Successfully launched wallpaper: "Persona 3 Reload"
+Fri Jul 11 02:16:29 2025 Info: Successfully launched wallpaper: "【Qi==Qi】七柒——【晴霁雨止】2K动态壁纸"
+Fri Jul 11 02:16:44 2025 Info: Successfully launched wallpaper: "[Naruto] Itachi Uchiha"
+Fri Jul 11 02:16:55 2025 Info: Successfully launched wallpaper: "Aigis & Makoto - Persona 3 Reload (4K + Day & Night cycle)"
+Fri Jul 11 02:17:15 2025 Info: Successfully launched wallpaper: "Aigis & Makoto - Persona 3 Reload (4K + Day & Night cycle)"
+Fri Jul 11 02:17:25 2025 Info: Successfully launched wallpaper: "Persona 3 Reload Title Screen - Memories of You (Instrumental)"
+Fri Jul 11 02:17:28 2025 Info: Application exiting with code: 0
+Fri Jul 11 02:17:41 2025 Info: Applied user-configured theme: "qt6ct-style"
+Fri Jul 11 02:17:41 2025 Info: Using system palette for theme compatibility
+Fri Jul 11 02:17:41 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Fri Jul 11 02:17:41 2025 Info: Using Qt version: 6.9.1
+Fri Jul 11 02:17:41 2025 Info: Steam API manager initialized with no API key
+Fri Jul 11 02:17:41 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Fri Jul 11 02:17:41 2025 Info: Icon is null: false
+Fri Jul 11 02:17:41 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Fri Jul 11 02:17:41 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Fri Jul 11 02:17:41 2025 Info: System tray icon initialized successfully
+Fri Jul 11 02:17:41 2025 Info: Application started successfully
+Fri Jul 11 02:17:41 2025 Info: Configuration is valid, starting automatic initialization
+Fri Jul 11 02:17:41 2025 Info: Starting automatic wallpaper refresh
+Fri Jul 11 02:17:41 2025 Info: Will restore last wallpaper: "3159914863" from individual selection
+Fri Jul 11 02:17:42 2025 Info: Found 34 wallpapers
+Fri Jul 11 02:17:42 2025 Info: Loaded 34 wallpapers successfully
+Fri Jul 11 02:17:42 2025 Info: Found wallpaper to restore: "Persona 3 Reload Title Screen - Memories of You (Instrumental)"
+Fri Jul 11 02:17:42 2025 Info: Restoring wallpaper with auto-launch: "Persona 3 Reload Title Screen - Memories of You (Instrumental)" (from manual launch )
+Fri Jul 11 02:17:42 2025 Info: Successfully launched wallpaper: "Persona 3 Reload Title Screen - Memories of You (Instrumental)"
+Fri Jul 11 02:18:39 2025 Info: Successfully launched wallpaper: "雨 樱【 Rain Sakura 】- 4K"
+Fri Jul 11 02:18:49 2025 Info: Successfully launched wallpaper: "Painting the Sharks 4K"
+Fri Jul 11 02:19:01 2025 Info: Successfully launched wallpaper: "Itachi Uchiha 4k"
+Fri Jul 11 02:19:12 2025 Info: Successfully launched wallpaper: "Itachi Uchiha 4k"
+Fri Jul 11 02:19:24 2025 Info: Successfully launched wallpaper: "Itachi Uchiha 4k"
+Fri Jul 11 02:19:31 2025 Info: Successfully launched wallpaper: "Itachi Uchiha 4k"
+Fri Jul 11 02:19:47 2025 Info: Successfully launched wallpaper: "Lofi Cafe"
+Fri Jul 11 02:19:55 2025 Info: Application exiting with code: 0
+Fri Jul 11 02:20:00 2025 Info: Applied user-configured theme: "qt6ct-style"
+Fri Jul 11 02:20:00 2025 Info: Using system palette for theme compatibility
+Fri Jul 11 02:20:00 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Fri Jul 11 02:20:00 2025 Info: Using Qt version: 6.9.1
+Fri Jul 11 02:20:00 2025 Info: Steam API manager initialized with no API key
+Fri Jul 11 02:20:00 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Fri Jul 11 02:20:00 2025 Info: Icon is null: false
+Fri Jul 11 02:20:00 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Fri Jul 11 02:20:00 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Fri Jul 11 02:20:00 2025 Info: System tray icon initialized successfully
+Fri Jul 11 02:20:00 2025 Info: Application started successfully
+Fri Jul 11 02:20:00 2025 Info: Configuration is valid, starting automatic initialization
+Fri Jul 11 02:20:00 2025 Info: Starting automatic wallpaper refresh
+Fri Jul 11 02:20:00 2025 Info: Will restore last wallpaper: "2370927443" from individual selection
+Fri Jul 11 02:20:01 2025 Info: Found 34 wallpapers
+Fri Jul 11 02:20:01 2025 Info: Loaded 34 wallpapers successfully
+Fri Jul 11 02:20:01 2025 Info: Found wallpaper to restore: "Lofi Cafe"
+Fri Jul 11 02:20:01 2025 Info: Restoring wallpaper with auto-launch: "Lofi Cafe" (from manual launch )
+Fri Jul 11 02:20:01 2025 Info: Successfully launched wallpaper: "Lofi Cafe"
+Fri Jul 11 02:20:05 2025 Info: Successfully launched wallpaper: "Steins;Gate"
+Fri Jul 11 02:20:30 2025 Info: Successfully launched wallpaper: "Japanese Torii Gate + Date & Clock (4K)"
+Fri Jul 11 02:20:55 2025 Info: Successfully launched wallpaper: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38"
+Fri Jul 11 02:21:00 2025 Info: User disabled tray warning notifications
+Fri Jul 11 02:39:50 2025 Info: Applied user-configured theme: "qt6ct-style"
+Fri Jul 11 02:39:50 2025 Info: Using system palette for theme compatibility
+Fri Jul 11 02:39:50 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Fri Jul 11 02:39:50 2025 Info: Using Qt version: 6.9.1
+Fri Jul 11 02:39:50 2025 Info: Steam API manager initialized with no API key
+Fri Jul 11 02:39:50 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Fri Jul 11 02:39:50 2025 Info: Icon is null: false
+Fri Jul 11 02:39:50 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Fri Jul 11 02:39:50 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Fri Jul 11 02:39:50 2025 Info: System tray icon initialized successfully
+Fri Jul 11 02:39:50 2025 Info: Starting minimized to system tray
+Fri Jul 11 02:39:50 2025 Info: Application started successfully
+Fri Jul 11 02:39:50 2025 Info: Configuration is valid, starting automatic initialization
+Fri Jul 11 02:39:50 2025 Info: Starting automatic wallpaper refresh
+Fri Jul 11 02:39:50 2025 Info: Will restore last wallpaper: "3074485715" from individual selection
+Fri Jul 11 02:39:51 2025 Info: Found 34 wallpapers
+Fri Jul 11 02:39:51 2025 Info: Loaded 34 wallpapers successfully
+Fri Jul 11 02:39:51 2025 Info: Found wallpaper to restore: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38"
+Fri Jul 11 02:39:51 2025 Info: Restoring wallpaper with auto-launch: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38" (from manual launch )
+Fri Jul 11 02:39:51 2025 Info: Successfully launched wallpaper: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38"
+Sat Jul 12 12:31:35 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sat Jul 12 12:31:35 2025 Info: Using system palette for theme compatibility
+Sat Jul 12 12:31:35 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sat Jul 12 12:31:35 2025 Info: Using Qt version: 6.9.1
+Sat Jul 12 12:31:35 2025 Info: Steam API manager initialized with no API key
+Sat Jul 12 12:31:35 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Sat Jul 12 12:31:35 2025 Info: Icon is null: false
+Sat Jul 12 12:31:35 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Sat Jul 12 12:31:35 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Sat Jul 12 12:31:35 2025 Info: System tray icon initialized successfully
+Sat Jul 12 12:31:35 2025 Info: Starting minimized to system tray
+Sat Jul 12 12:31:35 2025 Info: Application started successfully
+Sat Jul 12 12:31:35 2025 Info: Configuration is valid, starting automatic initialization
+Sat Jul 12 12:31:35 2025 Info: Starting automatic wallpaper refresh
+Sat Jul 12 12:31:35 2025 Info: Will restore last wallpaper: "3074485715" from individual selection
+Sat Jul 12 12:31:36 2025 Info: Found 34 wallpapers
+Sat Jul 12 12:31:36 2025 Info: Loaded 34 wallpapers successfully
+Sat Jul 12 12:31:36 2025 Info: Found wallpaper to restore: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38"
+Sat Jul 12 12:31:36 2025 Info: Restoring wallpaper with auto-launch: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38" (from manual launch )
+Sat Jul 12 12:31:36 2025 Info: Successfully launched wallpaper: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38"
+Sat Jul 12 12:34:33 2025 Info: Successfully launched wallpaper: "[4k HDR] Chill Japanese Room Real time day and night cycle by Becco38"
+Sat Jul 12 12:45:19 2025 Info: Found 35 wallpapers
+Sat Jul 12 12:45:19 2025 Info: Loaded 35 wallpapers successfully
+Sat Jul 12 12:45:24 2025 Info: Successfully launched wallpaper: "Shinobu Oshino ' Kiss-shot ' [忍 野 忍] Kizu-Monogatari [Animated][CXhamp]"
+Sat Jul 12 12:45:55 2025 Info: Successfully launched wallpaper: "Shinobu Oshino ' Kiss-shot ' [忍 野 忍] Kizu-Monogatari [Animated][CXhamp]"
+Sat Jul 12 12:47:03 2025 Info: Successfully launched wallpaper: "Yessir Supra Knight in Roses"
+Sat Jul 12 12:47:10 2025 Info: Successfully launched wallpaper: "Yessir Supra Knight in Roses"
+Sat Jul 12 12:56:05 2025 Info: Found 36 wallpapers
+Sat Jul 12 12:56:05 2025 Info: Loaded 36 wallpapers successfully
+Sat Jul 12 12:56:16 2025 Info: Successfully launched wallpaper: "Windmills by VISUALDON - 4k 60fps"
+Sat Jul 12 13:06:10 2025 Info: Found 37 wallpapers
+Sat Jul 12 13:06:10 2025 Info: Loaded 37 wallpapers successfully
+Sat Jul 12 13:06:38 2025 Info: Successfully launched wallpaper: "Ghost of Tsushima Tree"
+Sat Jul 12 13:07:03 2025 Info: Successfully launched wallpaper: "Ghost of Tsushima Tree"
+Sat Jul 12 13:07:10 2025 Info: Successfully launched wallpaper: "Japanese Torii Gate + Date & Clock (4K)"
+Sat Jul 12 13:13:05 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3433165867/preview.gif"
+Sat Jul 12 13:13:05 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3433165867/preview.gif"
+Sat Jul 12 13:13:21 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3340275180/preview.gif"
+Sat Jul 12 13:13:21 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3340275180/preview.gif"
+Sat Jul 12 13:13:21 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3471004940/preview.gif"
+Sat Jul 12 13:13:21 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3471004940/preview.gif"
+Sat Jul 12 13:13:41 2025 Info: Found 32 wallpapers
+Sat Jul 12 13:13:41 2025 Info: Loaded 32 wallpapers successfully
+Sat Jul 12 13:13:49 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Sat Jul 12 13:14:00 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Sat Jul 12 13:14:08 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 13:14:17 2025 Info: Successfully launched wallpaper: "Pyramid (Parallax Effect) | Genshin Impact Sumeru Desert 4K"
+Sat Jul 12 13:14:28 2025 Info: Successfully launched wallpaper: "Pyramid (Parallax Effect) | Genshin Impact Sumeru Desert 4K"
+Sat Jul 12 13:14:44 2025 Info: Successfully launched wallpaper: "Pyramid (Parallax Effect) | Genshin Impact Sumeru Desert 4K"
+Sat Jul 12 13:15:06 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 13:15:21 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sat Jul 12 13:15:21 2025 Info: Using system palette for theme compatibility
+Sat Jul 12 13:15:21 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sat Jul 12 13:15:21 2025 Info: Using Qt version: 6.9.1
+Sat Jul 12 13:15:21 2025 Info: Steam API manager initialized with no API key
+Sat Jul 12 13:15:21 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Sat Jul 12 13:15:21 2025 Info: Icon is null: false
+Sat Jul 12 13:15:21 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Sat Jul 12 13:15:21 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Sat Jul 12 13:15:21 2025 Info: System tray icon initialized successfully
+Sat Jul 12 13:15:21 2025 Info: Application started successfully
+Sat Jul 12 13:15:21 2025 Info: Configuration is valid, starting automatic initialization
+Sat Jul 12 13:15:21 2025 Info: Starting automatic wallpaper refresh
+Sat Jul 12 13:15:22 2025 Info: Found 32 wallpapers
+Sat Jul 12 13:15:22 2025 Info: Loaded 32 wallpapers successfully
+Sat Jul 12 13:15:26 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 13:18:11 2025 Info: Found 33 wallpapers
+Sat Jul 12 13:18:11 2025 Info: Loaded 33 wallpapers successfully
+Sat Jul 12 13:18:20 2025 Info: Successfully launched wallpaper: "Sunset in Liyue (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 13:18:36 2025 Info: Successfully launched wallpaper: "Sunset in Liyue (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 13:18:50 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 14:16:38 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sat Jul 12 14:16:38 2025 Info: Using system palette for theme compatibility
+Sat Jul 12 14:16:38 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sat Jul 12 14:16:38 2025 Info: Using Qt version: 6.9.1
+Sat Jul 12 14:16:38 2025 Info: Steam API manager initialized with no API key
+Sat Jul 12 14:16:38 2025 Warning: System tray is not available on this system
+Sat Jul 12 14:16:38 2025 Info: Starting minimized to system tray
+Sat Jul 12 14:16:38 2025 Info: Application started successfully
+Sat Jul 12 14:16:39 2025 Info: Configuration is valid, starting automatic initialization
+Sat Jul 12 14:16:39 2025 Info: Starting automatic wallpaper refresh
+Sat Jul 12 14:16:39 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Sat Jul 12 14:16:39 2025 Info: Found 33 wallpapers
+Sat Jul 12 14:16:39 2025 Info: Loaded 33 wallpapers successfully
+Sat Jul 12 14:16:39 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 14:16:39 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Sat Jul 12 14:16:39 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 22:46:51 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sat Jul 12 22:46:51 2025 Info: Using system palette for theme compatibility
+Sat Jul 12 22:46:51 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sat Jul 12 22:46:51 2025 Info: Using Qt version: 6.9.1
+Sat Jul 12 22:46:52 2025 Info: Steam API manager initialized with no API key
+Sat Jul 12 22:46:52 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Sat Jul 12 22:46:52 2025 Info: Icon is null: false
+Sat Jul 12 22:46:52 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Sat Jul 12 22:46:52 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Sat Jul 12 22:46:52 2025 Info: System tray icon initialized successfully
+Sat Jul 12 22:46:52 2025 Info: Starting minimized to system tray
+Sat Jul 12 22:46:52 2025 Info: Application started successfully
+Sat Jul 12 22:46:52 2025 Info: Configuration is valid, starting automatic initialization
+Sat Jul 12 22:46:52 2025 Info: Starting automatic wallpaper refresh
+Sat Jul 12 22:46:52 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Sat Jul 12 22:46:52 2025 Info: Found 33 wallpapers
+Sat Jul 12 22:46:52 2025 Info: Loaded 33 wallpapers successfully
+Sat Jul 12 22:46:52 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 22:46:52 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Sat Jul 12 22:46:52 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 22:51:50 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sat Jul 12 22:51:50 2025 Info: Using system palette for theme compatibility
+Sat Jul 12 22:51:50 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sat Jul 12 22:51:50 2025 Info: Using Qt version: 6.9.1
+Sat Jul 12 22:51:50 2025 Info: Steam API manager initialized with no API key
+Sat Jul 12 22:51:50 2025 Warning: System tray is not available on this system
+Sat Jul 12 22:51:50 2025 Info: Starting minimized to system tray
+Sat Jul 12 22:51:50 2025 Info: Application started successfully
+Sat Jul 12 22:51:50 2025 Info: Configuration is valid, starting automatic initialization
+Sat Jul 12 22:51:50 2025 Info: Starting automatic wallpaper refresh
+Sat Jul 12 22:51:50 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Sat Jul 12 22:51:51 2025 Info: Found 33 wallpapers
+Sat Jul 12 22:51:51 2025 Info: Loaded 33 wallpapers successfully
+Sat Jul 12 22:51:51 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 22:51:51 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Sat Jul 12 22:51:51 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 23:57:00 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sat Jul 12 23:57:00 2025 Info: Using system palette for theme compatibility
+Sat Jul 12 23:57:00 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sat Jul 12 23:57:00 2025 Info: Using Qt version: 6.9.1
+Sat Jul 12 23:57:00 2025 Info: Steam API manager initialized with no API key
+Sat Jul 12 23:57:00 2025 Warning: System tray is not available on this system
+Sat Jul 12 23:57:00 2025 Info: Starting minimized to system tray
+Sat Jul 12 23:57:00 2025 Info: Application started successfully
+Sat Jul 12 23:57:00 2025 Info: Configuration is valid, starting automatic initialization
+Sat Jul 12 23:57:00 2025 Info: Starting automatic wallpaper refresh
+Sat Jul 12 23:57:00 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Sat Jul 12 23:57:01 2025 Info: Found 33 wallpapers
+Sat Jul 12 23:57:01 2025 Info: Loaded 33 wallpapers successfully
+Sat Jul 12 23:57:01 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sat Jul 12 23:57:01 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Sat Jul 12 23:57:01 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sun Jul 13 20:41:30 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sun Jul 13 20:41:30 2025 Info: Using system palette for theme compatibility
+Sun Jul 13 20:41:30 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sun Jul 13 20:41:30 2025 Info: Using Qt version: 6.9.1
+Sun Jul 13 20:41:30 2025 Info: Steam API manager initialized with no API key
+Sun Jul 13 20:41:30 2025 Warning: System tray is not available on this system
+Sun Jul 13 20:41:30 2025 Info: Starting minimized to system tray
+Sun Jul 13 20:41:30 2025 Info: Application started successfully
+Sun Jul 13 20:41:30 2025 Info: Configuration is valid, starting automatic initialization
+Sun Jul 13 20:41:30 2025 Info: Starting automatic wallpaper refresh
+Sun Jul 13 20:41:30 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Sun Jul 13 20:41:31 2025 Info: Found 33 wallpapers
+Sun Jul 13 20:41:31 2025 Info: Loaded 33 wallpapers successfully
+Sun Jul 13 20:41:31 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Sun Jul 13 20:41:31 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Sun Jul 13 20:41:31 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Mon Jul 14 20:53:33 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 14 20:53:33 2025 Info: Using system palette for theme compatibility
+Mon Jul 14 20:53:33 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 14 20:53:33 2025 Info: Using Qt version: 6.9.1
+Mon Jul 14 20:53:33 2025 Info: Steam API manager initialized with no API key
+Mon Jul 14 20:53:33 2025 Warning: System tray is not available on this system
+Mon Jul 14 20:53:33 2025 Info: Starting minimized to system tray
+Mon Jul 14 20:53:33 2025 Info: Application started successfully
+Mon Jul 14 20:53:33 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 14 20:53:33 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 14 20:53:33 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Mon Jul 14 20:53:34 2025 Info: Found 33 wallpapers
+Mon Jul 14 20:53:34 2025 Info: Loaded 33 wallpapers successfully
+Mon Jul 14 20:53:34 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Mon Jul 14 20:53:34 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Mon Jul 14 20:53:34 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Mon Jul 14 22:55:19 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2970331102/preview.gif"
+Mon Jul 14 22:55:20 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/1781466079/preview.gif"
+Mon Jul 14 22:55:20 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2795279071/preview.gif"
+Mon Jul 14 22:55:20 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2370927443/preview.gif"
+Mon Jul 14 22:55:20 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3003011737/preview.gif"
+Mon Jul 14 22:55:21 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2955378002/preview.gif"
+Mon Jul 14 22:55:21 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2439836707/preview.gif"
+Mon Jul 14 22:55:21 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2468489223/preview.gif"
+Mon Jul 14 22:55:22 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2991666003/preview.gif"
+Mon Jul 14 22:55:23 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2549014002/preview.gif"
+Mon Jul 14 22:55:23 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2549014002/preview.gif"
+Mon Jul 14 22:55:23 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2587296159/preview.gif"
+Mon Jul 14 22:55:23 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2477602742/preview.gif"
+Mon Jul 14 22:55:24 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2810492318/preview.gif"
+Mon Jul 14 22:55:26 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/3008564295/preview.gif"
+Mon Jul 14 23:35:31 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 14 23:35:31 2025 Info: Using system palette for theme compatibility
+Mon Jul 14 23:35:31 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 14 23:35:31 2025 Info: Using Qt version: 6.9.1
+Mon Jul 14 23:35:31 2025 Info: Steam API manager initialized with no API key
+Mon Jul 14 23:35:31 2025 Warning: System tray is not available on this system
+Mon Jul 14 23:35:31 2025 Info: Starting minimized to system tray
+Mon Jul 14 23:35:31 2025 Info: Application started successfully
+Mon Jul 14 23:35:31 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 14 23:35:31 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 14 23:35:31 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Mon Jul 14 23:35:32 2025 Info: Found 33 wallpapers
+Mon Jul 14 23:35:32 2025 Info: Loaded 33 wallpapers successfully
+Mon Jul 14 23:35:32 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Mon Jul 14 23:35:32 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Mon Jul 14 23:35:32 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Wed Jul 16 22:45:51 2025 Info: Applied user-configured theme: "qt6ct-style"
+Wed Jul 16 22:45:51 2025 Info: Using system palette for theme compatibility
+Wed Jul 16 22:45:51 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Wed Jul 16 22:45:51 2025 Info: Using Qt version: 6.9.1
+Wed Jul 16 22:45:51 2025 Info: Steam API manager initialized with no API key
+Wed Jul 16 22:45:51 2025 Warning: System tray is not available on this system
+Wed Jul 16 22:45:51 2025 Info: Starting minimized to system tray
+Wed Jul 16 22:45:51 2025 Info: Application started successfully
+Wed Jul 16 22:45:51 2025 Info: Configuration is valid, starting automatic initialization
+Wed Jul 16 22:45:51 2025 Info: Starting automatic wallpaper refresh
+Wed Jul 16 22:45:51 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Wed Jul 16 22:45:52 2025 Info: Found 43 wallpapers
+Wed Jul 16 22:45:52 2025 Info: Loaded 43 wallpapers successfully
+Wed Jul 16 22:45:52 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Wed Jul 16 22:45:52 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Wed Jul 16 22:45:52 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Wed Jul 16 23:37:51 2025 Info: Applied user-configured theme: "qt6ct-style"
+Wed Jul 16 23:37:51 2025 Info: Using system palette for theme compatibility
+Wed Jul 16 23:37:51 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Wed Jul 16 23:37:51 2025 Info: Using Qt version: 6.9.1
+Wed Jul 16 23:37:52 2025 Info: Steam API manager initialized with no API key
+Wed Jul 16 23:37:52 2025 Warning: System tray is not available on this system
+Wed Jul 16 23:37:52 2025 Info: Starting minimized to system tray
+Wed Jul 16 23:37:52 2025 Info: Application started successfully
+Wed Jul 16 23:37:52 2025 Info: Configuration is valid, starting automatic initialization
+Wed Jul 16 23:37:52 2025 Info: Starting automatic wallpaper refresh
+Wed Jul 16 23:37:52 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Wed Jul 16 23:37:52 2025 Info: Found 43 wallpapers
+Wed Jul 16 23:37:52 2025 Info: Loaded 43 wallpapers successfully
+Wed Jul 16 23:37:52 2025 Info: Found wallpaper to restore: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Wed Jul 16 23:37:52 2025 Info: Restoring wallpaper with auto-launch: "Night Mondstadt (Genshin Impact) [Animated, 4K]" (from manual launch )
+Wed Jul 16 23:37:52 2025 Info: Successfully launched wallpaper: "Night Mondstadt (Genshin Impact) [Animated, 4K]"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2292075934/preview.gif"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 1 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2292075934/preview.gif"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2439836707/preview.gif"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2370927443/preview.gif"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2970331102/preview.gif"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2795279071/preview.gif"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2468489223/preview.gif"
+Thu Jul 17 01:10:38 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2810492318/preview.gif"
+Thu Jul 17 01:10:39 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2477602742/preview.gif"
+Thu Jul 17 01:10:39 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2997430321/preview.gif"
+Thu Jul 17 01:10:39 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2955378002/preview.gif"
+Thu Jul 17 01:10:40 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/1781466079/preview.gif"
+Thu Jul 17 01:10:41 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2991666003/preview.gif"
+Thu Jul 17 01:10:41 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2549014002/preview.gif"
+Thu Jul 17 01:10:41 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2549014002/preview.gif"
+Thu Jul 17 01:10:43 2025 Warning: Movie error: 4 for file: "/mnt/ntfs/SteamLibrary/steamapps/workshop/content/431960/2587296159/preview.gif"
+Thu Jul 17 01:23:32 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 17 01:23:32 2025 Info: Using system palette for theme compatibility
+Thu Jul 17 01:23:32 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 17 01:23:32 2025 Info: Using Qt version: 6.9.1
+Thu Jul 17 01:23:32 2025 Info: Steam API manager initialized with no API key
+Thu Jul 17 01:23:32 2025 Warning: System tray is not available on this system
+Thu Jul 17 01:23:32 2025 Info: Starting minimized to system tray
+Thu Jul 17 01:23:32 2025 Info: Application started successfully
+Thu Jul 17 01:23:32 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 17 01:23:32 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 17 01:23:32 2025 Info: Will restore last wallpaper: "2549014002" from individual selection
+Thu Jul 17 01:23:32 2025 Warning: No workshop directories found
+Thu Jul 17 01:23:36 2025 Warning: No wallpapers found in configured Steam directories
+Thu Jul 17 01:23:38 2025 Warning: Could not find wallpaper with ID: "2549014002"
+Thu Jul 17 01:24:19 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 17 01:24:19 2025 Info: Using system palette for theme compatibility
+Thu Jul 17 01:24:19 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 17 01:24:19 2025 Info: Using Qt version: 6.9.1
+Thu Jul 17 01:24:19 2025 Info: Steam API manager initialized with no API key
+Thu Jul 17 01:24:19 2025 Warning: System tray is not available on this system
+Thu Jul 17 01:24:19 2025 Info: Starting minimized to system tray
+Thu Jul 17 01:24:19 2025 Info: Application started successfully
+Thu Jul 17 01:24:20 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 17 01:24:20 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 17 01:24:20 2025 Warning: No workshop directories found
+Thu Jul 17 01:24:22 2025 Warning: No wallpapers found in configured Steam directories
+Thu Jul 17 01:26:26 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 17 01:26:26 2025 Info: Using system palette for theme compatibility
+Thu Jul 17 01:26:26 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 17 01:26:26 2025 Info: Using Qt version: 6.9.1
+Thu Jul 17 01:26:26 2025 Info: Steam API manager initialized with no API key
+Thu Jul 17 01:26:26 2025 Warning: System tray is not available on this system
+Thu Jul 17 01:26:26 2025 Info: Starting minimized to system tray
+Thu Jul 17 01:26:26 2025 Info: Application started successfully
+Thu Jul 17 01:26:26 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 17 01:26:26 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 17 01:26:27 2025 Warning: No workshop directories found
+Thu Jul 17 01:26:28 2025 Warning: No wallpapers found in configured Steam directories
+Thu Jul 17 23:39:59 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 17 23:39:59 2025 Info: Using system palette for theme compatibility
+Thu Jul 17 23:39:59 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 17 23:39:59 2025 Info: Using Qt version: 6.9.1
+Thu Jul 17 23:39:59 2025 Info: Steam API manager initialized with no API key
+Thu Jul 17 23:39:59 2025 Warning: System tray is not available on this system
+Thu Jul 17 23:39:59 2025 Info: Starting minimized to system tray
+Thu Jul 17 23:39:59 2025 Info: Application started successfully
+Thu Jul 17 23:39:59 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 17 23:39:59 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 17 23:40:00 2025 Info: Found 43 wallpapers
+Thu Jul 17 23:40:00 2025 Info: Loaded 43 wallpapers successfully
+Thu Jul 17 23:58:56 2025 Info: Applied user-configured theme: "qt6ct-style"
+Thu Jul 17 23:58:56 2025 Info: Using system palette for theme compatibility
+Thu Jul 17 23:58:56 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Thu Jul 17 23:58:56 2025 Info: Using Qt version: 6.9.1
+Thu Jul 17 23:58:56 2025 Info: Steam API manager initialized with no API key
+Thu Jul 17 23:58:56 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Thu Jul 17 23:58:56 2025 Info: Icon is null: false
+Thu Jul 17 23:58:56 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Thu Jul 17 23:58:56 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Thu Jul 17 23:58:56 2025 Info: System tray icon initialized successfully
+Thu Jul 17 23:58:56 2025 Info: Application started successfully
+Thu Jul 17 23:58:56 2025 Info: Configuration is valid, starting automatic initialization
+Thu Jul 17 23:58:56 2025 Info: Starting automatic wallpaper refresh
+Thu Jul 17 23:58:57 2025 Info: Found 43 wallpapers
+Thu Jul 17 23:58:57 2025 Info: Loaded 43 wallpapers successfully
+Thu Jul 17 23:59:05 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Fri Jul 18 00:01:45 2025 Info: Applied user-configured theme: "qt6ct-style"
+Fri Jul 18 00:01:45 2025 Info: Using system palette for theme compatibility
+Fri Jul 18 00:01:45 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Fri Jul 18 00:01:45 2025 Info: Using Qt version: 6.9.1
+Fri Jul 18 00:01:45 2025 Info: Steam API manager initialized with no API key
+Fri Jul 18 00:01:45 2025 Warning: System tray is not available on this system
+Fri Jul 18 00:01:45 2025 Info: Starting minimized to system tray
+Fri Jul 18 00:01:45 2025 Info: Application started successfully
+Fri Jul 18 00:01:45 2025 Info: Configuration is valid, starting automatic initialization
+Fri Jul 18 00:01:45 2025 Info: Starting automatic wallpaper refresh
+Fri Jul 18 00:01:45 2025 Info: Will restore last wallpaper: "1999619470" from individual selection
+Fri Jul 18 00:01:46 2025 Info: Found 43 wallpapers
+Fri Jul 18 00:01:46 2025 Info: Loaded 43 wallpapers successfully
+Fri Jul 18 00:01:46 2025 Info: Found wallpaper to restore: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Fri Jul 18 00:01:46 2025 Info: Restoring wallpaper with auto-launch: "\"Pool Aesthetic\" by Daniel Olondriz Rosique" (from manual launch )
+Fri Jul 18 00:01:46 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Fri Jul 18 21:55:50 2025 Info: Applied user-configured theme: "qt6ct-style"
+Fri Jul 18 21:55:50 2025 Info: Using system palette for theme compatibility
+Fri Jul 18 21:55:50 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Fri Jul 18 21:55:50 2025 Info: Using Qt version: 6.9.1
+Fri Jul 18 21:55:50 2025 Info: Steam API manager initialized with no API key
+Fri Jul 18 21:55:50 2025 Warning: System tray is not available on this system
+Fri Jul 18 21:55:50 2025 Info: Starting minimized to system tray
+Fri Jul 18 21:55:50 2025 Info: Application started successfully
+Fri Jul 18 21:55:50 2025 Info: Configuration is valid, starting automatic initialization
+Fri Jul 18 21:55:50 2025 Info: Starting automatic wallpaper refresh
+Fri Jul 18 21:55:50 2025 Info: Will restore last wallpaper: "1999619470" from individual selection
+Fri Jul 18 21:55:51 2025 Info: Found 43 wallpapers
+Fri Jul 18 21:55:51 2025 Info: Loaded 43 wallpapers successfully
+Fri Jul 18 21:55:51 2025 Info: Found wallpaper to restore: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Fri Jul 18 21:55:51 2025 Info: Restoring wallpaper with auto-launch: "\"Pool Aesthetic\" by Daniel Olondriz Rosique" (from manual launch )
+Fri Jul 18 21:55:51 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Sat Jul 19 23:06:50 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sat Jul 19 23:06:50 2025 Info: Using system palette for theme compatibility
+Sat Jul 19 23:06:50 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sat Jul 19 23:06:50 2025 Info: Using Qt version: 6.9.1
+Sat Jul 19 23:06:50 2025 Info: Steam API manager initialized with no API key
+Sat Jul 19 23:06:50 2025 Warning: System tray is not available on this system
+Sat Jul 19 23:06:50 2025 Info: Starting minimized to system tray
+Sat Jul 19 23:06:50 2025 Info: Application started successfully
+Sat Jul 19 23:06:50 2025 Info: Configuration is valid, starting automatic initialization
+Sat Jul 19 23:06:50 2025 Info: Starting automatic wallpaper refresh
+Sat Jul 19 23:06:50 2025 Info: Will restore last wallpaper: "1999619470" from individual selection
+Sat Jul 19 23:06:51 2025 Info: Found 43 wallpapers
+Sat Jul 19 23:06:51 2025 Info: Loaded 43 wallpapers successfully
+Sat Jul 19 23:06:51 2025 Info: Found wallpaper to restore: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Sat Jul 19 23:06:51 2025 Info: Restoring wallpaper with auto-launch: "\"Pool Aesthetic\" by Daniel Olondriz Rosique" (from manual launch )
+Sat Jul 19 23:06:51 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Sun Jul 20 23:30:26 2025 Info: Applied user-configured theme: "qt6ct-style"
+Sun Jul 20 23:30:26 2025 Info: Using system palette for theme compatibility
+Sun Jul 20 23:30:26 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Sun Jul 20 23:30:26 2025 Info: Using Qt version: 6.9.1
+Sun Jul 20 23:30:26 2025 Info: Steam API manager initialized with no API key
+Sun Jul 20 23:30:26 2025 Warning: System tray is not available on this system
+Sun Jul 20 23:30:26 2025 Info: Starting minimized to system tray
+Sun Jul 20 23:30:26 2025 Info: Application started successfully
+Sun Jul 20 23:30:26 2025 Info: Configuration is valid, starting automatic initialization
+Sun Jul 20 23:30:26 2025 Info: Starting automatic wallpaper refresh
+Sun Jul 20 23:30:26 2025 Info: Will restore last wallpaper: "1999619470" from individual selection
+Sun Jul 20 23:30:26 2025 Info: Found 43 wallpapers
+Sun Jul 20 23:30:26 2025 Info: Loaded 43 wallpapers successfully
+Sun Jul 20 23:30:26 2025 Info: Found wallpaper to restore: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Sun Jul 20 23:30:26 2025 Info: Restoring wallpaper with auto-launch: "\"Pool Aesthetic\" by Daniel Olondriz Rosique" (from manual launch )
+Sun Jul 20 23:30:27 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Mon Jul 21 23:24:03 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:24:03 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:24:03 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:24:03 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:24:04 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:24:04 2025 Warning: System tray is not available on this system
+Mon Jul 21 23:24:04 2025 Info: Starting minimized to system tray
+Mon Jul 21 23:24:04 2025 Info: Application started successfully
+Mon Jul 21 23:24:04 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:24:04 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:24:04 2025 Info: Will restore last wallpaper: "1999619470" from individual selection
+Mon Jul 21 23:24:04 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:24:04 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:24:04 2025 Info: Found wallpaper to restore: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Mon Jul 21 23:24:04 2025 Info: Restoring wallpaper with auto-launch: "\"Pool Aesthetic\" by Daniel Olondriz Rosique" (from manual launch )
+Mon Jul 21 23:24:04 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Mon Jul 21 23:24:13 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:24:13 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:24:13 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:24:13 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:24:13 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:24:13 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Mon Jul 21 23:24:13 2025 Info: Icon is null: false
+Mon Jul 21 23:24:13 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Mon Jul 21 23:24:13 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Mon Jul 21 23:24:13 2025 Info: System tray icon initialized successfully
+Mon Jul 21 23:24:13 2025 Info: Application started successfully
+Mon Jul 21 23:24:13 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:24:13 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:24:13 2025 Info: Will restore last wallpaper: "1999619470" from individual selection
+Mon Jul 21 23:24:14 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:24:14 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:24:14 2025 Info: Found wallpaper to restore: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Mon Jul 21 23:24:14 2025 Info: Restoring wallpaper with auto-launch: "\"Pool Aesthetic\" by Daniel Olondriz Rosique" (from manual launch )
+Mon Jul 21 23:24:14 2025 Info: Successfully launched wallpaper: "\"Pool Aesthetic\" by Daniel Olondriz Rosique"
+Mon Jul 21 23:24:19 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Mon Jul 21 23:24:36 2025 Info: Successfully launched wallpaper: "午后时光4K(有声)"
+Mon Jul 21 23:24:59 2025 Info: Successfully launched wallpaper: "午后时光4K(有声)"
+Mon Jul 21 23:25:29 2025 Info: Successfully launched wallpaper: "余霞成绮4K(有声)"
+Mon Jul 21 23:25:41 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:25:41 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:25:41 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:25:41 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:25:41 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:25:41 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Mon Jul 21 23:25:41 2025 Info: Icon is null: false
+Mon Jul 21 23:25:41 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Mon Jul 21 23:25:41 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Mon Jul 21 23:25:41 2025 Info: System tray icon initialized successfully
+Mon Jul 21 23:25:41 2025 Info: Application started successfully
+Mon Jul 21 23:25:41 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:25:41 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:25:41 2025 Info: Will restore last wallpaper: "3035352006" from individual selection
+Mon Jul 21 23:25:42 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:25:42 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:25:42 2025 Info: Found wallpaper to restore: "余霞成绮4K(有声)"
+Mon Jul 21 23:25:42 2025 Info: Restoring wallpaper with auto-launch: "余霞成绮4K(有声)" (from manual launch )
+Mon Jul 21 23:25:42 2025 Info: Successfully launched wallpaper: "余霞成绮4K(有声)"
+Mon Jul 21 23:25:48 2025 Info: Successfully launched wallpaper: "初雪深秋4k"
+Mon Jul 21 23:25:59 2025 Info: Successfully launched wallpaper: "Moonlight Cherry Blossom - 4K"
+Mon Jul 21 23:26:04 2025 Info: Successfully launched wallpaper: "Meteors at Dawn [4K]"
+Mon Jul 21 23:26:11 2025 Info: Successfully launched wallpaper: "Where do we begin?"
+Mon Jul 21 23:26:37 2025 Info: Successfully launched wallpaper: "日落时分4K(专辑显示)"
+Mon Jul 21 23:26:37 2025 Info: Successfully launched wallpaper: "日落时分4K(专辑显示)"
+Mon Jul 21 23:26:37 2025 Info: Successfully launched wallpaper: "日落时分4K(专辑显示)"
+Mon Jul 21 23:26:43 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:26:43 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:26:43 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:26:43 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:26:43 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:26:43 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Mon Jul 21 23:26:43 2025 Info: Icon is null: false
+Mon Jul 21 23:26:43 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Mon Jul 21 23:26:43 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Mon Jul 21 23:26:43 2025 Info: System tray icon initialized successfully
+Mon Jul 21 23:26:43 2025 Info: Application started successfully
+Mon Jul 21 23:26:43 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:26:43 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:26:43 2025 Info: Will restore last wallpaper: "3451391863" from individual selection
+Mon Jul 21 23:26:44 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:26:44 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:26:44 2025 Info: Found wallpaper to restore: "日落时分4K(专辑显示)"
+Mon Jul 21 23:26:44 2025 Info: Restoring wallpaper with auto-launch: "日落时分4K(专辑显示)" (from manual launch )
+Mon Jul 21 23:26:44 2025 Info: Successfully launched wallpaper: "日落时分4K(专辑显示)"
+Mon Jul 21 23:26:47 2025 Info: Successfully launched wallpaper: "日落时分4K(专辑显示)"
+Mon Jul 21 23:27:12 2025 Info: Application exiting with code: 0
+Mon Jul 21 23:27:22 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:27:22 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:27:22 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:27:22 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:27:22 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:27:22 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Mon Jul 21 23:27:22 2025 Info: Icon is null: false
+Mon Jul 21 23:27:22 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Mon Jul 21 23:27:22 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Mon Jul 21 23:27:22 2025 Info: System tray icon initialized successfully
+Mon Jul 21 23:27:22 2025 Info: Application started successfully
+Mon Jul 21 23:27:22 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:27:22 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:27:22 2025 Info: Will restore last wallpaper: "3451391863" from individual selection
+Mon Jul 21 23:27:23 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:27:23 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:27:23 2025 Info: Found wallpaper to restore: "日落时分4K(专辑显示)"
+Mon Jul 21 23:27:23 2025 Info: Restoring wallpaper with auto-launch: "日落时分4K(专辑显示)" (from manual launch )
+Mon Jul 21 23:27:23 2025 Info: Successfully launched wallpaper: "日落时分4K(专辑显示)"
+Mon Jul 21 23:27:54 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:27:54 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:27:54 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:27:54 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:27:54 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:27:54 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Mon Jul 21 23:27:54 2025 Info: Icon is null: false
+Mon Jul 21 23:27:54 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Mon Jul 21 23:27:54 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Mon Jul 21 23:27:54 2025 Info: System tray icon initialized successfully
+Mon Jul 21 23:27:54 2025 Info: Application started successfully
+Mon Jul 21 23:27:55 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:27:55 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:27:55 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:27:55 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:28:13 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:28:13 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:28:13 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:28:13 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:28:13 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:28:13 2025 Warning: System tray is not available on this system
+Mon Jul 21 23:28:13 2025 Info: Starting minimized to system tray
+Mon Jul 21 23:28:13 2025 Info: Application started successfully
+Mon Jul 21 23:28:13 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:28:13 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:28:14 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:28:14 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:28:18 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:28:18 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:28:18 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:28:18 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:28:18 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:28:18 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Mon Jul 21 23:28:18 2025 Info: Icon is null: false
+Mon Jul 21 23:28:18 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Mon Jul 21 23:28:18 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Mon Jul 21 23:28:18 2025 Info: System tray icon initialized successfully
+Mon Jul 21 23:28:18 2025 Info: Application started successfully
+Mon Jul 21 23:28:18 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:28:18 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:28:18 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:28:18 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:28:22 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Mon Jul 21 23:28:47 2025 Info: Successfully launched wallpaper: "午后时光4K(有声)"
+Mon Jul 21 23:28:58 2025 Info: Successfully launched wallpaper: "守岸人"
+Mon Jul 21 23:29:07 2025 Info: Successfully launched wallpaper: "Meteors at Dawn [4K]"
+Mon Jul 21 23:29:21 2025 Info: Successfully launched wallpaper: "Moonlight Cherry Blossom - 4K"
+Mon Jul 21 23:29:32 2025 Info: Successfully launched wallpaper: "Where do we begin?"
+Mon Jul 21 23:29:51 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:29:51 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:29:51 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:29:51 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:29:51 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:29:51 2025 Warning: System tray is not available on this system
+Mon Jul 21 23:29:51 2025 Info: Starting minimized to system tray
+Mon Jul 21 23:29:51 2025 Info: Application started successfully
+Mon Jul 21 23:29:51 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:29:51 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:29:52 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:29:52 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:29:57 2025 Info: Applied user-configured theme: "qt6ct-style"
+Mon Jul 21 23:29:57 2025 Info: Using system palette for theme compatibility
+Mon Jul 21 23:29:57 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Mon Jul 21 23:29:57 2025 Info: Using Qt version: 6.9.1
+Mon Jul 21 23:29:57 2025 Info: Steam API manager initialized with no API key
+Mon Jul 21 23:29:57 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Mon Jul 21 23:29:57 2025 Info: Icon is null: false
+Mon Jul 21 23:29:57 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Mon Jul 21 23:29:57 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Mon Jul 21 23:29:57 2025 Info: System tray icon initialized successfully
+Mon Jul 21 23:29:57 2025 Info: Application started successfully
+Mon Jul 21 23:29:57 2025 Info: Configuration is valid, starting automatic initialization
+Mon Jul 21 23:29:57 2025 Info: Starting automatic wallpaper refresh
+Mon Jul 21 23:29:58 2025 Info: Found 43 wallpapers
+Mon Jul 21 23:29:58 2025 Info: Loaded 43 wallpapers successfully
+Mon Jul 21 23:30:16 2025 Info: Successfully launched wallpaper: "Cherry blossom"

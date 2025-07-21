@@ -5,3 +5,4 @@ end
 
 # Created by `pipx` on 2025-06-13 18:28:33
 set PATH $PATH /home/khalyl/.local/bin
+#alias vim="lvim"

@@ -26,7 +26,7 @@ window#waybar {
       margin-right: 2px;
       margin-left: 2px;
       margin-top: 4px;
-      border-radius: 5px;
+      border-radius: 3px;
   }
 
     /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -82,6 +82,8 @@ window#waybar {
     padding: 0px 10px;
     margin-top: 3px;
     color: #ffffff;
+    border: 0px solid @primary;
+    border-radius: 0px;
   }
 
   #window,
@@ -102,13 +104,13 @@ window#waybar {
   #clock {
       background-color: @background;
       border: 2px solid @primary;
-      border-radius: 10px;
+      border-radius: 3px;
   }
 
   #battery {
       background-color: @background;
       border: 2px solid @primary;
-      border-radius: 10px;
+      border-radius: 3px;
       color: #ffffff;
   }
 
@@ -116,7 +118,7 @@ window#waybar {
       color: #ffffff;
       background-color: @background;
       border:2px solid #26A65B;
-      border-radius: 10px;
+      border-radius: 3px;
   }
 
   @keyframes blink {
@@ -129,7 +131,7 @@ window#waybar {
   #battery.critical:not(.charging) {
       background-color: @background;
       border: 2px solid #f53c3c;
-      border-radius: 10px;
+      border-radius: 3px;
       color: #ffffff;
       animation-name: blink;
     animation-duration: 0.5s;
@@ -144,36 +146,36 @@ label:focus {
 #cpu {
     background-color: @background;
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #custom-gpu-usage{
     background-color: @background;
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 #memory {
     background-color: @background;
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #backlight {
     background-color: @background;
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #pulseaudio {
     background-color: @background;
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
     color: #ffffff;
 }
 
 #pulseaudio.muted {
     background-color: @background;
-    border-radius: 10px;
+    border-radius: 3px;
     border-color: #90b1b1;
     color: #ffffff;
 }
@@ -182,19 +184,19 @@ label:focus {
 
     background-color: @background;
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #temperature.critical {
     background-color: @background;
     border: 2px solid #eb4d4b;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #tray {
     background-color: @background;
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
     margin-left: 2px;
     margin-right: 5px;
 }
@@ -207,21 +209,21 @@ label:focus {
     -gtk-icon-effect: highlight;
     background-color: @background;
     border-width: 2px;
-    border-radius: 10px;
+    border-radius: 3px;
     border-color: #eb4d4b;
 }
 
 #language {
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
     background: @background;
     color: #ffffff;
-    min-width: 40px;
+    min-width: 10px;
 }
 
 #keyboard-state {
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
     background: @background;
     color: #ffffff;
 }
@@ -235,7 +237,7 @@ label:focus {
 }
 #custom-power {
     border: 2px solid @primary;
-    border-radius: 10px;
+    border-radius: 3px;
     background: @background;
     color: #ffffff;
     min-width: 10px;

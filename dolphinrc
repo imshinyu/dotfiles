@@ -3,9 +3,8 @@ PreviewSize=16
 
 [General]
 Version=202
-ViewPropsTimestamp=2025,6,9,23,25,5.063
-[UiSettings]
-ColorScheme=*
+ViewPropsTimestamp=2025,7,9,22,40,5.518
+
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
@@ -15,3 +14,6 @@ MenuBar=Disabled
 
 [PreviewSettings]
 Plugins=jpegthumbnail,opendocumentthumbnail,kraorathumbnail,ebookthumbnail,directorythumbnail,imagethumbnail,exrthumbnail,audiothumbnail,windowsimagethumbnail,fontthumbnail,djvuthumbnail,appimagethumbnail,comicbookthumbnail,cursorthumbnail,windowsexethumbnail,svgthumbnail,gdk-pixbuf-thumbnailer
+
+[UiSettings]
+ColorScheme=*
