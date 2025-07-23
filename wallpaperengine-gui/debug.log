@@ -782,3 +782,152 @@ Mon Jul 21 23:29:57 2025 Info: Starting automatic wallpaper refresh
 Mon Jul 21 23:29:58 2025 Info: Found 43 wallpapers
 Mon Jul 21 23:29:58 2025 Info: Loaded 43 wallpapers successfully
 Mon Jul 21 23:30:16 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Tue Jul 22 00:26:04 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Tue Jul 22 10:46:25 2025 Info: Applied user-configured theme: "qt6ct-style"
+Tue Jul 22 10:46:25 2025 Info: Using system palette for theme compatibility
+Tue Jul 22 10:46:25 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Tue Jul 22 10:46:25 2025 Info: Using Qt version: 6.9.1
+Tue Jul 22 10:46:26 2025 Info: Steam API manager initialized with no API key
+Tue Jul 22 10:46:26 2025 Warning: System tray is not available on this system
+Tue Jul 22 10:46:26 2025 Info: Starting minimized to system tray
+Tue Jul 22 10:46:26 2025 Info: Application started successfully
+Tue Jul 22 10:46:26 2025 Info: Configuration is valid, starting automatic initialization
+Tue Jul 22 10:46:26 2025 Info: Starting automatic wallpaper refresh
+Tue Jul 22 10:46:26 2025 Info: Will restore last wallpaper: "2292075934" from individual selection
+Tue Jul 22 10:46:26 2025 Info: Found 43 wallpapers
+Tue Jul 22 10:46:26 2025 Info: Loaded 43 wallpapers successfully
+Tue Jul 22 10:46:26 2025 Info: Found wallpaper to restore: "Cherry blossom"
+Tue Jul 22 10:46:26 2025 Info: Restoring wallpaper with auto-launch: "Cherry blossom" (from manual launch )
+Tue Jul 22 10:46:26 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Tue Jul 22 23:50:01 2025 Info: Applied user-configured theme: "qt6ct-style"
+Tue Jul 22 23:50:01 2025 Info: Using system palette for theme compatibility
+Tue Jul 22 23:50:01 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Tue Jul 22 23:50:01 2025 Info: Using Qt version: 6.9.1
+Tue Jul 22 23:50:01 2025 Info: Steam API manager initialized with no API key
+Tue Jul 22 23:50:01 2025 Warning: System tray is not available on this system
+Tue Jul 22 23:50:01 2025 Info: Starting minimized to system tray
+Tue Jul 22 23:50:01 2025 Info: Application started successfully
+Tue Jul 22 23:50:01 2025 Info: Configuration is valid, starting automatic initialization
+Tue Jul 22 23:50:01 2025 Info: Starting automatic wallpaper refresh
+Tue Jul 22 23:50:01 2025 Info: Will restore last wallpaper: "2292075934" from individual selection
+Tue Jul 22 23:50:02 2025 Info: Found 43 wallpapers
+Tue Jul 22 23:50:02 2025 Info: Loaded 43 wallpapers successfully
+Tue Jul 22 23:50:02 2025 Info: Found wallpaper to restore: "Cherry blossom"
+Tue Jul 22 23:50:02 2025 Info: Restoring wallpaper with auto-launch: "Cherry blossom" (from manual launch )
+Tue Jul 22 23:50:02 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Tue Jul 22 23:50:37 2025 Info: Applied user-configured theme: "qt6ct-style"
+Tue Jul 22 23:50:37 2025 Info: Using system palette for theme compatibility
+Tue Jul 22 23:50:37 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Tue Jul 22 23:50:37 2025 Info: Using Qt version: 6.9.1
+Tue Jul 22 23:50:37 2025 Info: Steam API manager initialized with no API key
+Tue Jul 22 23:50:37 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Tue Jul 22 23:50:37 2025 Info: Icon is null: false
+Tue Jul 22 23:50:37 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Tue Jul 22 23:50:37 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Tue Jul 22 23:50:37 2025 Info: System tray icon initialized successfully
+Tue Jul 22 23:50:37 2025 Info: Application started successfully
+Tue Jul 22 23:50:37 2025 Info: Configuration is valid, starting automatic initialization
+Tue Jul 22 23:50:37 2025 Info: Starting automatic wallpaper refresh
+Tue Jul 22 23:50:37 2025 Info: Will restore last wallpaper: "2292075934" from individual selection
+Tue Jul 22 23:50:37 2025 Info: Found 43 wallpapers
+Tue Jul 22 23:50:37 2025 Info: Loaded 43 wallpapers successfully
+Tue Jul 22 23:50:37 2025 Info: Found wallpaper to restore: "Cherry blossom"
+Tue Jul 22 23:50:37 2025 Info: Restoring wallpaper with auto-launch: "Cherry blossom" (from manual launch )
+Tue Jul 22 23:50:37 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Tue Jul 22 23:51:15 2025 Info: Applied user-configured theme: "qt6ct-style"
+Tue Jul 22 23:51:15 2025 Info: Using system palette for theme compatibility
+Tue Jul 22 23:51:15 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Tue Jul 22 23:51:15 2025 Info: Using Qt version: 6.9.1
+Tue Jul 22 23:51:15 2025 Info: Steam API manager initialized with no API key
+Tue Jul 22 23:51:15 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Tue Jul 22 23:51:15 2025 Info: Icon is null: false
+Tue Jul 22 23:51:15 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Tue Jul 22 23:51:15 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Tue Jul 22 23:51:15 2025 Info: System tray icon initialized successfully
+Tue Jul 22 23:51:15 2025 Info: Application started successfully
+Tue Jul 22 23:51:15 2025 Info: Configuration is valid, starting automatic initialization
+Tue Jul 22 23:51:15 2025 Info: Starting automatic wallpaper refresh
+Tue Jul 22 23:51:15 2025 Info: Found 43 wallpapers
+Tue Jul 22 23:51:15 2025 Info: Loaded 43 wallpapers successfully
+Tue Jul 22 23:51:21 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Tue Jul 22 23:51:44 2025 Info: Application exiting with code: 0
+Tue Jul 22 23:52:22 2025 Info: Applied user-configured theme: "qt6ct-style"
+Tue Jul 22 23:52:22 2025 Info: Using system palette for theme compatibility
+Tue Jul 22 23:52:22 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Tue Jul 22 23:52:22 2025 Info: Using Qt version: 6.9.1
+Tue Jul 22 23:52:22 2025 Info: Steam API manager initialized with no API key
+Tue Jul 22 23:52:22 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Tue Jul 22 23:52:22 2025 Info: Icon is null: false
+Tue Jul 22 23:52:22 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Tue Jul 22 23:52:22 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Tue Jul 22 23:52:22 2025 Info: System tray icon initialized successfully
+Tue Jul 22 23:52:22 2025 Info: Application started successfully
+Tue Jul 22 23:52:23 2025 Info: Configuration is valid, starting automatic initialization
+Tue Jul 22 23:52:23 2025 Info: Starting automatic wallpaper refresh
+Tue Jul 22 23:52:23 2025 Info: Will restore last wallpaper: "2292075934" from individual selection
+Tue Jul 22 23:52:23 2025 Info: Found 43 wallpapers
+Tue Jul 22 23:52:23 2025 Info: Loaded 43 wallpapers successfully
+Tue Jul 22 23:52:23 2025 Info: Found wallpaper to restore: "Cherry blossom"
+Tue Jul 22 23:52:23 2025 Info: Restoring wallpaper with auto-launch: "Cherry blossom" (from manual launch )
+Tue Jul 22 23:52:23 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Wed Jul 23 00:09:05 2025 Info: Applied user-configured theme: "qt6ct-style"
+Wed Jul 23 00:09:05 2025 Info: Using system palette for theme compatibility
+Wed Jul 23 00:09:05 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Wed Jul 23 00:09:05 2025 Info: Using Qt version: 6.9.1
+Wed Jul 23 00:09:05 2025 Info: Steam API manager initialized with no API key
+Wed Jul 23 00:09:05 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Wed Jul 23 00:09:05 2025 Info: Icon is null: false
+Wed Jul 23 00:09:05 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Wed Jul 23 00:09:05 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Wed Jul 23 00:09:05 2025 Info: System tray icon initialized successfully
+Wed Jul 23 00:09:05 2025 Info: Application started successfully
+Wed Jul 23 00:09:05 2025 Info: Configuration is valid, starting automatic initialization
+Wed Jul 23 00:09:05 2025 Info: Starting automatic wallpaper refresh
+Wed Jul 23 00:09:05 2025 Info: Will restore last wallpaper: "2292075934" from individual selection
+Wed Jul 23 00:09:06 2025 Info: Found 43 wallpapers
+Wed Jul 23 00:09:06 2025 Info: Loaded 43 wallpapers successfully
+Wed Jul 23 00:09:06 2025 Info: Found wallpaper to restore: "Cherry blossom"
+Wed Jul 23 00:09:06 2025 Info: Restoring wallpaper with auto-launch: "Cherry blossom" (from manual launch )
+Wed Jul 23 00:09:06 2025 Info: Successfully launched wallpaper: "Cherry blossom"
+Wed Jul 23 00:09:06 2025 Info: Successfully launched wallpaper: "Naruto Konoha"
+Wed Jul 23 00:09:07 2025 Info: Successfully launched wallpaper: "Wake up"
+Wed Jul 23 00:09:10 2025 Info: Successfully launched wallpaper: "Wake up"
+Wed Jul 23 00:10:43 2025 Info: Applied user-configured theme: "qt6ct-style"
+Wed Jul 23 00:10:43 2025 Info: Using system palette for theme compatibility
+Wed Jul 23 00:10:43 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Wed Jul 23 00:10:43 2025 Info: Using Qt version: 6.9.1
+Wed Jul 23 00:10:43 2025 Info: Steam API manager initialized with no API key
+Wed Jul 23 00:10:43 2025 Warning: System tray is not available on this system
+Wed Jul 23 00:10:43 2025 Info: Starting minimized to system tray
+Wed Jul 23 00:10:43 2025 Info: Application started successfully
+Wed Jul 23 00:10:43 2025 Info: Configuration is valid, starting automatic initialization
+Wed Jul 23 00:10:43 2025 Info: Starting automatic wallpaper refresh
+Wed Jul 23 00:10:43 2025 Info: Will restore last wallpaper: "1781466079" from individual selection
+Wed Jul 23 00:10:43 2025 Info: Found 43 wallpapers
+Wed Jul 23 00:10:44 2025 Info: Loaded 43 wallpapers successfully
+Wed Jul 23 00:10:44 2025 Info: Found wallpaper to restore: "Wake up"
+Wed Jul 23 00:10:44 2025 Info: Restoring wallpaper with auto-launch: "Wake up" (from manual launch )
+Wed Jul 23 00:10:44 2025 Info: Successfully launched wallpaper: "Wake up"
+Wed Jul 23 00:10:54 2025 Info: Applied user-configured theme: "qt6ct-style"
+Wed Jul 23 00:10:54 2025 Info: Using system palette for theme compatibility
+Wed Jul 23 00:10:54 2025 Info: Config directory: "/home/khalyl/.config/wallpaperengine-gui"
+Wed Jul 23 00:10:54 2025 Info: Using Qt version: 6.9.1
+Wed Jul 23 00:10:54 2025 Info: Steam API manager initialized with no API key
+Wed Jul 23 00:10:54 2025 Info: Attempting to load system tray icon from resources: :/icons/icons/wallpaper.png
+Wed Jul 23 00:10:54 2025 Info: Icon is null: false
+Wed Jul 23 00:10:54 2025 Info: Available icon sizes: QList(QSize(100, 100))
+Wed Jul 23 00:10:54 2025 Info: Successfully loaded wallpaper.png icon for system tray
+Wed Jul 23 00:10:54 2025 Info: System tray icon initialized successfully
+Wed Jul 23 00:10:54 2025 Info: Application started successfully
+Wed Jul 23 00:10:54 2025 Info: Configuration is valid, starting automatic initialization
+Wed Jul 23 00:10:54 2025 Info: Starting automatic wallpaper refresh
+Wed Jul 23 00:10:54 2025 Info: Will restore last wallpaper: "1781466079" from individual selection
+Wed Jul 23 00:10:55 2025 Info: Found 43 wallpapers
+Wed Jul 23 00:10:55 2025 Info: Loaded 43 wallpapers successfully
+Wed Jul 23 00:10:55 2025 Info: Found wallpaper to restore: "Wake up"
+Wed Jul 23 00:10:55 2025 Info: Restoring wallpaper with auto-launch: "Wake up" (from manual launch )
+Wed Jul 23 00:10:55 2025 Info: Successfully launched wallpaper: "Wake up"
+Wed Jul 23 00:11:34 2025 Info: Successfully launched wallpaper: "Garden-4K"
+Wed Jul 23 00:13:06 2025 Info: Found 44 wallpapers
+Wed Jul 23 00:13:06 2025 Info: Loaded 44 wallpapers successfully
+Wed Jul 23 00:13:16 2025 Info: Successfully launched wallpaper: "aurora-starry-night-sky-suzume-no-tojimari-moewalls-com"

@@ -1,0 +1,33 @@
+[Print Settings]
+default-source=asf
+cups-CNBalanceM=0
+cups-MediaType=plain
+cups-job-priority=50
+cups-CNContrast=0
+cups-number-up=1
+media-type=plain
+cover-before=none
+cups-CNBalanceY=0
+cups-CNDensity=0
+cups-CNBalanceC=0
+cups-CNInkCartridgeSettings=bk
+cups-InputSlot=asf
+print-at-time=
+cups-CNGrayscale=False
+cups-CNGamma=1.8
+cover-after=none
+print-at=now
+printer=Canon_MG2500_series
+cups-job-sheets=none,none
+cups-CNQuality=3
+
+[Page Setup]
+PPDName=A4
+DisplayName=A4
+Width=210
+Height=297
+MarginTop=3.0374114990234373
+MarginBottom=16.700500053829614
+MarginLeft=3.4007778988944155
+MarginRight=3.3019948323567707
+Orientation=portrait
