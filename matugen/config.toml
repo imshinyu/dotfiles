@@ -38,3 +38,7 @@ output_path = '~/.config/vesktop/themes/midnight.css'
 [templates.fish]
 input_path = '/home/khalyl/.config/matugen/templates/fish-colors.theme'
 output_path = '/home/khalyl/.config/fish/themes/Matugen.theme'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'

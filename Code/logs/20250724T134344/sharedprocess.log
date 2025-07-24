@@ -1,0 +1,36 @@
+2025-07-24 13:44:00.226 [info] Getting Manifest... theqtcompany.qt-qml
+2025-07-24 13:44:00.452 [info] Installing extension: theqtcompany.qt-qml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json","path":"/home/khalyl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.2","date":"2025-07-22T12:15:48.520Z"}}
+2025-07-24 13:44:01.319 [info] Getting Manifest... theqtcompany.qt-core
+2025-07-24 13:44:01.992 [info] Installing extension: theqtcompany.qt-core {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json","path":"/home/khalyl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.2","date":"2025-07-22T12:15:48.520Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-24 13:44:07.025 [info] Extension signature verification result for theqtcompany.qt-qml: Success. Internal Code: 0. Executed: true. Duration: 3538ms.
+2025-07-24 13:44:07.074 [info] Extracted extension to file:///home/khalyl/.vscode/extensions/theqtcompany.qt-qml-1.6.0: theqtcompany.qt-qml
+2025-07-24 13:44:07.083 [info] Renamed to /home/khalyl/.vscode/extensions/theqtcompany.qt-qml-1.6.0
+2025-07-24 13:44:14.764 [info] Extension signature verification result for theqtcompany.qt-core: Success. Internal Code: 0. Executed: true. Duration: 1053ms.
+2025-07-24 13:44:15.415 [info] Extracted extension to file:///home/khalyl/.vscode/extensions/theqtcompany.qt-core-1.6.0: theqtcompany.qt-core
+2025-07-24 13:44:15.432 [info] Renamed to /home/khalyl/.vscode/extensions/theqtcompany.qt-core-1.6.0
+2025-07-24 13:44:15.455 [info] Extension installed successfully: theqtcompany.qt-qml vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json
+2025-07-24 13:44:15.455 [info] Extension installed successfully: theqtcompany.qt-core vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json
+2025-07-24 13:44:24.596 [info] Getting Manifest... fireblast.hyprlang-vscode
+2025-07-24 13:44:24.833 [info] Installing extension: fireblast.hyprlang-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json","path":"/home/khalyl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.2","date":"2025-07-22T12:15:48.520Z"}}
+2025-07-24 13:44:26.535 [info] Extension signature verification result for fireblast.hyprlang-vscode: Success. Internal Code: 0. Executed: true. Duration: 905ms.
+2025-07-24 13:44:26.551 [info] Extracted extension to file:///home/khalyl/.vscode/extensions/fireblast.hyprlang-vscode-0.0.1: fireblast.hyprlang-vscode
+2025-07-24 13:44:26.556 [info] Renamed to /home/khalyl/.vscode/extensions/fireblast.hyprlang-vscode-0.0.1
+2025-07-24 13:44:26.576 [info] Extension installed successfully: fireblast.hyprlang-vscode vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json
+2025-07-24 13:44:28.457 [info] Getting Manifest... hyprluna.hyprluna-theme
+2025-07-24 13:44:28.673 [info] Installing extension: hyprluna.hyprluna-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json","path":"/home/khalyl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.102.2","date":"2025-07-22T12:15:48.520Z"}}
+2025-07-24 13:44:31.637 [info] Extension signature verification result for hyprluna.hyprluna-theme: Success. Internal Code: 0. Executed: true. Duration: 894ms.
+2025-07-24 13:44:31.649 [info] Extracted extension to file:///home/khalyl/.vscode/extensions/hyprluna.hyprluna-theme-1.0.2: hyprluna.hyprluna-theme
+2025-07-24 13:44:31.679 [info] Renamed to /home/khalyl/.vscode/extensions/hyprluna.hyprluna-theme-1.0.2
+2025-07-24 13:44:31.813 [info] Extension installed successfully: hyprluna.hyprluna-theme vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json
+2025-07-24 13:47:44.627 [info] Getting Manifest... github.copilot
+2025-07-24 13:47:45.030 [info] Installing extension: github.copilot {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json","path":"/home/khalyl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.102.2","date":"2025-07-22T12:15:48.520Z"}}
+2025-07-24 13:47:45.738 [info] Getting Manifest... github.copilot-chat
+2025-07-24 13:47:46.387 [info] Installing extension: github.copilot-chat {"enable":true,"isApplicationScoped":true,"isMachineScoped":false,"installEverywhere":true,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json","path":"/home/khalyl/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"productVersion":{"version":"1.102.2","date":"2025-07-22T12:15:48.520Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-07-24 13:47:52.157 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1395ms.
+2025-07-24 13:47:52.484 [info] Extracted extension to file:///home/khalyl/.vscode/extensions/github.copilot-chat-0.29.1: github.copilot-chat
+2025-07-24 13:47:52.493 [info] Renamed to /home/khalyl/.vscode/extensions/github.copilot-chat-0.29.1
+2025-07-24 13:47:57.783 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 931ms.
+2025-07-24 13:47:58.451 [info] Extracted extension to file:///home/khalyl/.vscode/extensions/github.copilot-1.346.0: github.copilot
+2025-07-24 13:47:58.459 [info] Renamed to /home/khalyl/.vscode/extensions/github.copilot-1.346.0
+2025-07-24 13:47:58.485 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json
+2025-07-24 13:47:58.486 [info] Extension installed successfully: github.copilot vscode-userdata:/home/khalyl/.vscode/extensions/extensions.json

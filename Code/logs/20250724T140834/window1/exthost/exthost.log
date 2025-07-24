@@ -1,0 +1,47 @@
+2025-07-24 14:08:37.496 [info] Extension host with pid 80536 started
+2025-07-24 14:08:37.496 [info] Skipping acquiring lock for /home/khalyl/.config/Code/User/workspaceStorage/bdf47ae89376f487adb94e7e2708b451.
+2025-07-24 14:08:37.600 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-24 14:08:37.638 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-24 14:08:37.659 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-07-24 14:08:38.065 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'onLanguage:qml', root cause: theqtcompany.qt-qml
+2025-07-24 14:08:38.297 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-07-24 14:08:38.322 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'onLanguage:qml'
+2025-07-24 14:08:38.456 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-07-24 14:08:38.658 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-24 14:08:38.810 [info] Eager extensions activated
+2025-07-24 14:08:38.824 [warning] [Decorations] CAPPING events from decorations provider vscode.git 281
+2025-07-24 14:08:38.939 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 14:08:38.943 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 14:08:38.965 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 14:08:41.865 [warning] [Decorations] CAPPING events from decorations provider vscode.git 283
+2025-07-24 14:08:42.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 284
+2025-07-24 14:08:43.502 [warning] The task [Qt, Acquire Port] uses an undefined task type. The task will be ignored in the future.
+2025-07-24 14:08:46.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:08:51.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:08:56.441 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:09:01.559 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:09:06.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:09:11.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:09:16.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:10:20.612 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:10:25.698 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:10:30.834 [warning] [Decorations] CAPPING events from decorations provider vscode.git 285
+2025-07-24 14:10:35.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 286
+2025-07-24 14:10:44.522 [warning] [Decorations] CAPPING events from decorations provider vscode.git 286
+2025-07-24 14:10:50.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 286
+2025-07-24 14:10:55.529 [warning] [Decorations] CAPPING events from decorations provider vscode.git 295
+2025-07-24 14:11:00.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 303
+2025-07-24 14:11:05.787 [warning] [Decorations] CAPPING events from decorations provider vscode.git 307
+2025-07-24 14:11:10.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 316
+2025-07-24 14:11:16.022 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2025-07-24 14:11:21.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 350
+2025-07-24 14:11:26.238 [warning] [Decorations] CAPPING events from decorations provider vscode.git 352
+2025-07-24 14:11:32.979 [warning] [Decorations] CAPPING events from decorations provider vscode.git 358
+2025-07-24 14:11:38.107 [warning] [Decorations] CAPPING events from decorations provider vscode.git 361
+2025-07-24 14:11:43.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 363
+2025-07-24 14:11:47.119 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 14:11:47.141 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 14:11:47.244 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 14:11:48.333 [warning] [Decorations] CAPPING events from decorations provider vscode.git 365
+2025-07-24 14:11:49.815 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-24 14:11:49.873 [info] Extension host with pid 80536 exiting with code 0

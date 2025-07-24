@@ -1,0 +1,9 @@
+2025-07-24 13:45:04.953 [info] [project] Creating project:/home/khalyl/.config/quickshell
+2025-07-24 13:45:04.953 [info] [qmlls] Fetching release information
+2025-07-24 13:45:05.570 [info] [qmlls] Status Check: Not Installed
+2025-07-24 13:45:10.163 [info] [qmlls] Installing: qmlls-ubuntu-0.2.zip, 0.2
+2025-07-24 13:45:14.559 [info] [qmlls] Installation done
+2025-07-24 13:45:14.569 [info] [qmlls] Starting QML Language Server with:-E
+2025-07-24 13:45:14.592 [info] [qmlls] QML Language Server started for quickshell /home/khalyl/.local/share/qmlls/files/qmlls
+2025-07-24 13:55:04.059 [info] [extension] Deactivating qt-qml
+2025-07-24 13:55:04.059 [info] [project] Disposing project:/home/khalyl/.config/quickshell

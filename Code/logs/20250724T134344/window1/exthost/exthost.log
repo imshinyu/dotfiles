@@ -1,0 +1,35 @@
+2025-07-24 13:43:47.110 [info] Extension host with pid 74707 started
+2025-07-24 13:43:47.243 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-24 13:43:47.341 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-24 13:43:47.349 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-24 13:43:47.416 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-24 13:43:47.589 [info] Eager extensions activated
+2025-07-24 13:43:47.610 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 13:43:47.613 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 13:43:52.349 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-24 13:44:33.635 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 13:44:33.657 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 13:44:33.753 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 13:45:00.019 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-24 13:45:00.082 [info] Extension host with pid 74707 exiting with code 0
+2025-07-24 13:45:01.676 [info] Extension host with pid 75037 started
+2025-07-24 13:45:01.676 [info] Skipping acquiring lock for /home/khalyl/.config/Code/User/workspaceStorage/bdf47ae89376f487adb94e7e2708b451.
+2025-07-24 13:45:01.739 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-24 13:45:01.775 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-24 13:45:01.851 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-24 13:45:01.868 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-24 13:45:01.954 [info] Eager extensions activated
+2025-07-24 13:45:02.027 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 13:45:02.030 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 13:45:04.503 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-24 13:45:04.708 [info] ExtensionService#_doActivateExtension theqtcompany.qt-core, startup: false, activationEvent: 'workspaceContains:*.qml,*.qmldir', root cause: theqtcompany.qt-qml
+2025-07-24 13:45:04.812 [info] ExtensionService#_doActivateExtension theqtcompany.qt-qml, startup: false, activationEvent: 'workspaceContains:*.qml,*.qmldir'
+2025-07-24 13:45:09.943 [warning] The task [Qt, Acquire Port] uses an undefined task type. The task will be ignored in the future.
+2025-07-24 13:45:41.959 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 13:45:41.983 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 13:45:42.093 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-24 13:45:47.184 [warning] The task [Qt, Acquire Port] uses an undefined task type. The task will be ignored in the future.
+2025-07-24 13:47:59.126 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 13:47:59.475 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-07-24 13:55:03.966 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-24 13:55:04.064 [info] Extension host with pid 75037 exiting with code 0

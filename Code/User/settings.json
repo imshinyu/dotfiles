@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "qt-qml.qmlls.useQmlImportPathEnvVar": true,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "top"
+}

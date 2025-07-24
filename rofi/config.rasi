@@ -12,6 +12,10 @@
 //@theme "/usr/share/rofi/themes/solarized.rasi"
 //@import "~/.cache/wal/colors-rofi-dark"
 //@import "~/.cache/wal/colors/rofi-light"
+configuration {
+  modi: "window,drun,calc,ssh,combi,filebrowser";
+  combi-modi: "drun,calc,ssh";
+}
 @import "colors.rasi"
 * {
     active-background: @primary;

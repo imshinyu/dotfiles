@@ -1,0 +1,1275 @@
+{
+  "version": 3,
+  "requesterUsername": "imshinyu",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/119526243",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_71780ccf-6e0e-4f84-8ec3-1d23b9d3dba4",
+      "message": {
+        "text": "logs for quickshell:\n\"  INFO: Reloading configuration...\n  WARN scene: **/Clock.qml[8:3]: Unable to assign [undefined] to QString\n  INFO: Configuration Loaded\"",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 159
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 4,
+              "endColumn": 30
+            },
+            "text": "logs for quickshell:\n\"  INFO: Reloading configuration...\n  WARN scene: **/Clock.qml[8:3]: Unable to assign [undefined] to QString\n  INFO: Configuration Loaded\"",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///home/khalyl/.config/quickshell/Time.qml",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/Time.qml",
+              "external": "file:///home/khalyl/.config/quickshell/Time.qml",
+              "path": "/home/khalyl/.config/quickshell/Time.qml",
+              "scheme": "file"
+            },
+            "name": "Time.qml"
+          },
+          {
+            "kind": "file",
+            "id": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+              "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+              "path": "/home/khalyl/.config/quickshell/Clock.qml",
+              "scheme": "file"
+            },
+            "name": "Clock.qml",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+              "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+              "path": "/home/khalyl/.config/quickshell/shell.qml",
+              "scheme": "file"
+            },
+            "name": "shell.qml",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "file:///home/khalyl/.config/quickshell/Bar.qml",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/Bar.qml",
+              "external": "file:///home/khalyl/.config/quickshell/Bar.qml",
+              "path": "/home/khalyl/.config/quickshell/Bar.qml",
+              "scheme": "file"
+            },
+            "name": "Bar.qml",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:Time.qml",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/home/khalyl/.config/quickshell/Time.qml",
+                "external": "file:///home/khalyl/.config/quickshell/Time.qml",
+                "path": "/home/khalyl/.config/quickshell/Time.qml",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 21,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "The warning:\n\n```\nWARN scene: **/Clock.qml[8:3]: Unable to assign [undefined] to QString\n```\n\nmeans that `Time.time` is `undefined` when ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " tries to use it.\n\n**Possible causes:**\n- The `Time` singleton is not properly registered or imported.\n- The `SystemClock` or its `date` property is not initialized when `Time.time` is first accessed.\n\n**How to fix:**\n\n1. **Import the Time singleton in Clock.qml:**\n\nAdd this line at the top of ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ":\n\n````qml\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "// ...existing code...\nimport \"Time.qml\" as Time\n// ...existing code...\n````\n\n2. **Reference the singleton correctly:**\n\nUpdate the `text` property to use the import alias:\n\n````qml\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "// ...existing code...\ntext: Time.root.time\n// ...existing code...\n````\n\n**Resulting Clock.qml:**\n````qml\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "// Clock.qml\nimport QtQuick\nimport \"Time.qml\" as Time\n\nText {\n  text: Time.root.time\n}\n````\n\nTry these changes and reload Quickshell. If the warning persists, let me know!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_8d05eabf-ae61-465c-bf61-b1d682c3168b",
+      "result": {
+        "timings": {
+          "firstProgress": 692,
+          "totalElapsed": 3227
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "WARN scene: **/Clock.qml[8:3]: Unable to assign [undefined] to QString\n",
+              "language": "",
+              "markdownBeforeBlock": "The warning:\n\n"
+            },
+            {
+              "code": "// ...existing code...\nimport \"Time.qml\" as Time\n// ...existing code...\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/home/khalyl/.config/quickshell/Clock.qml",
+                "scheme": "file"
+              },
+              "language": "qml",
+              "markdownBeforeBlock": "\nmeans that `Time.time` is `undefined` when  tries to use it.\n\n**Possible causes:**\n- The `Time` singleton is not properly registered or imported.\n- The `SystemClock` or its `date` property is not initialized when `Time.time` is first accessed.\n\n**How to fix:**\n\n1. **Import the Time singleton in Clock.qml:**\n\nAdd this line at the top of :\n\n"
+            },
+            {
+              "code": "// ...existing code...\ntext: Time.root.time\n// ...existing code...\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/home/khalyl/.config/quickshell/Clock.qml",
+                "scheme": "file"
+              },
+              "language": "qml",
+              "markdownBeforeBlock": "\n2. **Reference the singleton correctly:**\n\nUpdate the `text` property to use the import alias:\n\n"
+            },
+            {
+              "code": "// Clock.qml\nimport QtQuick\nimport \"Time.qml\" as Time\n\nText {\n  text: Time.root.time\n}\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/home/khalyl/.config/quickshell/Clock.qml",
+                "scheme": "file"
+              },
+              "language": "qml",
+              "markdownBeforeBlock": "\n**Resulting Clock.qml:**\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "The warning:\n\n```\nWARN scene: **/Clock.qml[8:3]: Unable to assign [undefined] to QString\n```\n\nmeans that `Time.time` is `undefined` when `Clock.qml` tries to use it.\n\n**Possible causes:**\n- The `Time` singleton is not properly registered or imported.\n- The `SystemClock` or its `date` property is not initialized when `Time.time` is first accessed.\n\n**How to fix:**\n\n1. **Import the Time singleton in Clock.qml:**\n\nAdd this line at the top of `Clock.qml`:\n\n````qml\n// filepath: /home/khalyl/.config/quickshell/Clock.qml\n// ...existing code...\nimport \"Time.qml\" as Time\n// ...existing code...\n````\n\n2. **Reference the singleton correctly:**\n\nUpdate the `text` property to use the import alias:\n\n````qml\n// filepath: /home/khalyl/.config/quickshell/Clock.qml\n// ...existing code...\ntext: Time.root.time\n// ...existing code...\n````\n\n**Resulting Clock.qml:**\n````qml\n// filepath: /home/khalyl/.config/quickshell/Clock.qml\n// Clock.qml\nimport QtQuick\nimport \"Time.qml\" as Time\n\nText {\n  text: Time.root.time\n}\n````\n\nTry these changes and reload Quickshell. If the warning persists, let me know!",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "1340576f-efef-496b-98b1-3552799c3cb2"
+            }
+          ],
+          "modelMessageId": "adc16b7b-ce97-4a86-95b7-bbb5810ec581",
+          "responseId": "fd966c92-a617-4608-91b3-9968e227a3eb",
+          "sessionId": "0b5a3b04-c123-4df7-af68-c4cfae9bf82b",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "imshinyu",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/119526243",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Bar.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Bar.qml",
+            "path": "/home/khalyl/.config/quickshell/Bar.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+            "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "path": "/home/khalyl/.config/quickshell/shell.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Time.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Time.qml",
+            "path": "/home/khalyl/.config/quickshell/Time.qml",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1753361324822,
+      "modelId": "github.copilot-chat/gpt-4.1"
+    },
+    {
+      "requestId": "request_7634119c-7dda-4a93-8dd6-1bb738b3b663",
+      "message": {
+        "text": " ERROR: Failed to load configuration\n ERROR:   caused by **/shell.qml[4:3]: Type Bar unavailable\n ERROR:   caused by **/Bar.qml[37:11]: Type Clock unavailable\n ERROR:   caused by **/Clock.qml[-1:-1]: Namespace Time cannot be used as a type",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 239
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 4,
+              "endColumn": 81
+            },
+            "text": " ERROR: Failed to load configuration\n ERROR:   caused by **/shell.qml[4:3]: Type Bar unavailable\n ERROR:   caused by **/Bar.qml[37:11]: Type Clock unavailable\n ERROR:   caused by **/Clock.qml[-1:-1]: Namespace Time cannot be used as a type",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:Clock.qml",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+                "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+                "path": "/home/khalyl/.config/quickshell/Clock.qml",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 11,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "The error:\n\n```\nNamespace Time cannot be used as a type\n```\n\nmeans that QML is treating your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Time.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Time.qml",
+            "path": "/home/khalyl/.config/quickshell/Time.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " as a **namespace** (directory import), not as a **singleton**. This happens because QML expects singletons to be registered in a specific way, not just imported with `import \"Time.qml\" as Time`.\n\n### How to fix\n\n#### 1. Register the singleton in `qmldir`\n\nYou need a `qmldir` file in your directory with this line:\n\n```\nsingleton Time 1.0 Time.qml\n```\n\n**Steps:**\n\n1. Create a file named `qmldir` in ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/",
+            "external": "file:///home/khalyl/.config/quickshell/",
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " (if it doesn't exist).\n2. Add this line:\n\n```\nsingleton Time 1.0 Time.qml\n```\n\n#### 2. Import the singleton in QML\n\nReplace your import in ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " with:\n\n```\nimport Time 1.0\n```\n\nAnd use:\n\n```\ntext: Time.time\n```\n\n#### Final ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ":\n\n````qml\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+            "path": "/home/khalyl/.config/quickshell/Clock.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "// Clock.qml\nimport QtQuick\nimport Time 1.0\n\nText {\n  text: Time.time\n}\n````\n\n---\n\n**Summary of changes:**\n- Add `qmldir` file with singleton registration.\n- Use `import Time 1.0` in QML.\n- Reference `Time.time` directly.\n\nReload Quickshell after these changes. Let me know if you see any new errors!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_06cc92e1-cdea-4250-9345-80c8bccb5b57",
+      "result": {
+        "timings": {
+          "firstProgress": 692,
+          "totalElapsed": 4054
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "Namespace Time cannot be used as a type\n",
+              "language": "",
+              "markdownBeforeBlock": "The error:\n\n"
+            },
+            {
+              "code": "singleton Time 1.0 Time.qml\n",
+              "language": "",
+              "markdownBeforeBlock": "\nmeans that QML is treating your  as a **namespace** (directory import), not as a **singleton**. This happens because QML expects singletons to be registered in a specific way, not just imported with `import \"Time.qml\" as Time`.\n\n### How to fix\n\n#### 1. Register the singleton in `qmldir`\n\nYou need a `qmldir` file in your directory with this line:\n\n"
+            },
+            {
+              "code": "singleton Time 1.0 Time.qml\n",
+              "language": "",
+              "markdownBeforeBlock": "\n**Steps:**\n\n1. Create a file named `qmldir` in  (if it doesn't exist).\n2. Add this line:\n\n"
+            },
+            {
+              "code": "import Time 1.0\n",
+              "language": "",
+              "markdownBeforeBlock": "\n#### 2. Import the singleton in QML\n\nReplace your import in  with:\n\n"
+            },
+            {
+              "code": "text: Time.time\n",
+              "language": "",
+              "markdownBeforeBlock": "\nAnd use:\n\n"
+            },
+            {
+              "code": "// Clock.qml\nimport QtQuick\nimport Time 1.0\n\nText {\n  text: Time.time\n}\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/home/khalyl/.config/quickshell/Clock.qml",
+                "scheme": "file"
+              },
+              "language": "qml",
+              "markdownBeforeBlock": "\n#### Final :\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "The error:\n\n```\nNamespace Time cannot be used as a type\n```\n\nmeans that QML is treating your `Time.qml` as a **namespace** (directory import), not as a **singleton**. This happens because QML expects singletons to be registered in a specific way, not just imported with `import \"Time.qml\" as Time`.\n\n### How to fix\n\n#### 1. Register the singleton in `qmldir`\n\nYou need a `qmldir` file in your directory with this line:\n\n```\nsingleton Time 1.0 Time.qml\n```\n\n**Steps:**\n\n1. Create a file named `qmldir` in `/home/khalyl/.config/quickshell/` (if it doesn't exist).\n2. Add this line:\n\n```\nsingleton Time 1.0 Time.qml\n```\n\n#### 2. Import the singleton in QML\n\nReplace your import in `Clock.qml` with:\n\n```\nimport Time 1.0\n```\n\nAnd use:\n\n```\ntext: Time.time\n```\n\n#### Final `Clock.qml`:\n\n````qml\n// filepath: /home/khalyl/.config/quickshell/Clock.qml\n// Clock.qml\nimport QtQuick\nimport Time 1.0\n\nText {\n  text: Time.time\n}\n````\n\n---\n\n**Summary of changes:**\n- Add `qmldir` file with singleton registration.\n- Use `import Time 1.0` in QML.\n- Reference `Time.time` directly.\n\nReload Quickshell after these changes. Let me know if you see any new errors!",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "3a8b28c0-9891-4444-84ef-086a41967267"
+            }
+          ],
+          "modelMessageId": "0bdb45d8-a21c-4401-986e-3203e0a99ebe",
+          "responseId": "31e5e4d4-0d29-491a-a3fa-600650d7d870",
+          "sessionId": "0b5a3b04-c123-4df7-af68-c4cfae9bf82b",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "imshinyu",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/119526243",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+              "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+              "path": "/home/khalyl/.config/quickshell/Clock.qml",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 11,
+              "endColumn": 1
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1753361407439,
+      "modelId": "github.copilot-chat/gpt-4.1"
+    },
+    {
+      "requestId": "request_7463a06a-d45b-4c7b-93ac-9c1d8dc22b93",
+      "message": {
+        "text": " ERROR: Failed to load configuration\n ERROR:   caused by **/shell.qml[4:3]: Bar is not a type",
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 93
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 2,
+              "endColumn": 57
+            },
+            "text": " ERROR: Failed to load configuration\n ERROR:   caused by **/shell.qml[4:3]: Bar is not a type",
+            "kind": "text"
+          }
+        ]
+      },
+      "variableData": {
+        "variables": [
+          {
+            "kind": "file",
+            "id": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+              "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+              "path": "/home/khalyl/.config/quickshell/shell.qml",
+              "scheme": "file"
+            },
+            "name": "shell.qml",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "file:///home/khalyl/.config/quickshell/Bar.qml",
+            "value": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/Bar.qml",
+              "external": "file:///home/khalyl/.config/quickshell/Bar.qml",
+              "path": "/home/khalyl/.config/quickshell/Bar.qml",
+              "scheme": "file"
+            },
+            "name": "Bar.qml",
+            "omittedState": 0
+          },
+          {
+            "kind": "file",
+            "id": "vscode.implicit.viewport",
+            "name": "file:Clock.qml",
+            "value": {
+              "uri": {
+                "$mid": 1,
+                "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+                "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+                "path": "/home/khalyl/.config/quickshell/Clock.qml",
+                "scheme": "file"
+              },
+              "range": {
+                "startLineNumber": 1,
+                "startColumn": 1,
+                "endLineNumber": 11,
+                "endColumn": 1
+              }
+            },
+            "modelDescription": "User's current visible code"
+          }
+        ]
+      },
+      "response": [
+        {
+          "value": "The error:\n\n```\nERROR:   caused by **/shell.qml[4:3]: Bar is not a type\n```\n\nmeans that QML cannot find or load the ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Bar.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Bar.qml",
+            "path": "/home/khalyl/.config/quickshell/Bar.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " component. This usually happens if:\n\n- The file is not in the import path.\n- There is no ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/qmldir",
+            "external": "file:///home/khalyl/.config/quickshell/qmldir",
+            "path": "/home/khalyl/.config/quickshell/qmldir",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " file listing the components.\n- The directory is not imported as a module.\n\n---\n\n### How to fix\n\n#### 1. Add a ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/qmldir",
+            "external": "file:///home/khalyl/.config/quickshell/qmldir",
+            "path": "/home/khalyl/.config/quickshell/qmldir",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " file\n\nIn ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/",
+            "external": "file:///home/khalyl/.config/quickshell/",
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ", create a file named ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/qmldir",
+            "external": "file:///home/khalyl/.config/quickshell/qmldir",
+            "path": "/home/khalyl/.config/quickshell/qmldir",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " (if it doesn't exist) with the following content:\n\n```\nsingleton Time 1.0 Time.qml\nBar 1.0 Bar.qml\nClock 1.0 Clock.qml\n```\n\n#### 2. Import your module in ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+            "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "path": "/home/khalyl/.config/quickshell/shell.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "\n\nAt the top of ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+            "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "path": "/home/khalyl/.config/quickshell/shell.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ", add:\n\n```\nimport \".\" 1.0\n```\n\nSo your ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+            "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "path": "/home/khalyl/.config/quickshell/shell.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " should look like:\n\n````qml\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "codeblockUri",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+            "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "path": "/home/khalyl/.config/quickshell/shell.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": "import Quickshell\nimport \".\" 1.0\n\nScope {\n  Bar{}\n}\n````\n\n---\n\n**Summary:**  \n- Add a ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/qmldir",
+            "external": "file:///home/khalyl/.config/quickshell/qmldir",
+            "path": "/home/khalyl/.config/quickshell/qmldir",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": " file listing your QML types.\n- Import your local directory as a module in ",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "inlineReference",
+          "inlineReference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+            "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "path": "/home/khalyl/.config/quickshell/shell.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "value": ".\n\nReload Quickshell after these changes. Let me know if you get further errors!",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/khalyl/.config/quickshell/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_77989c9e-40d1-4e7e-8138-6ecd2d6aa841",
+      "result": {
+        "timings": {
+          "firstProgress": 733,
+          "totalElapsed": 14441
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "ERROR:   caused by **/shell.qml[4:3]: Bar is not a type\n",
+              "language": "",
+              "markdownBeforeBlock": "The error:\n\n"
+            },
+            {
+              "code": "singleton Time 1.0 Time.qml\nBar 1.0 Bar.qml\nClock 1.0 Clock.qml\n",
+              "language": "",
+              "markdownBeforeBlock": "\nmeans that QML cannot find or load the  component. This usually happens if:\n\n- The file is not in the import path.\n- There is no  file listing the components.\n- The directory is not imported as a module.\n\n---\n\n### How to fix\n\n#### 1. Add a  file\n\nIn , create a file named  (if it doesn't exist) with the following content:\n\n"
+            },
+            {
+              "code": "import \".\" 1.0\n",
+              "language": "",
+              "markdownBeforeBlock": "\n#### 2. Import your module in \n\nAt the top of , add:\n\n"
+            },
+            {
+              "code": "import Quickshell\nimport \".\" 1.0\n\nScope {\n  Bar{}\n}\n",
+              "resource": {
+                "$mid": 1,
+                "path": "/home/khalyl/.config/quickshell/shell.qml",
+                "scheme": "file"
+              },
+              "language": "qml",
+              "markdownBeforeBlock": "\nSo your  should look like:\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "The error:\n\n```\nERROR:   caused by **/shell.qml[4:3]: Bar is not a type\n```\n\nmeans that QML cannot find or load the `Bar.qml` component. This usually happens if:\n\n- The file is not in the import path.\n- There is no `qmldir` file listing the components.\n- The directory is not imported as a module.\n\n---\n\n### How to fix\n\n#### 1. Add a `qmldir` file\n\nIn `/home/khalyl/.config/quickshell/`, create a file named `qmldir` (if it doesn't exist) with the following content:\n\n```\nsingleton Time 1.0 Time.qml\nBar 1.0 Bar.qml\nClock 1.0 Clock.qml\n```\n\n#### 2. Import your module in `shell.qml`\n\nAt the top of `shell.qml`, add:\n\n```\nimport \".\" 1.0\n```\n\nSo your `shell.qml` should look like:\n\n````qml\n// filepath: /home/khalyl/.config/quickshell/shell.qml\nimport Quickshell\nimport \".\" 1.0\n\nScope {\n  Bar{}\n}\n````\n\n---\n\n**Summary:**  \n- Add a `qmldir` file listing your QML types.\n- Import your local directory as a module in `shell.qml`.\n\nReload Quickshell after these changes. Let me know if you get further errors!",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "4cdf3089-2045-46e6-a22f-828b28250885"
+            }
+          ],
+          "modelMessageId": "519fe423-9347-4743-a984-4932c9d98371",
+          "responseId": "a0928e29-08ed-4c76-b0b7-2ec3ee104e3c",
+          "sessionId": "0b5a3b04-c123-4df7-af68-c4cfae9bf82b",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Ask Copilot",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:",
+          "helpTextVariablesPrefix": "You can also help me understand your question by using the following variables to give me extra context:",
+          "helpTextPostfix": {
+            "value": "To have a great conversation, ask me questions as if I was a real programmer:\n\n* **Show me the code** you want to talk about by having the files open and selecting the most important lines.\n* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.\n* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.\n\nYou can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).\n\nLearn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough).",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              },
+              "command:github.copilot.open.walkthrough": {
+                "$mid": 1,
+                "path": "github.copilot.open.walkthrough",
+                "scheme": "command"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "imshinyu",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/119526243",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/Bar.qml",
+            "external": "file:///home/khalyl/.config/quickshell/Bar.qml",
+            "path": "/home/khalyl/.config/quickshell/Bar.qml",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/khalyl/.config/quickshell/Clock.qml",
+              "external": "file:///home/khalyl/.config/quickshell/Clock.qml",
+              "path": "/home/khalyl/.config/quickshell/Clock.qml",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 11,
+              "endColumn": 1
+            }
+          }
+        },
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/khalyl/.config/quickshell/shell.qml",
+            "external": "file:///home/khalyl/.config/quickshell/shell.qml",
+            "path": "/home/khalyl/.config/quickshell/shell.qml",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1753361526914,
+      "modelId": "github.copilot-chat/gpt-4.1"
+    }
+  ],
+  "sessionId": "e7db4b57-38c8-48e5-89c8-2d521704afe2",
+  "creationDate": 1753361100817,
+  "isImported": false,
+  "lastMessageDate": 1753361526914,
+  "customTitle": "Debugging Clock.qml time assignment issue"
+}

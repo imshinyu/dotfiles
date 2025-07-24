@@ -1,0 +1,9 @@
+qt.languageserver.server: Did Setup
+Using the build directories found in the .qmlls.ini file. Your build folder might not be found if no .qmlls.ini files are present in the root source folder.
+qt.languageserver.server: "Registration of file updates failed, will miss file changes from outside the editor.-32603 Request client/registerCapability failed with message: No feature implementation for workspace.didChangeWatchedFiles found. Registration failed."
+[Warn  - 2:08:41 PM] Registration of file updates failed, will miss file changes from outside the editor.-32603 Request client/registerCapability failed with message: No feature implementation for workspace.didChangeWatchedFiles found. Registration failed.
+[Dom][Exports] Warning: Failed to find main qmldir file for QtQml 6 in /home/runner/work/_temp/install_dir/qml.
+[Dom] Warning: Failed to find main qmldir file for QtQuick  in /home/runner/work/_temp/install_dir/qml.
+[Dom] Warning: Failed to find main qmldir file for Quickshell  in /home/runner/work/_temp/install_dir/qml.
+[Dom] Warning: Failed to find main qmldir file for QtQuick  in /home/runner/work/_temp/install_dir/qml.
+QFileSystemWatcher::addPaths: list is empty

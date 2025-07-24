@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "HyprLuna Material",
+    "qt-qml.qmlls.useQmlImportPathEnvVar": true,
+    "editor.minimap.enabled": false
+}

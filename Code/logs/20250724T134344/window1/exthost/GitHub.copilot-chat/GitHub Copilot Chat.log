@@ -1,0 +1,49 @@
+2025-07-24 13:48:02.046 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-07-24 13:48:02.046 [info] Using the Electron fetcher.
+2025-07-24 13:48:02.046 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-07-24 13:48:02.046 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-07-24 13:48:02.046 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-07-24 13:48:02.202 [info] Logged in as imshinyu
+2025-07-24 13:48:03.026 [error] GithubCodeSearchService.getRemoteIndexState(imshinyu/dotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-07-24 13:48:03.058 [info] Got Copilot token for imshinyu
+2025-07-24 13:48:03.068 [info] activationBlocker from 'languageModelAccess' took for 730ms
+2025-07-24 13:48:03.156 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-07-24 13:48:03.156 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-07-24 13:48:03.176 [info] Registering default platform agent...
+2025-07-24 13:48:03.177 [info] activationBlocker from 'conversationFeature' took for 844ms
+2025-07-24 13:48:03.381 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-07-24 13:48:03.749 [info] Fetched model metadata in 682ms 81428b43-9e19-4537-baf3-ef45b55cee41
+2025-07-24 13:48:03.783 [error] GithubCodeSearchService.getRemoteIndexState(imshinyu/dotfiles). Failed to fetch indexing status. Response: 404. {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+2025-07-24 13:48:09.713 [info] Refetch model metadata: Succeeded in 730ms 279db361-32db-497b-94cc-386a9801d77a (C070:193C6E:149F8D4:183C98E:68822B89) using node-fetch with status 200.
+2025-07-24 13:48:10.241 [info] Refetch model metadata: Succeeded in 519ms afef624d-bfc3-4174-94de-da09c2e1d4c6 (C080:3199FC:14B37C6:18508D4:68822B89) using electron-fetch with status 200.
+2025-07-24 13:48:10.794 [info] Refetch model metadata: Succeeded in 545ms 9a424bc8-84fb-431a-aa84-6c4c527a5037 (C08E:3BCB76:1438550:17D5FFD:68822B8A) using node-http with status 200.
+2025-07-24 13:48:45.941 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:48:45.941 [info] request done: requestId: [b31301f5-f4fe-4c32-abad-83926210aaf2] model deployment ID: []
+2025-07-24 13:48:45.946 [info] Latest entry: ccreq:latestrequest.copilotmd
+2025-07-24 13:48:45.947 [info] ccreq:e08b391d.copilotmd | success | gpt-4o-mini | 457ms | [intentDetection]
+2025-07-24 13:48:49.173 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:48:49.173 [info] request done: requestId: [fd966c92-a617-4608-91b3-9968e227a3eb] model deployment ID: []
+2025-07-24 13:48:49.177 [info] ccreq:634c8445.copilotmd | success | gpt-4.1 | 3151ms | [panel/unknown]
+2025-07-24 13:48:49.877 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:48:49.877 [info] request done: requestId: [324f9b9e-f2cc-4391-b213-d1db9382df78] model deployment ID: []
+2025-07-24 13:48:49.880 [info] ccreq:6dfceb6a.copilotmd | success | gpt-4o-mini | 608ms | [title]
+2025-07-24 13:49:25.245 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:49:25.245 [info] request done: requestId: [41a51003-ba96-4a90-b19b-efdf5a7aa604] model deployment ID: []
+2025-07-24 13:49:25.247 [info] ccreq:9372bbc2.copilotmd | success | gpt-4o-instant-apply-full-ft-v66 | 636ms | [editingSession/speculate]
+2025-07-24 13:49:25.250 [info] srequest done: 639ms, chatRequestId: [undefined], speculationRequestId: [4e362723-6d92-4075-bb52-9ff4f70ec41b]
+2025-07-24 13:50:11.037 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:50:11.037 [info] request done: requestId: [08968b79-6018-47dd-966a-f72fa2f23480] model deployment ID: []
+2025-07-24 13:50:11.039 [info] ccreq:559fd8bf.copilotmd | success | gpt-4o-mini | 2996ms | [intentDetection]
+2025-07-24 13:50:15.088 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:50:15.088 [info] request done: requestId: [31e5e4d4-0d29-491a-a3fa-600650d7d870] model deployment ID: []
+2025-07-24 13:50:15.089 [info] ccreq:9c359a47.copilotmd | success | gpt-4.1 | 4019ms | [panel/unknown]
+2025-07-24 13:52:10.746 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:52:10.746 [info] request done: requestId: [098c4148-9383-437b-a7c1-f7dffddd78b3] model deployment ID: []
+2025-07-24 13:52:10.748 [info] ccreq:da27a805.copilotmd | success | gpt-4o-mini | 3291ms | [intentDetection]
+2025-07-24 13:52:25.188 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:52:25.188 [info] request done: requestId: [a0928e29-08ed-4c76-b0b7-2ec3ee104e3c] model deployment ID: []
+2025-07-24 13:52:25.189 [info] ccreq:e8146aa4.copilotmd | success | gpt-4.1 | 14410ms | [panel/unknown]
+2025-07-24 13:53:23.246 [info] message 0 returned. finish reason: [stop]
+2025-07-24 13:53:23.247 [info] request done: requestId: [86b25084-9ef3-41a1-b891-7f27ae9d46af] model deployment ID: []
+2025-07-24 13:53:23.251 [info] ccreq:75efaa10.copilotmd | success | gpt-4o-instant-apply-full-ft-v66 | 1702ms | [editingSession/speculate]
+2025-07-24 13:53:23.253 [info] srequest done: 1705ms, chatRequestId: [undefined], speculationRequestId: [b510ace5-ba01-4fa3-856b-9d316f52a57f]

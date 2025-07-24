@@ -1,0 +1,8 @@
+2025-07-24 13:55:08.034 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:55:08.047 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:55:08.048 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:55:09.237 [info] Started local extension host with pid 78091.
+2025-07-24 13:55:10.865 [error] [Extension Host] (node:78091) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-07-24 13:55:11.367 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-24 13:55:12.058 [info] [perf] Render performance baseline is 38ms

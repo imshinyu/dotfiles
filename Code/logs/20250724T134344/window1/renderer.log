@@ -1,0 +1,40 @@
+2025-07-24 13:43:45.820 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:43:45.834 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:43:45.834 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:43:46.290 [info] Started local extension host with pid 74707.
+2025-07-24 13:43:46.332 [info] Started initializing default profile extensions in extensions installation folder. file:///home/khalyl/.vscode/extensions
+2025-07-24 13:43:46.540 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/khalyl/.vscode/extensions
+2025-07-24 13:43:46.725 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-24 13:43:47.128 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-24 13:43:50.177 [info] [perf] Render performance baseline is 33ms
+2025-07-24 13:44:44.911 [warning] Settings pattern "mcp" doesn't match any settings
+2025-07-24 13:45:00.565 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:45:00.565 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:45:00.565 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-24 13:45:00.845 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-24 13:45:01.035 [info] Started local extension host with pid 75037.
+2025-07-24 13:45:01.939 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-07-24 13:45:03.768 [info] [perf] Render performance baseline is 33ms
+2025-07-24 13:47:58.555 [warning] [GitHub.copilot]: Cannot register 'github.copilot.advanced'. This property is already registered.
+2025-07-24 13:47:59.476 [error] [Extension Host] (node:75037) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-07-24 13:50:29.796 [error] Unable to resolve filesystem provider with relative file path 'untitled:Untitled-1': Error: Unable to resolve filesystem provider with relative file path 'untitled:Untitled-1'
+    at Cyt.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3360:60515)
+    at Cyt.exists (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3360:62771)
+    at c (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2076:14757)
+    at d (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2076:15501)
+    at Aoe.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2076:16111)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2611)
+    at Aoe.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1456:2022)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2611)
+2025-07-24 13:50:48.434 [error] Model is disposed!: Error: Model is disposed!
+    at wf.lb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:264:303)
+    at wf.getValue (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:266:3438)
+    at uot.createSnapshot (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2074:42613)
+    at Cot.jb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2076:9912)
+    at Cot.mb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2076:10686)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2076:8655
+    at async Promise.all (index 0)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2076:480

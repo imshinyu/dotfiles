@@ -1,0 +1,73 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "18d519b42bd8a463d0fa4cf72324ac711125e91348de344d493520a4cd5f2dcd",
+    "telemetry.devDeviceId": "f44b0dec-390c-4a6c-84e9-4ae1f4463fae",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/khalyl/.config/quickshell"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/khalyl/.config/quickshell": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/khalyl/.config/quickshell",
+            "backupPath": "/home/khalyl/.config/Code/Backups/024a7539b93daa067b72331d6ed7f81f",
+            "uiState": {
+                "mode": 1,
+                "x": 9,
+                "y": 38,
+                "width": 1348,
+                "height": 691
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 321,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 321,
+            "workspaces": {
+                "bdf47ae89376f487adb94e7e2708b451": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

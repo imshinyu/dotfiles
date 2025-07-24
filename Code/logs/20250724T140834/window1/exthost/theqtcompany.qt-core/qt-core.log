@@ -1,0 +1,8 @@
+2025-07-24 14:08:38.660 [info] [extension] Activating theqtcompany.qt-core
+2025-07-24 14:08:38.660 [info] [project] Creating project:"/home/khalyl/.config/quickshell"
+2025-07-24 14:08:38.660 [info] [vcpkg] vcpkg is not installed
+2025-07-24 14:08:38.660 [info] [project] Setting Qt installation root for /home/khalyl/.config/quickshell to: 
+2025-07-24 14:08:38.660 [info] [project] Setting additional Qt paths for /home/khalyl/.config/quickshell to: 
+2025-07-24 14:08:38.660 [info] [project] Config values initialized for:/home/khalyl/.config/quickshell
+2025-07-24 14:11:49.871 [info] [extension] Deactivating qt-core
+2025-07-24 14:11:49.871 [info] [project] Disposing project:/home/khalyl/.config/quickshell
