@@ -5,6 +5,8 @@ import Quickshell.Io
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Effects
+import "time" as Date
+import qs.Date
 Scope {
 
   Variants {
@@ -66,7 +68,7 @@ Scope {
             }
           }
           
-          Clock {
+          Date.Clock {
             Layout.alignment: Qt.AlignBottom
             color: "#ffffff"
           }
