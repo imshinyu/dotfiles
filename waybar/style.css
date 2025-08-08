@@ -1,0 +1,243 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    /*font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;*/
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: Bold;
+    
+}
+@import "colors-waybar.css";
+
+window#waybar {
+    background-color: transparent;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+  }
+
+  window#waybar.hidden {
+      opacity: 0.2;
+  }
+
+  button {
+      /* Use box-shadow instead of border so the text isn't offset */
+      box-shadow: inset 0 -3px #1d1d1d;
+      /* Avoid rounded borders under each button name */
+      border: unset;
+      margin-right: 2px;
+      margin-left: 2px;
+      margin-top: 4px;
+      border-radius: 3px;
+  }
+
+    /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+    button:hover {
+        background: inherit;
+        opacity: 0.5;
+        box-shadow: inset 0 -3px #ffffff;
+    }
+
+    /* you can set a style on hover for any module like this */
+    #pulseaudio:hover {
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    #workspaces button {
+        padding: 0 5px;
+        background-color: @background;
+        color: #ffffff;
+    }
+
+    #workspaces button:hover {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    #workspaces button.active {
+        background-color: @primary;
+        box-shadow: inset 0 0px #ffffff;
+    }
+
+    #workspaces button.urgent {
+        animation: blink 1s infinite;
+        opacity: 0.5;
+    }
+
+    #mode {
+        background-color: #64727D;
+        box-shadow: inset 0 -3px #ffffff;
+    }
+
+  #clock,
+  #battery,
+  #cpu,
+  #memory,
+  #temperature,
+  #backlight,
+  #pulseaudio,
+  #tray,
+  #mode,
+  #custom-power,
+  #custom-gpu-usage,
+  #language,
+  #keyboard-state{
+    padding: 0px 10px;
+    margin-top: 3px;
+    color: #ffffff;
+    border: 0px solid @primary;
+    border-radius: 0px;
+  }
+
+  #window,
+  #workspaces {
+      margin: 0 5px;
+  }
+
+  /* If workspaces is the leftmost module, omit left margin */
+  .modules-left > widget:first-child > #workspaces {
+      margin-left: 0;
+  }
+
+  /* If workspaces is the rightmost module, omit right margin */
+  .modules-right > widget:last-child > #workspaces {
+      margin-right: 0;
+  }
+
+  #clock {
+      background-color: @background;
+      border: 2px solid @primary;
+      border-radius: 3px;
+  }
+
+  #battery {
+      background-color: @background;
+      border: 2px solid @primary;
+      border-radius: 3px;
+      color: #ffffff;
+  }
+
+  #battery.charging, #battery.plugged {
+      color: #ffffff;
+      background-color: @background;
+      border:2px solid #26A65B;
+      border-radius: 3px;
+  }
+
+  @keyframes blink {
+      0% { opacity:1;}
+      50% {opacity:0.3;}
+      100% {opacity:1;}
+  }
+
+  /* Using steps() instead of linear as a timing function to limit cpu usage */
+  #battery.critical:not(.charging) {
+      background-color: @background;
+      border: 2px solid #f53c3c;
+      border-radius: 3px;
+      color: #ffffff;
+      animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    background-color: @background;
+    border: 2px solid @primary;
+    border-radius: 3px;
+}
+
+#custom-gpu-usage{
+    background-color: @background;
+    border: 2px solid @primary;
+    border-radius: 3px;
+}
+#memory {
+    background-color: @background;
+    border: 2px solid @primary;
+    border-radius: 3px;
+}
+
+#backlight {
+    background-color: @background;
+    border: 2px solid @primary;
+    border-radius: 3px;
+}
+
+#pulseaudio {
+    background-color: @background;
+    border: 2px solid @primary;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+#pulseaudio.muted {
+    background-color: @background;
+    border-radius: 3px;
+    border-color: #90b1b1;
+    color: #ffffff;
+}
+
+#temperature {
+
+    background-color: @background;
+    border: 2px solid @primary;
+    border-radius: 3px;
+}
+
+#temperature.critical {
+    background-color: @background;
+    border: 2px solid #eb4d4b;
+    border-radius: 3px;
+}
+
+#tray {
+    background-color: @background;
+    border: 2px solid @primary;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @background;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #eb4d4b;
+}
+
+#language {
+    border: 2px solid @primary;
+    border-radius: 3px;
+    background: @background;
+    color: #ffffff;
+}
+
+#keyboard-state {
+    border: 2px solid @primary;
+    border-radius: 3px;
+    background: @background;
+    color: #ffffff;
+}
+
+#keyboard-state > label {
+    padding: 0px;
+}
+
+#keyboard-state > label.locked {
+    background: @background;
+}
+#custom-power {
+    border: 2px solid @primary;
+    border-radius: 3px;
+    background: @background;
+    color: #ffffff;
+}

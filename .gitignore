@@ -1,0 +1,29 @@
+# Ignore everything by default
+*
+!*/
+
+# Whitelist specific root files
+!.gitignore
+!README.md
+!xremap.yml
+!gpu_usage_waybar.toml
+
+# Whitelist entire directories and their contents recursively
+!blocklist/**
+!btop/**
+!fastfetch/**
+!fish/**
+!gtk-3.0/**
+!gtk-4.0/**
+!hypr/**
+!kitty/**
+!matugen/**
+!nwg-look/**
+!qt6ct/**
+!quickshell/**
+!rofi/**
+!wal/**
+!waybar/**
+!xdg-desktop-portal/**
+google-chrome/
+nvim/

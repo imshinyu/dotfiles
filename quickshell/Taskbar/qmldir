@@ -1,0 +1,3 @@
+singleton Time 1.0 "time/Time.qml"
+Clock 1.0 "time/Clock.qml"
+Bar 1.0 "Bar.qml"
