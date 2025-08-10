@@ -24,6 +24,7 @@
 !rofi/**
 !wal/**
 !waybar/**
+!waypaper/**
 !xdg-desktop-portal/**
 google-chrome/
 nvim/

@@ -1,23 +1,23 @@
-set fish_color_autosuggestion 8c9198
+set fish_color_autosuggestion 8f9288
 set fish_color_cancel -r
-set fish_color_command 9bcbfb
-set fish_color_comment 8c9198
+set fish_color_command becbab
+set fish_color_comment 8f9288
 set fish_color_cwd green
 set fish_color_cwd_root red
-set fish_color_end d3bfe6
+set fish_color_end debdd0
 set fish_color_error ffb4ab
-set fish_color_escape 8c9198
+set fish_color_escape 8f9288
 set fish_color_history_current --bold
 set fish_color_host normal
 set fish_color_host_remote yellow
-set fish_color_keyword 9bcbfb
-set fish_color_match d3bfe6
+set fish_color_keyword becbab
+set fish_color_match debdd0
 set fish_color_normal normal
-set fish_color_operator d3bfe6
-set fish_color_option 748fab
-set fish_color_param 748fab
-set fish_color_quote b9c8da
-set fish_color_redirection 748fab
+set fish_color_operator debdd0
+set fish_color_option 29341d
+set fish_color_param 29341d
+set fish_color_quote c4c8b9
+set fish_color_redirection 29341d
 
 
 set fish_color_search_match 'bryellow'  '--background=brblack'

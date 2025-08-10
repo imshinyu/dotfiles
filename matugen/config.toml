@@ -13,7 +13,7 @@ output_path = '~/.config/kitty/kitty-colors.conf'
 [templates.waybar]
 input_path = '~/.config/matugen/templates/colors.css'
 output_path = '~/.config/waybar/colors-waybar.css'
-post_hook = 'pkill -SIGUSR2 waybar'
+#post_hook = 'pkill -SIGUSR2 waybar'
 
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk-colors.css'
@@ -47,3 +47,7 @@ output_path = '~/.config/btop/themes/matugen.theme'
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'
 post_hook = 'pywalfox update'
+[templates.quickshell]
+input_path = '~/.config/matugen/templates/quickshell.json'
+output_path = '~/.config/quickshell/Taskbar/colors/colors.json'
+
