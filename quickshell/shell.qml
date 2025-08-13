@@ -1,5 +1,8 @@
+//@ pragma UseQApplication
+
 import Quickshell
-import "Taskbar"
+import qs.Taskbar as Taskbar
 Scope {
-  Bar{}
+  Taskbar.Bar{}
+  Taskbar.Osd{}
 }
