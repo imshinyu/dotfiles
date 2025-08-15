@@ -3,3 +3,4 @@ modmap:
     remap: # Required
       # Replace a key with another
       KEY_CAPSLOCK: KEY_BACKSPACE # Required  
+      KEY_RIGHTSHIFT: KEY_ENTER
