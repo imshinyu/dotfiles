@@ -35,7 +35,7 @@ Scope {
 
     Process {
         id: logoutProcess
-        command: ["hyprctl", "dispatch", "exit"]
+        command: ["niri", "msg", "action", "quit"]
     }
     Process {
         id: rebootProcess
