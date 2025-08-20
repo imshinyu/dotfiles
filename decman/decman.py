@@ -24,12 +24,160 @@ from decman import UserPackage, File, Directory, UserRaisedError
 # Ignored packages can be normal packages or aur packages.
 decman.packages += [
     "python",
-    "python",
-    "devtools",
     "git",
-    "networkmanager"
+    "networkmanager",
+    "polkit",
+    "pwvucontrol",
+    "zed",
+    "youtube-music-bin",
+    "xremap-hypr-bin",
+    "xiccd",
+    "wlsunset",
+    "win11-icon-theme-git",
+    "wget",
+    "waypaper",
+    "vim",
+    "vi",
+    "vesktop-bin",
+    "upscayl-bin",
+    "steam-rom-manager-bin",
+    "ttf-material-icons-git",
+    "sgdboop-bin",
+    "ryujinx",
+    "rare",
+    "quickshell-git",
+    "qt6ct-kde",
+    "qt5ct-kde",
+    "qbittorrent",
+    "pywal-git",
+    "power-profiles-daemon",
+    "polkit-kde-agent",
+    "python-pywalfox",
+    "python-rapidfuzz",
+    "papirus-icon-theme",
+    "otf-font-awesome",
+    "nwg-menu",
+    "nwg-look",
+    "nvtop",
+    "noto-fonts-ar",
+    "neovim",
+    "ly",
+    "loupe",
+    "nano",
+    "ncdu",
+    "matugen-bin",
+    "millennium",
+    "linux-wallpaperengine-git",
+    "lact",
+    "kitty",
+    "jetbrains-toolbox",
+    "gnome-tweaks",
+    "gamemode",
+    "floorp-bin",
+    "flatpak",
+    "filelight",
+    "fastfetch",
+    "fd",
+    "elyprismlauncher-bin",
+    "edk2-shell",
+    "dunst",
+    "dolphin",
+    "cursor-bin",
+    "cups",
+    "canon-pixma-mg2500-complete",
+    "clipse-gui",
+    "clipse-bin",
+    "cleanarch",
+    "btop",
+    "brightnessctl",
+    "ark",
+    "archlinux-xdg-menu",
+    "adw-gtk-theme",
+    "7zip",
+    "breeze",
+    "breeze-gtk",
+    "breeze-icons",
+    "breeze5",
+    "dnsmasq",
+    "efibootmgr",
+    "evince",
+    "fish",
+    "fuzzel",
+    "gnome-keyring",
+    "gst-plugin-pipewire",
+    "gst-plugins-good",
+    "gvfs-mtp",
+    "gvfs-smb",
+    "hyprpicker",
+    "hyprland",
+    "ibus",
+    "ibus-mozc",
+    "iwd",
+    "jdk21-openjdk",
+    "man-db",
+    "mpvpaper",
+    "neovim-lspconfig",
+    "network-manager-applet",
+    "nftables",
+    "niri",
+    "noto-fonts-cjk",
+    "ntfs-3g",
+    "nvim-lazy",
+    "nvim-treesitter-parsers-git",
+    "openssh",
+    "pipewire",
+    "pipewire-alsa",
+    "pipewire-jack",
+    "pipewire-pulse",
+    "proton-vpn-gtk-app",
+    "protonup-qt-bin",
+    "python-ifcfg",
+    "python-pip",
+    "python-pynvim",
+    "python-websockets",
+    "qt5-gamepad",
+    "qt5-wayland",
+    "qt6-wayland",
+    "qt6-webengine",
+    "rar",
+    "ripgrep",
+    "seahorse",
+    "slurp",
+    "steam",
+    "swww",
+    "wf-recorder",
+    "wireless-tools",
+    "wireplumber",
+    "wlroots-asan-git",
+    "xdg-desktop-portal-gtk",
+    "xdg-desktop-portal-hyprland",
+    "xdg-desktop-portal-kde",
+    "xdg-desktop-portal-wlr",
+    "xdg-utils",
+    "xwayland-satellite",
+    "zip"
 ]
 decman.ignored_packages += [
+    "wpa_supplicant",
+    "xorg-server",
+    "xorg-xinit",
+    "vulkan-intel",
+    "vulkan-nouveau",
+    "vulkan-radeon",
+    "xf86-video-amdgpu",
+    "xf86-video-ati",
+    "xf86-video-nouveau",
+    "paru-debug",
+    "linux-firmware",
+    "linux-zen-headers",
+    "intel-media-driver",
+    "intel-ucode",
+    "libpulse",
+    "libva-intel-driver"
+    "decman",
+    "base",
+    "base-devel",
+    "linux-zen",
     "rustup",
     "paru"
 ]
@@ -84,57 +232,61 @@ decman.files["/etc/vconsole.conf"] = File(content="KEYMAP=us", encoding="utf-8")
 # Include file content from another file, set the file owner and permissions.
 # The source_file is relative to the directory where the main decman source.py is located.
 # By default, the file group is set to the group of the owner, but it can be overridden with the group argument.
-decman.files["/home/kk/.bin/user-script.sh"] = File(
-    source_file="files/user-script.sh", owner="kk", permissions=0o744
-)
+#decman.files["/home/shinyu/.bin/user-script.sh"] = File(
+#    source_file="files/user-script.sh", owner="shinyu", permissions=0o744
+#)
 
 # Non-text files such as images can also be managed.
-decman.files["/home/kk/.background.png"] = File(
-    source_file="files/i-dont-actually-exist.png", bin_file=True, owner="kk"
-)
+#decman.files["/home/shinyu/.background.png"] = File(
+#    source_file="files/i-dont-actually-exist.png", bin_file=True, owner="shinyu"
+#)
 
 # If you need to install multiple files at once, use directories.
 # All files from the source directory will be copied recursively to the target.
-decman.directories["/home/kk/.config/app/"] = Directory(
-    source_directory="files/app-config", owner="kk"
-)
+#decman.directories["/home/shinyu/.config/app/"] = Directory(
+#    source_directory="files/app-config", owner="shinyu"
+#)
 
 # Decman has built in support for managing systemd units as well.
 # Decman will enable services declared here, and disable services removed from here.
 # If you don't want decman to manage a service, don't add it here. It will ignore all units that
 # weren't enabled here.
 decman.enabled_systemd_units += [
-    "NetworkManager.service"
+    "NetworkManager.service",
+    "getty.service",
+    "cups.service",
+    "lactd.service",
+    "ly.services"
 ]
 
 # You can manage units for users as well.
 
 # Ensure that previous user unit declarations aren't overwritten and they are initialized.
-decman.enabled_systemd_user_units["kk"] = decman.enabled_systemd_user_units.get(
-    "kk", []
+decman.enabled_systemd_user_units["shinyu"] = decman.enabled_systemd_user_units.get(
+    "shinyu", []
 )
 # Add user unit.
-decman.enabled_systemd_user_units["kk"].append("syncthing.service")
+#decman.enabled_systemd_user_units["shinyu"].append("syncthing.service")
 
 # Most powerful feature of decman are modules.
 # In this file you see how to include your module, but to really see what modules are capable of
 # look at the MyModule class.
-from my_module import MyModule
+#from my_module import MyModule
 
-my_own_mod = MyModule()
+#my_own_mod = MyModule()
 
 # You have full access to python, which makes your configuration very dynamic.
 # For example: do something if the computers hostname is arch-1
-if socket.gethostname() == "arch-1":
+#if socket.gethostname() == "arch-1":
     # Modules make dynamic configuration easy.
     # This executes code defined in MyModule which can affect for example what packages are
     # installed as a part of this module.
-    my_own_mod.enable_my_custom_feature(True)
-else:
+#    my_own_mod.enable_my_custom_feature(True)
+#else:
     # If you want to abort running decman from your config because something is wrong, raise a UserRaisedError
-    raise UserRaisedError("Unknown hostname!")
+#    raise UserRaisedError("Unknown hostname!")
 
-decman.modules += [my_own_mod]
+#decman.modules += [my_own_mod]
 
 # Configuring the behavior of decman is also done here.
 # These are the default values.
