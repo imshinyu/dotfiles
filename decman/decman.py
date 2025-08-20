@@ -155,7 +155,8 @@ decman.packages += [
     "xdg-desktop-portal-wlr",
     "xdg-utils",
     "xwayland-satellite",
-    "zip"
+    "zip",
+    "cantarell-fonts"
 ]
 decman.ignored_packages += [
     "wpa_supplicant",
