@@ -35,7 +35,7 @@ Scope {
 
     Process {
         id: logoutProcess
-        command: ["niri", "msg", "action", "quit"]
+        command: ["niri", "msg", "action", "quit", "-s"]
     }
     Process {
         id: rebootProcess
