@@ -1,20 +1,120 @@
-# This example covers all decman features and many useful ways of configuring a system.
-# Configuration can be as simple or as complex as is needed.
-
 import socket
 import os
-
 # Note: Do NOT use from imports for global variables
 # BAD: from decman import packages/modules/etc
 import decman
 import decman.config
 
 # This is fine since the thing being imported is a class and not a global variable.
-from decman import UserPackage, File, Directory, UserRaisedError
+# from decman import UserPackage, File, Directory, UserRaisedError
+if socket.gethostname() == "ruby":
+    # add brightness controls to your laptop
+    decman.packages += [
+            "brightnessctl",
+            "plasma-meta",
+            "google-chrome"
+    ]
 
 # Configuring what packages are installed is easy.
 # Duplicates are OK, so if you have multiple modules that want to ensure a package is installed,
 # you can add the same package multiple times.
+decman.packages += [
+    "decman",
+    "paru",
+    "paru-debug",
+    "adw-gtk-theme",
+    "alacritty",
+    "archlinux-xdg-menu",
+    "ark",
+    "base",
+    "base-devel",
+    "bluez",
+    "bluez-utils",
+    "breeze",
+    "breeze-gtk",
+    "breeze-icons",
+    "breeze5",
+    "brightnessctl",
+    "btop",
+    "btrfs-progs",
+    "cantarell-fonts",
+    "chromium",
+    "cups",
+    "decman",
+    "dolphin",
+    "dunst",
+    "edk2-shell",
+    "efibootmgr",
+    "evince",
+    "fastfetch",
+    "fd",
+    "firefox",
+    "fish",
+    "flatpak",
+    "fuzzel",
+    "git",
+    "gnome-keyring",
+    "gst-plugin-pipewire",
+    "gst-plugins-good",
+    "gvfs",
+    "gvfs-mtp",
+    "gvfs-smb",
+    "hyprpicker",
+    "intel-media-driver",
+    "intel-ucode",
+    "jre21-openjdk",
+    "kitty",
+    "lact",
+    "libva-intel-driver",
+    "linux-firmware",
+    "linux-zen",
+    "loupe",
+    "man-db",
+    "mesa",
+    "ncdu",
+    "neovim",
+    "network-manager-applet",
+    "networkmanager",
+    "niri",
+    "noto-fonts",
+    "noto-fonts-cjk",
+    "ntfs-3g",
+    "nwg-look",
+    "openssh",
+    "pipewire-alsa",
+    "pipewire-audio",
+    "pipewire-jack",
+    "pipewire-pulse",
+    "plymouth",
+    "polkit-kde-agent",
+    "power-profiles-daemon",
+    "proton-vpn-gtk-app",
+    "python",
+    "qbittorrent",
+    "qt5-wayland",
+    "qt6-wayland",
+    "sddm",
+    "seahorse",
+    "slurp",
+    "swww",
+    "ttf-jetbrains-mono",
+    "unrar",
+    "vim",
+    "vulkan-intel",
+    "wf-recorder",
+    "wget",
+    "wlsunset",
+    "xdg-desktop-portal-gtk",
+    "xdg-desktop-portal-wlr",
+    "xdg-utils",
+    "xorg-server",
+    "xorg-xinit",
+    "xwayland-satellite",
+    "zed",
+    "zip",
+    "zram-generator",
+    "bat"
+]
 
 # Decman matches installed packages to those defined in the configuration.
 # This means that:
@@ -22,203 +122,19 @@ from decman import UserPackage, File, Directory, UserRaisedError
 # - all packages installed on the system but not defined in the source are removed
 # To make decman not care if a package is installed or not, add it to ignored_packages.
 # Ignored packages can be normal packages or aur packages.
-decman.packages += [
-    "python",
-    "git",
-    "networkmanager",
-    "polkit",
-    "pwvucontrol",
-    "zed",
-    "youtube-music-bin",
-    "xremap-hypr-bin",
-    "xiccd",
-    "wlsunset",
-    "win11-icon-theme-git",
-    "wget",
-    "waypaper",
-    "vim",
-    "vi",
-    "vesktop-bin",
-    "upscayl-bin",
-    "steam-rom-manager-bin",
-    "ttf-material-icons-git",
-    "sgdboop-bin",
-    "ryujinx",
-    "rare",
-    "quickshell-git",
-    "qt6ct-kde",
-    "qt5ct-kde",
-    "qbittorrent",
-    "pywal-git",
-    "power-profiles-daemon",
-    "polkit-kde-agent",
-    "python-pywalfox",
-    "python-rapidfuzz",
-    "papirus-icon-theme",
-    "otf-font-awesome",
-    "nwg-menu",
-    "nwg-look",
-    "nvtop",
-    "noto-fonts-ar",
-    "neovim",
-    "ly",
-    "loupe",
-    "nano",
-    "ncdu",
-    "matugen-bin",
-    "millennium",
-    "linux-wallpaperengine-git",
-    "lact",
-    "kitty",
-    "jetbrains-toolbox",
-    "gnome-tweaks",
-    "gamemode",
-    "floorp-bin",
-    "flatpak",
-    "filelight",
-    "fastfetch",
-    "fd",
-    "elyprismlauncher-bin",
-    "edk2-shell",
-    "dunst",
-    "dolphin",
-    "cursor-bin",
-    "cups",
-    "canon-pixma-mg2500-complete",
-    "clipse-gui",
-    "clipse-bin",
-    "cleanarch",
-    "btop",
-    "brightnessctl",
-    "ark",
-    "archlinux-xdg-menu",
-    "adw-gtk-theme",
-    "7zip",
-    "breeze",
-    "breeze-gtk",
-    "breeze-icons",
-    "breeze5",
-    "dnsmasq",
-    "efibootmgr",
-    "evince",
-    "fish",
-    "fuzzel",
-    "gnome-keyring",
-    "gst-plugin-pipewire",
-    "gst-plugins-good",
-    "gvfs-mtp",
-    "gvfs-smb",
-    "hyprpicker",
-    "hyprland",
-    "ibus",
-    "ibus-mozc",
-    "iwd",
-    "jdk21-openjdk",
-    "man-db",
-    "mpvpaper",
-    "neovim-lspconfig",
-    "network-manager-applet",
-    "nftables",
-    "niri",
-    "noto-fonts-cjk",
-    "ntfs-3g",
-    "nvim-lazy",
-    "nvim-treesitter-parsers-git",
-    "openssh",
-    "pipewire",
-    "pipewire-alsa",
-    "pipewire-jack",
-    "pipewire-pulse",
-    "proton-vpn-gtk-app",
-    "protonup-qt-bin",
-    "python-ifcfg",
-    "python-pip",
-    "python-pynvim",
-    "python-websockets",
-    "qt5-gamepad",
-    "qt5-wayland",
-    "qt6-wayland",
-    "qt6-webengine",
-    "rar",
-    "ripgrep",
-    "seahorse",
-    "slurp",
-    "steam",
-    "swww",
-    "wf-recorder",
-    "wireless-tools",
-    "wireplumber",
-    "wlroots-asan-git",
-    "xdg-desktop-portal-gtk",
-    "xdg-desktop-portal-hyprland",
-    "xdg-desktop-portal-kde",
-    "xdg-desktop-portal-wlr",
-    "xdg-utils",
-    "xwayland-satellite",
-    "zip",
-    "cantarell-fonts"
-]
-decman.ignored_packages += [
-    "wpa_supplicant",
-    "xorg-server",
-    "xorg-xinit",
-    "vulkan-intel",
-    "vulkan-nouveau",
-    "vulkan-radeon",
-    "xf86-video-amdgpu",
-    "xf86-video-ati",
-    "xf86-video-nouveau",
-    "paru-debug",
-    "linux-firmware",
-    "linux-zen-headers",
-    "intel-media-driver",
-    "intel-ucode",
-    "libpulse",
-    "libva-intel-driver"
-    "decman",
-    "base",
-    "base-devel",
-    "linux-zen",
-    "rustup",
-    "paru"
-]
+decman.ignored_packages += ["rustup"]
 
-
+# Installing AUR packages is easy.
+# decman.aur_packages += [
+#         "decman",
+# ]
 
 # To import GPG keys, set the GNUPGHOME environment variable.
 # It can easily be done with python as well.
-os.environ["GNUPGHOME"] = "/home/khalyl/.gnupg/"
+#os.environ["GNUPGHOME"] = "/home/shinyu/.gnupg/"
 # You then must set the user that builds the packages to the owner of the GPG home.
-decman.config.makepkg_user = "khalyl"
+decman.config.makepkg_user = "shinyu"
 
-# You can also install packages from anywhere, but then you must include some
-# information about the package. The git_url is the url to the PKGBUILD,
-#
-# Note, decman now has a aur package, I recommend using that instead.
-# Also, this example may be out of date
-decman.user_packages.append(
-    UserPackage(
-        pkgname="decman-git",
-        version="0.3.4",
-        provides=["decman"],
-        dependencies=[
-            "python",
-            "python-requests",
-            "devtools",
-            "pacman",
-            "systemd",
-            "git",
-            "less",
-        ],
-        make_dependencies=[
-            "python-setuptools",
-            "python-build",
-            "python-installer",
-            "python-wheel",
-        ],
-        git_url="https://github.com/kiviktnm/decman-pkgbuild.git",
-    )
-)
 
 # Managing only packages with decman is not that interesting.
 # Decman also has really powerful ways of managing config files, scripts etc.
@@ -228,37 +144,33 @@ decman.user_packages.append(
 
 # Define file content inline.
 # Default text file encoding is utf-8 but it can be changed.
-decman.files["/etc/vconsole.conf"] = File(content="KEYMAP=us", encoding="utf-8")
+# decman.files["/etc/vconsole.conf"] = File(content="KEYMAP=us", encoding="utf-8")
 
 # Include file content from another file, set the file owner and permissions.
 # The source_file is relative to the directory where the main decman source.py is located.
 # By default, the file group is set to the group of the owner, but it can be overridden with the group argument.
-#decman.files["/home/shinyu/.bin/user-script.sh"] = File(
+# decman.files["/home/shinyu/.bin/user-script.sh"] = File(
 #    source_file="files/user-script.sh", owner="shinyu", permissions=0o744
-#)
+# )
 
 # Non-text files such as images can also be managed.
-#decman.files["/home/shinyu/.background.png"] = File(
-#    source_file="files/i-dont-actually-exist.png", bin_file=True, owner="shinyu"
-#)
+# decman.files["/home/shinyu/.background.png"] = File(
+#     source_file="files/i-dont-actually-exist.png", bin_file=True, owner="shinyu"
+# )
 
 # If you need to install multiple files at once, use directories.
 # All files from the source directory will be copied recursively to the target.
-#decman.directories["/home/shinyu/.config/app/"] = Directory(
-#    source_directory="files/app-config", owner="shinyu"
-#)
+# decman.directories["/home/shinyu/.config/app/"] = Directory(
+#     source_directory="files/app-config", owner="shinyu"
+# )
 
 # Decman has built in support for managing systemd units as well.
 # Decman will enable services declared here, and disable services removed from here.
 # If you don't want decman to manage a service, don't add it here. It will ignore all units that
 # weren't enabled here.
-decman.enabled_systemd_units += [
-    "NetworkManager.service",
-    "getty.service",
-    "cups.service",
-    "lactd.service",
-    "ly.services"
-]
+# decman.enabled_systemd_units += [
+#         "NetworkManager.service"
+# ]
 
 # You can manage units for users as well.
 
@@ -267,27 +179,19 @@ decman.enabled_systemd_user_units["shinyu"] = decman.enabled_systemd_user_units.
     "shinyu", []
 )
 # Add user unit.
-#decman.enabled_systemd_user_units["shinyu"].append("syncthing.service")
+# decman.enabled_systemd_user_units["shinyu"].append("syncthing.service")
 
 # Most powerful feature of decman are modules.
 # In this file you see how to include your module, but to really see what modules are capable of
 # look at the MyModule class.
-#from my_module import MyModule
+# from my_module import MyModule
 
-#my_own_mod = MyModule()
+# my_own_mod = MyModule()
 
 # You have full access to python, which makes your configuration very dynamic.
 # For example: do something if the computers hostname is arch-1
-#if socket.gethostname() == "arch-1":
-    # Modules make dynamic configuration easy.
-    # This executes code defined in MyModule which can affect for example what packages are
-    # installed as a part of this module.
-#    my_own_mod.enable_my_custom_feature(True)
-#else:
-    # If you want to abort running decman from your config because something is wrong, raise a UserRaisedError
-#    raise UserRaisedError("Unknown hostname!")
 
-#decman.modules += [my_own_mod]
+# decman.modules += [my_own_mod]
 
 # Configuring the behavior of decman is also done here.
 # These are the default values.
@@ -327,17 +231,6 @@ decman.config.build_dir = "/tmp/decman/build"
 # Built packages are stored here.
 decman.config.pkg_cache_dir = "/var/cache/decman"
 
-# Timeout in seconds for fetching aur package details.
-decman.config.aur_rpc_timeout = 30
-
-# Enable installing and upgrading foreign packages.
-decman.config.enable_fpm = True
-
-# Number of package files per package kept in the cache
-# All built AUR packages and user packages are stored in cache.
-decman.config.number_of_packages_stored_in_cache = 3
-
-
 # Changing the default commands decman uses for things is a bit more complex.
 # Create a child class of the decman.config.Commands class and override methods.
 # These are the defaults.
@@ -370,7 +263,7 @@ class MyCommands(decman.config.Commands):
         return ["pacman", "-Syu", "--color=always"]
 
     def remove(self, pkgs: list[str]) -> list[str]:
-        return ["pacman", "-Rs", "--color=always"] + pkgs
+        return ["sh", "-c", "pacman -D --asdeps %s && pacman -Qdtq | sudo pacman -Rns -" % " ".join(pkgs)]
 
     def enable_units(self, units: list[str]) -> list[str]:
         return ["systemctl", "enable"] + units
@@ -440,33 +333,31 @@ class MyCommands(decman.config.Commands):
 
 
 # To apply your overrides, set the commands variable.
-decman.config.commands = MyCommands()
+# decman.config.commands = MyCommands()
 
 # Alternative to the built in AUR support:
-# If you don't want to use the built in AUR helper, you can use some pacman wrapper that can run as root, such as pikaur.
+# If you don't want to use the built in AUR helper, you can use some pacman wrapper that can run as root, such as paru.
 # To do this, override commands and disable fpm.
 
-# IF U WANT TO USE IT uncomment this
-#decman.aur_packages += ["decman","protonvpn"]
 
 class ParuWrapperCommands(decman.config.Commands):
-    def list_pkgs(self) -> list[str]:
+   def list_pkgs(self) -> list[str]:
         return ["paru", "-Qeq"]
 
-    def install_pkgs(self, pkgs: list[str]) -> list[str]:
+   def install_pkgs(self, pkgs: list[str]) -> list[str]:
         return ["paru", "-S"] + pkgs
 
-    def upgrade(self) -> list[str]:
+   def upgrade(self) -> list[str]:
         return ["paru", "-Syu"]
 
-    def remove(self, pkgs: list[str]) -> list[str]:
+   def remove(self, pkgs: list[str]) -> list[str]:
         return ["paru", "-Rs"] + pkgs
 
     # it doesn't matter if all pacman commands aren't overridden since they wont be used when fpm is disabled.
 
+
 decman.config.enable_fpm = False
 decman.config.commands = ParuWrapperCommands()
 
-
 # Then simply add all AUR packages to decman.packages
-# decman.packages += ["pikaur"]
+# decman.packages += ["paru"]
