@@ -9,7 +9,8 @@ hotkey-overlay {
 // Note that running niri as a session supports xdg-desktop-autostart,
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
-spawn-at-startup "floorp"
+spawn-at-startup "gamepad.sh"
+// spawn-at-startup "firefox"
 spawn-at-startup "steam"
 spawn-at-startup "vesktop"
 spawn-at-startup "quickshell"
@@ -22,19 +23,18 @@ spawn-at-startup "archlinux-xdg-menu"
 spawn-at-startup "xremap" ".config/xremap.yml"
 spawn-at-startup "xiccd"
 spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP"
+spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
 spawn-at-startup "xwayland-satellite"
 //spawn-at-startup "wallpaperengine-gui -m"
 //spawn-at-startup "ibus start"
 environment {
   ELECTRON_OZONE_PLATFORM_HINT "auto"
-  XCURSOR_SIZE "24"
-  HYPRCURSOR_SIZE "24"
-  GDK_BACKEND "*"
+  GDK_BACKEND "wayland"
   SDL_VIDEODRIVER "wayland"
   CLUTTER_BACKEND "wayland"
-  XDG_CURRENT_DESKTOP "Hyprland"
+  XDG_CURRENT_DESKTOP "Niri"
   XDG_SESSION_TYPE "wayland"
-  XDG_SESSION_DESKTOP "Hyprland"
+  XDG_SESSION_DESKTOP "Niri"
   XDG_MENU_PREFIX "arch-"
   QT_QPA_PLATFORM "wayland;xcb"
   QT_QPA_PLATFORMTHEME "qt6ct"
@@ -206,7 +206,7 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#b4cbce"
+        active-color "#ffffff50"
 
         // Color of the ring on inactive monitors.
         inactive-color "#595959"
@@ -234,8 +234,8 @@ layout {
         off
 
         width 3
-        active-color "#b4cbce"
-        inactive-color "#595959"
+        active-color "#000000"
+        inactive-color "#000000"
 
         // Color of the border around windows that request your attention.
         urgent-color "#9b0000"
@@ -326,7 +326,7 @@ animations {
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
 
 // Open the Firefox picture-in-picture player as floating by default.
-workspace "floorp" {
+workspace "firefox" {
     open-on-output "HDMI-A-1"
 }
 workspace "steam" {
@@ -339,19 +339,52 @@ workspace "terminal" {
     open-on-output "HDMI-A-1"
 }
 window-rule {
-    match app-id=r#"floorp$"#
-    open-on-workspace "floorp"
+    match app-id=r#"firefox$"#
+    open-on-workspace "firefox"
 }
 window-rule {
     match app-id=r#"steam$"#
     open-on-workspace "steam"
 }
 window-rule {
+    match title=r#"Friends List$"#
+    open-floating true
+    min-width 300
+    max-width 300
+    min-height 700
+    max-height 700
+}
+window-rule {
+    match title=r#"Steam Settings$"#
+    open-floating true
+    min-width 700
+    max-width 700
+    min-height 700
+    max-height 700
+}
+window-rule {
+    match title=r#"Add Non-Steam Game$"#
+    open-floating true
+    min-width 700
+    max-width 700
+    min-height 500
+    max-height 500
+}
+window-rule {
+    match app-id=r#"org.freedesktop.impl.portal.desktop.kde$"#
+    open-floating true
+    min-width 750
+    max-width 750
+    min-height 600
+    max-height 600
+}
+
+window-rule {
     match app-id=r#"vesktop$"#
     open-on-workspace "discord"
 }
 window-rule {
-    match app-id=r#"kitty$"#
+    match app-id=r#"ghostty$"#
     open-on-workspace "terminal"
 }
 
@@ -360,7 +393,11 @@ window-rule {
   open-floating true
 }
 window-rule {
-  match app-id=r#"pwvucontrol$"#
+  match app-id=r#"pavucontrol-qt$"#
+  min-width 650
+  max-width 650
+  min-height 450
+  max-height 450
   open-floating true
 }
 window-rule {
@@ -395,7 +432,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+Q hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Mod+Q hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
     Mod+R { spawn "fuzzel"; }
     Mod+E { spawn "dolphin"; }
     Alt+V { spawn "clipse-gui";}

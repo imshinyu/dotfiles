@@ -1,42 +1,35 @@
-set fish_color_autosuggestion 8c9293
-set fish_color_cancel -r
-set fish_color_command b4cbce
-set fish_color_comment 8c9293
-set fish_color_cwd green
-set fish_color_cwd_root red
-set fish_color_end e2c0ac
-set fish_color_error ffb4ab
-set fish_color_escape 8c9293
-set fish_color_history_current --bold
-set fish_color_host normal
-set fish_color_host_remote yellow
-set fish_color_keyword b4cbce
-set fish_color_match e2c0ac
-set fish_color_normal normal
-set fish_color_operator e2c0ac
-set fish_color_option 4e6366
-set fish_color_param 4e6366
-set fish_color_quote c0c8c9
-set fish_color_redirection 4e6366
 
+# Syntax highlighting colors
+set -g fish_color_normal #12131a
+set -g fish_color_command #bcc2ff
+set -g fish_color_quote #ffb4a7
+set -g fish_color_redirection #3d4373
+set -g fish_color_end #bdc3fb
+set -g fish_color_error #ffb4ab
+set -g fish_color_param #c5c5d6
+set -g fish_color_comment #8f8fa0
+set -g fish_color_match #ffb4a7
+set -g fish_color_selection--background=#3d4373
+set -g fish_color_search_match --background=#3d4373
+set -g fish_color_history_current --bold
+set -g fish_color_operator #3d4373
+set -g fish_color_escape #34343c
+set -g fish_color_cwd #bcc2ff
+set -g fish_color_cwd_root #ffb4ab
+set -g fish_color_valid_path --underline
+set -g fish_color_autosuggestion #454654
+set -g fish_color_user #ffb4a7
+set -g fish_color_host #12131a
+set -g fish_color_cancel -r
 
-set fish_color_search_match 'bryellow'  '--background=brblack'
-set fish_color_selection 'white'  '--bold'  '--background=brblack'
-set fish_color_status red
-set fish_color_user brgreen
-set fish_color_valid_path --underline
+# Pager colors
+set -g fish_pager_color_completion #12131a
+set -g fish_pager_color_description #c5c5d6 #ffb4a7
+set -g fish_pager_color_prefix #12131a --bold --underline
+set -g fish_pager_color_progress #34343c --background= #011aa6
+set -g fish_pager_color_selected_background --background= #3d4373
 
-
-set fish_pager_color_background
-set fish_pager_color_completion normal
-set fish_pager_color_description 'B3A06D'  'yellow'
-set fish_pager_color_prefix 'normal'  '--bold'  '--underline'
-set fish_pager_color_progress 'brwhite'  '--background=cyan'
-set fish_pager_color_secondary_background
-set fish_pager_color_secondary_completion
-set fish_pager_color_secondary_description
-set fish_pager_color_secondary_prefix
-set fish_pager_color_selected_background --background=brblack
-set fish_pager_color_selected_completion
-set fish_pager_color_selected_description
-set fish_pager_color_selected_prefix
+set -g fish_color_option #c5c5d6
+set -g fish_color_keyword #bcc2ff
+set -g fish_color_host_remote #ffb4a7
+set -g fish_color_status #ffb4ab

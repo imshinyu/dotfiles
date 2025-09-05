@@ -40,8 +40,8 @@ input_path = '~/.config/matugen/templates/midnight-discord.css'
 output_path = '~/.config/vesktop/themes/midnight.css'
 
 [templates.fish]
-input_path = '/home/khalyl/.config/matugen/templates/fish-colors.theme'
-output_path = '/home/khalyl/.config/fish/themes/Matugen.theme'
+input_path = '~/.config/matugen/templates/fish-colors.theme'
+output_path = '~/.config/fish/themes/Matugen.theme'
 
 [templates.btop]
 input_path = '~/.config/matugen/templates/btop.theme'
@@ -67,3 +67,7 @@ post_hook = 'pkill -SIGUSR2 dunst'
 [templates.fuzzel]
 input_path = '~/.config/matugen/templates/fuzzel.ini'
 output_path = '~/.config/fuzzel/colors.ini'
+
+[templates.ghostty]
+input_path = '~/.config/matugen/templates/ghostty'
+output_path = '~/.config/ghostty/config'
