@@ -17,6 +17,13 @@ if socket.gethostname() == "ruby":
     ]
 if socket.gethostname() == "sapphire":
     decman.packages += [
+            "bakkesmod-legendary",
+            "docker",
+            "docker-compose",
+            "elyprismlauncher-bin",
+            "jetbrains-toolbox",
+            "starship",
+            "tailscale",
             "cfitsio",
             "electron36",
             "gamescope",
@@ -58,9 +65,12 @@ decman.packages += [
     "decman",
     "mpv",
     "unzip",
+    "python-pywalfox",
     "paru",
     "paru-debug",
     "win11-icon-theme-git",
+    "ttf-dejavu",
+    "ttf-jetbrains-mono-nerd",
     "windows8-cursor",
     "google-breakpad",
     "jemalloc",
