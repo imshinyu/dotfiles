@@ -11,6 +11,7 @@ hotkey-overlay {
 // See the binds section below for more spawn examples.
 spawn-at-startup "gamepad.sh"
 // spawn-at-startup "firefox"
+spawn-at-startup "qbittorrent"
 spawn-at-startup "steam"
 spawn-at-startup "vesktop"
 spawn-at-startup "quickshell"
