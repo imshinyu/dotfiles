@@ -6,9 +6,9 @@
 */
 
 @define-color accent_color @accent_bg_color;
-@define-color accent_bg_color #ffb690;
-@define-color accent_fg_color #331100;
-@define-color card_bg_color #19120e;
+@define-color accent_bg_color #61d4ff;
+@define-color accent_fg_color #001f29;
+@define-color card_bg_color #0f1417;
 @define-color card_fg_color @window_fg_color;
 @define-color card_shade_color #000000;
 @define-color destructive_color @error_color;
@@ -33,16 +33,16 @@
 @define-color sidebar_fg_color @window_fg_color;
 @define-color sidebar_backdrop_color @window_bg_color;
 @define-color sidebar_shade_color #000000;
-@define-color success_color #f1bba0;
-@define-color success_bg_color #66402c;
-@define-color success_fg_color #ffddcd;
-@define-color view_bg_color #19120e;
+@define-color success_color #a4cce0;
+@define-color success_bg_color #234c5c;
+@define-color success_fg_color #bee6fa;
+@define-color view_bg_color #0f1417;
 @define-color view_fg_color @window_fg_color;
-@define-color warning_color #7cd2ed;
-@define-color warning_bg_color #00778f;
-@define-color warning_fg_color #ffffff;
-@define-color window_bg_color #19120e;
-@define-color window_fg_color #efdfd8;
+@define-color warning_color #ffcc9a;
+@define-color warning_bg_color #fca747;
+@define-color warning_fg_color #442500;
+@define-color window_bg_color #0f1417;
+@define-color window_fg_color #dee3e7;
 
 /*
 * GTK 4 Colors
