@@ -1,35 +1,35 @@
 
 # Syntax highlighting colors
-set -g fish_color_normal #0f1417
-set -g fish_color_command #97dfff
-set -g fish_color_quote #ffcc9a
-set -g fish_color_redirection #234c5c
-set -g fish_color_end #a4cce0
+set -g fish_color_normal #131316
+set -g fish_color_command #b7c5f7
+set -g fish_color_quote #e4c27a
+set -g fish_color_redirection #44485b
+set -g fish_color_end #c1c5dc
 set -g fish_color_error #ffb4ab
-set -g fish_color_param #bdc8cf
-set -g fish_color_comment #879299
-set -g fish_color_match #ffcc9a
-set -g fish_color_selection--background=#234c5c
-set -g fish_color_search_match --background=#234c5c
+set -g fish_color_param #c6c6d0
+set -g fish_color_comment #8f9099
+set -g fish_color_match #e4c27a
+set -g fish_color_selection--background=#44485b
+set -g fish_color_search_match --background=#44485b
 set -g fish_color_history_current --bold
-set -g fish_color_operator #234c5c
-set -g fish_color_escape #303638
-set -g fish_color_cwd #97dfff
+set -g fish_color_operator #44485b
+set -g fish_color_escape #343438
+set -g fish_color_cwd #b7c5f7
 set -g fish_color_cwd_root #ffb4ab
 set -g fish_color_valid_path --underline
-set -g fish_color_autosuggestion #3d484e
-set -g fish_color_user #ffcc9a
-set -g fish_color_host #0f1417
+set -g fish_color_autosuggestion #45464e
+set -g fish_color_user #e4c27a
+set -g fish_color_host #131316
 set -g fish_color_cancel -r
 
 # Pager colors
-set -g fish_pager_color_completion #0f1417
-set -g fish_pager_color_description #bdc8cf #ffcc9a
-set -g fish_pager_color_prefix #0f1417 --bold --underline
-set -g fish_pager_color_progress #303638 --background= #4cc7f3
-set -g fish_pager_color_selected_background --background= #234c5c
+set -g fish_pager_color_completion #131316
+set -g fish_pager_color_description #c6c6d0 #e4c27a
+set -g fish_pager_color_prefix #131316 --bold --underline
+set -g fish_pager_color_progress #343438 --background= #818fbf
+set -g fish_pager_color_selected_background --background= #44485b
 
-set -g fish_color_option #bdc8cf
-set -g fish_color_keyword #97dfff
-set -g fish_color_host_remote #ffcc9a
+set -g fish_color_option #c6c6d0
+set -g fish_color_keyword #b7c5f7
+set -g fish_color_host_remote #e4c27a
 set -g fish_color_status #ffb4ab

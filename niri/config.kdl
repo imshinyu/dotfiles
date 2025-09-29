@@ -385,7 +385,7 @@ window-rule {
     open-on-workspace "discord"
 }
 window-rule {
-    match app-id=r#"ghostty$"#
+    match app-id=r#"kitty$"#
     open-on-workspace "terminal"
 }
 
@@ -433,7 +433,7 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
-    Mod+Q hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
+    Mod+Q hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+R { spawn "fuzzel"; }
     Mod+E { spawn "dolphin"; }
     Alt+V { spawn "clipse-gui";}

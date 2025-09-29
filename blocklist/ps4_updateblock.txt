@@ -74,5 +74,6 @@
 ||us.np.stun.playstation.net^
 ||fswitch.dl.playstation.net^
 ||rnps-crl.dl.playstation.net^
+||*.dl.playstation.net^
 ||urlconfig.api.playstation.com^
 ||crepo.ww.dl.playstation.net^
