@@ -10,11 +10,13 @@ hotkey-overlay {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 spawn-at-startup "gamepad.sh"
-// spawn-at-startup "firefox"
+spawn-at-startup "firefox"
 spawn-at-startup "qbittorrent"
 spawn-at-startup "steam"
+spawn-at-startup "heroic"
 spawn-at-startup "vesktop"
 spawn-at-startup "quickshell"
+spawn-at-startup "niriswitcher"
 spawn-at-startup "waypaper" "--restore"
 spawn-at-startup "wlsunset" "-g" "0.7" "-t" "6000" "-T" "6500"
 spawn-at-startup "gamemoded"
@@ -28,6 +30,10 @@ spawn-at-startup "/usr/lib/polkit-kde-authentication-agent-1"
 spawn-at-startup "xwayland-satellite"
 //spawn-at-startup "wallpaperengine-gui -m"
 //spawn-at-startup "ibus start"
+cursor {
+  xcursor-theme "WinSur-dark-cursors"
+  xcursor-size 24
+}
 environment {
   ELECTRON_OZONE_PLATFORM_HINT "auto"
   GDK_BACKEND "wayland"
@@ -41,7 +47,6 @@ environment {
   QT_QPA_PLATFORMTHEME "qt6ct"
   ADW_DISABLE_PORTAL "1"
   GTK_USE_PORTAL "1"
-  DISPLAY ":0"
   GDK_DEBUG "portals"
 }
 // Input device configuration.
@@ -330,7 +335,7 @@ animations {
 workspace "firefox" {
     open-on-output "HDMI-A-1"
 }
-workspace "steam" {
+workspace "launcher" {
     open-on-output "HDMI-A-1"
 }
 workspace "discord" {
@@ -345,7 +350,11 @@ window-rule {
 }
 window-rule {
     match app-id=r#"steam$"#
-    open-on-workspace "steam"
+    open-on-workspace "launcher"
+}
+window-rule {
+    match app-id=r#"heroic$"#
+    open-on-workspace "launcher"
 }
 window-rule {
     match title=r#"Friends List$"#
@@ -354,6 +363,14 @@ window-rule {
     max-width 300
     min-height 700
     max-height 700
+}
+window-rule {
+    match title=r#"Calculator$"#
+    open-floating true
+    min-width 350
+    max-width 350
+    min-height 650
+    max-height 650
 }
 window-rule {
     match title=r#"Steam Settings$"#
