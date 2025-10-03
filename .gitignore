@@ -7,7 +7,9 @@
 !README.md
 !xremap.yml
 !gpu_usage_waybar.toml
+!.bashrc
 # Whitelist entire directories and their contents recursively
+!aconfmgr/**
 !blocklist/**
 !btop/**
 !decman/**
