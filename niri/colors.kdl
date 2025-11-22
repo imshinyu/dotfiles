@@ -1,0 +1,14 @@
+// colors.kdl
+layout {
+    // Does not affect gaps, border width, etc.
+    // Only changes colors as written.
+    focus-ring {
+        active-color "blue"
+    }
+
+    border {
+        active-color "green"
+    }
+}
+
+

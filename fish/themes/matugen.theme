@@ -1,0 +1,38 @@
+
+
+# Syntax highlighting colors
+set -g fish_color_normal       #191210
+set -g fish_color_command      #ffb4a5
+set -g fish_color_quote        #7cd7c1
+set -g fish_color_redirection  #eebbb1
+set -g fish_color_end          #e88d7b
+set -g fish_color_error        #ffb4ab
+set -g fish_color_param        #ffb4a5
+set -g fish_color_comment      #a28c88
+set -g fish_color_match        #261e1c
+set -g fish_color_search_match #59b5a0 --background=#191210
+set -g fish_color_operator     #ffb4a5
+set -g fish_color_escape       #7cd7c1
+set -g fish_color_autosuggestion #191210
+
+# Pager colors
+set -g fish_pager_color_completion #ffb4a5
+set -g fish_pager_color_description #eebbb1
+set -g fish_pager_color_prefix #7cd7c1
+set -g fish_pager_color_progress #54433f
+
+# Prompt colors
+set -g fish_color_cwd         #ffb4a5
+set -g fish_color_cwd_root    #ffb4ab
+set -g fish_color_user        #ffb4a5
+set -g fish_color_host        #e88d7b
+set -g fish_color_host_remote #7cd7c1
+set -g fish_color_status      #ffb4ab
+
+# Selection colors
+set -g fish_color_selection   #623e36 --background=#3c3331
+
+# Visual bell
+set -g fish_color_visualbell  #93000a
+
+set -g theme_color_scheme Matugen

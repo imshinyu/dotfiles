@@ -1,0 +1,35 @@
+
+# Syntax highlighting colors
+set -g fish_color_normal {{colors.surface.default.hex}}
+set -g fish_color_command {{colors.primary.default.hex}}
+set -g fish_color_quote {{colors.tertiary.default.hex}}
+set -g fish_color_redirection {{colors.secondary_container.default.hex}}
+set -g fish_color_end {{colors.secondary.default.hex}}
+set -g fish_color_error {{colors.error.default.hex}}
+set -g fish_color_param {{colors.on_surface_variant.default.hex}}
+set -g fish_color_comment {{colors.outline.default.hex}}
+set -g fish_color_match {{colors.tertiary.default.hex}}
+set -g fish_color_selection--background={{colors.secondary_container.default.hex}}
+set -g fish_color_search_match --background={{colors.secondary_container.default.hex}}
+set -g fish_color_history_current --bold
+set -g fish_color_operator {{colors.secondary_container.default.hex}}
+set -g fish_color_escape {{colors.surface_container_highest.default.hex}}
+set -g fish_color_cwd {{colors.primary.default.hex}}
+set -g fish_color_cwd_root {{colors.error.default.hex}}
+set -g fish_color_valid_path --underline
+set -g fish_color_autosuggestion {{colors.surface_variant.default.hex}}
+set -g fish_color_user {{colors.tertiary.default.hex}}
+set -g fish_color_host {{colors.surface.default.hex}}
+set -g fish_color_cancel -r
+
+# Pager colors
+set -g fish_pager_color_completion {{colors.surface.default.hex}}
+set -g fish_pager_color_description {{colors.on_surface_variant.default.hex}} {{colors.tertiary.default.hex}}
+set -g fish_pager_color_prefix {{colors.surface.default.hex}} --bold --underline
+set -g fish_pager_color_progress {{colors.surface_container_highest.default.hex}} --background= {{colors.primary_container.default.hex}}
+set -g fish_pager_color_selected_background --background= {{colors.secondary_container.default.hex}}
+
+set -g fish_color_option {{colors.on_surface_variant.default.hex}}
+set -g fish_color_keyword {{colors.primary.default.hex}}
+set -g fish_color_host_remote {{colors.tertiary.default.hex}}
+set -g fish_color_status {{colors.error.default.hex}}
