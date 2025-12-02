@@ -1,0 +1,40 @@
+include "colors.kdl"
+layout {
+    gaps 10
+    center-focused-column "on-overflow"
+
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 1.0
+    }
+
+    preset-window-heights {
+        proportion 0.33333
+        proportion 0.5
+        proportion 1.0
+    }
+
+    default-column-width { proportion 1.0; }
+    shadow {
+        softness 30
+        spread 5
+        offset x=0 y=5
+    }
+    struts {
+        // left 64
+        // right 64
+        // top 64
+        // bottom 64
+    }
+}
+overview {
+  zoom 0.6
+    workspace-shadow {
+        // off
+        softness 40
+        spread 20
+        offset x=0 y=10
+        color "#00000050"
+    }
+}

@@ -184,8 +184,9 @@ Item {
                         id: workspaceNumber
                         text: index + 1
                         anchors.centerIn: parent
-                        color: model.isFocused ? Colors.Colour.palette.on_primary : "white"
-                        font.pixelSize: 11
+                        color: model.isFocused ? Colors.Colour.palette.on_primary : Colors.Colour.palette.on_background
+                        font.family: Colors.Colour.family
+                        font.pixelSize: Colors.Colour.fontpixelSize
                         font.bold: true
                     }
 

@@ -11,7 +11,7 @@ import qs.Colors as Colors
 Column {
     property var bar
     property var shell
-    property var trayMenu
+    property var trayMenu: Module.CustomTrayMenu{}
     spacing: 8
     Layout.alignment: Qt.AlignHCenter
     

@@ -1,0 +1,110 @@
+// Window rules let you adjust behavior for individual windows.
+// Find more information on the wiki:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
+
+// Open the Firefox picture-in-picture player as floating by default.
+workspace "firefox" {
+    open-on-output "HDMI-A-1"
+}
+workspace "launcher" {
+    open-on-output "HDMI-A-1"
+}
+workspace "vesktop" {
+    open-on-output "HDMI-A-1"
+}
+workspace "terminal" {
+    open-on-output "HDMI-A-1"
+}
+
+window-rule {
+    match app-id=r#"firefox$"#
+    open-on-workspace "firefox"
+}
+window-rule {
+    match app-id=r#"steam$"#
+    open-on-workspace "launcher"
+}
+window-rule {
+    match app-id=r#"heroic$"#
+    open-on-workspace "launcher"
+}
+window-rule {
+    match app-id=r#"vesktop$"#
+    open-on-workspace "vesktop"
+}
+window-rule {
+    match app-id=r#"kitty$"#
+    open-on-workspace "terminal"
+}
+
+window-rule {
+  match app-id=r#"clipse-gui$"#
+  open-floating true
+}
+
+window-rule {
+    match title=r#"Friends List$"#
+    open-floating true
+    min-width 300
+    max-width 300
+    min-height 700
+    max-height 700
+}
+window-rule {
+    match title=r#"Calculator$"#
+    open-floating true
+    min-width 350
+    max-width 350
+    min-height 650
+    max-height 650
+}
+window-rule {
+    match title=r#"Steam Settings$"#
+    open-floating true
+    min-width 700
+    max-width 700
+    min-height 700
+    max-height 700
+}
+window-rule {
+    match title=r#"Add Non-Steam Game$"#
+    open-floating true
+    min-width 700
+    max-width 700
+    min-height 500
+    max-height 500
+}
+window-rule {
+    match app-id=r#"org.freedesktop.impl.portal.desktop.kde$"#
+    open-floating true
+    min-width 750
+    max-width 750
+    min-height 600
+    max-height 600
+}
+
+window-rule {
+  match app-id=r#"pavucontrol-qt$"#
+  match app-id=r#"pwvucontrol$"#
+  min-width 650
+  max-width 650
+  min-height 450
+  max-height 450
+  open-floating true
+}
+window-rule {
+  match app-id=r#"ark$"#
+  match app-id=r#"xarchiver$"#
+  match app-id=r#"org.gnome.FileRoller$"#
+  open-floating true
+}
+window-rule {
+  match app-id=r#"waypaper$"#
+  open-floating true
+}
+// Example: enable rounded corners for all windows.
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+}
+

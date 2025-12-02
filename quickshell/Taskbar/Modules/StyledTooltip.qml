@@ -77,9 +77,7 @@ Window {
     Rectangle {
         anchors.fill: parent
         radius: 20
-        color: Colors.Colour.backgroundTertiary || "#222"
-        border.color: Colors.Colour.outline || "#444"
-        border.width: 1
+        color: Colors.Colour.palette.background || "#222"
         opacity: 0.97
         z: 1
     }
@@ -87,9 +85,9 @@ Window {
     Text {
         id: tooltipText
         text: tooltipWindow.text
-        color: Colors.Colour.palette.on_surface
-        font.family: Time.family
-        font.pixelSize: Time.fontsize
+        color: Colors.Colour.palette.on_background
+        font.family: Colors.Colour.family
+        font.pixelSize: Colors.Colour.fontSize
         anchors.centerIn: parent
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter

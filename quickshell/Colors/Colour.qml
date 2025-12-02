@@ -7,6 +7,10 @@ import Quickshell.Io
 Singleton {
 
 	property var palette: jsonColoursContent
+  property int fontSize: 12
+  property int fontpixelSize: 13
+  property int fontWeight: Font.Bold
+  property string family: "Adwaita"
 
 	FileView {
 		id: jsonColoursSink

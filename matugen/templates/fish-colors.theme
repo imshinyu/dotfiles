@@ -33,3 +33,4 @@ set -g fish_color_option {{colors.on_surface_variant.default.hex}}
 set -g fish_color_keyword {{colors.primary.default.hex}}
 set -g fish_color_host_remote {{colors.tertiary.default.hex}}
 set -g fish_color_status {{colors.error.default.hex}}
+

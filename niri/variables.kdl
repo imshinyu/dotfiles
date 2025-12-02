@@ -1,0 +1,20 @@
+cursor {
+  xcursor-theme "We10XOS-cursors"
+  xcursor-size 24
+}
+environment {
+  ELECTRON_OZONE_PLATFORM_HINT "auto"
+  GDK_BACKEND "wayland"
+  SDL_VIDEODRIVER "wayland,x11"
+  CLUTTER_BACKEND "wayland"
+  XDG_CURRENT_DESKTOP "niri"
+  XDG_SESSION_TYPE "wayland"
+  XDG_SESSION_DESKTOP "Niri"
+  XDG_MENU_PREFIX "arch-"
+  QT_QPA_PLATFORM "wayland;xcb"
+  QT_QPA_PLATFORMTHEME "qt6ct"
+  ADW_DISABLE_PORTAL "1"
+  GTK_USE_PORTAL "1"
+  GDK_DEBUG "portals"
+}
+

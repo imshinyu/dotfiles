@@ -1,14 +1,36 @@
-// colors.kdl
 layout {
-    // Does not affect gaps, border width, etc.
-    // Only changes colors as written.
+    background-color "transparent"
+
     focus-ring {
-        active-color "blue"
+        active-color   "#a5c8ff"
+        inactive-color "#8c919c"
+        urgent-color   "#ffb4ab"
     }
 
     border {
-        active-color "green"
+        off
+        active-color   "#a5c8ff"
+        inactive-color "#8c919c"
+        urgent-color   "#ffb4ab"
+    }
+
+    shadow {
+        color "#00000070"
+    }
+
+    tab-indicator {
+        active-color   "#a5c8ff"
+        inactive-color "#8c919c"
+        urgent-color   "#ffb4ab"
+    }
+
+    insert-hint {
+        color "#a5c8ff80"
     }
 }
-
-
+overview {
+  backdrop-color "#00315e"
+    workspace-shadow {
+        color "#00000070"
+    }
+}

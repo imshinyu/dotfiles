@@ -36,16 +36,13 @@ Variants {
           anchors.left: parent.left
           anchors.rightMargin: 4
           color: barsColor
-          radius: 0
-          //border.width: 3
-          //border.color: Colors.Colour.palette.primary
+          border.width: 0
+          border.color: Colors.Colour.palette.primary
           ColumnLayout {
             anchors.fill: parent
             Rectangle {
               id: workspaceArea
-              anchors {
-                  top : parent.top
-              }
+              Layout.alignment: Qt.AlignTop | Qt.AlignVCenter
               color: "transparent"
               Module.Workspace {
                   id: workspace
@@ -54,9 +51,13 @@ Variants {
                   anchors.verticalCenter: leftBar.verticalCenter
               }
             }
+            Item {
+              Layout.fillHeight: true
+            }
             Rectangle{
               id: date
-              anchors.centerIn: parent
+              Layout.alignment: Qt.AlignHCenter
+              Layout.bottomMargin: 170
               MarginWrapperManager {margin: 4.5}
               radius: widgetRadius
               color: Colors.Colour.palette.primary
@@ -66,9 +67,7 @@ Variants {
             }
             Rectangle{
               id: tray
-              anchors.horizontalCenter: parent.horizontalCenter
-              anchors.bottom: power.top
-              anchors.bottomMargin: 5
+              Layout.alignment: Qt.AlignHCenter
               MarginWrapperManager {margin: 2.5}
               radius: widgetRadius
               color: Colors.Colour.palette.primary
@@ -79,11 +78,8 @@ Variants {
             }
             Rectangle {
               id: power
-              anchors {
-                horizontalCenter: parent.horizontalCenter
-                bottom: parent.bottom
-                bottomMargin: 10
-              }
+              Layout.alignment: Qt.AlignHCenter
+              Layout.bottomMargin: 10
               height: 30
               width: 30
               color: Colors.Colour.palette.primary

@@ -32,10 +32,10 @@
     "colors"
   ],
   "logo":{
-    "type": "builtin",
-    "source": "arch",
-    "width": 25,
-    "height": 20,
+    "type": "file",
+    "source": "~/.config/fastfetch/art.txt",
+    "width": 1,
+    "height": 10,
     "padding": {
       "top": 0,
       "right": 5,
