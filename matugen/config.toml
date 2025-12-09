@@ -1,6 +1,9 @@
 [config]
 version_check = false
 
+[templates.steam]
+input_path = '~/.config/matugen/templates/steam.css'
+output_path = '~/.steam/steam/steamui/skins/SteamUI-GoldenEra/colors.css'
 [templates.neovim]
 input_path = '~/.config/matugen/templates/nvim.lua'
 output_path = '~/.config/nvim/matugen.lua'
