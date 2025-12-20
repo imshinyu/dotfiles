@@ -14,8 +14,8 @@ Variants {
   Scope {
     id: scope
     required property ShellScreen modelData
-    property real borderWidth: 10///18//20
-    property real cornerRadius: 15
+    property real borderWidth: 5///18//20
+    property real cornerRadius: 10
     property real widgetRadius: 10
     property color barsColor: Colors.Colour.palette.background
     property color bordercolor: Colors.Colour.palette.primary
@@ -55,25 +55,25 @@ Variants {
               Layout.fillHeight: true
             }
             Rectangle{
-              id: date
-              Layout.alignment: Qt.AlignHCenter
-              Layout.bottomMargin: 170
-              MarginWrapperManager {margin: 4.5}
-              radius: widgetRadius
-              color: Colors.Colour.palette.primary
-              Module.ClockWidget{
-                anchors.fill: parent
-              }
-            }
-            Rectangle{
               id: tray
               Layout.alignment: Qt.AlignHCenter
-              MarginWrapperManager {margin: 2.5}
+              MarginWrapperManager {margin: 3}
               radius: widgetRadius
               color: Colors.Colour.palette.primary
               Module.Tray {
                 id: sysTray
                 anchors.centerIn: parent
+              }
+            }
+            Rectangle{
+              id: date
+              Layout.alignment: Qt.AlignHCenter
+
+              MarginWrapperManager {margin: 8}
+              radius: widgetRadius
+              color: Colors.Colour.palette.primary
+              Module.ClockWidget{
+                anchors.fill: parent
               }
             }
             Rectangle {

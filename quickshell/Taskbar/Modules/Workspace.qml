@@ -169,7 +169,7 @@ Item {
                 Rectangle {
                     id: workspacePill
                     anchors.fill: parent
-                    radius: 8
+                    radius: widgetRadius
                     color: {
                         if (model.isFocused)
                             return Colors.Colour.palette.primary;

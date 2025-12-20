@@ -5,7 +5,8 @@ binds {
     //Mod+E { spawn "kitty" "-e" "yazi"; }
     Mod+E { spawn "dolphin";}
     Alt+V { spawn "clipse-gui";}
-    Mod+W { spawn "waypaper";}
+    //Mod+W { spawn "waypaper";}
+    Mod+W { spawn-sh "./Applications/awww.sh";}
     Mod+Shift+N {spawn "hyprpicker";}
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
 
@@ -171,6 +172,7 @@ binds {
     Mod+Ctrl+R { reset-window-height; }
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
+    Mod+Shift+M { maximize-window-to-edges;}
 
     // Expand the focused column to space not taken up by other fully visible columns.
     // Makes the column "fill the rest of the space".
@@ -215,9 +217,9 @@ binds {
 
     Mod+Shift+S { screenshot; }
     Ctrl+Print { screenshot-screen; }
-    Alt+Print { screenshot-window; }
+    Mod+S { screenshot-window; }
 
-    // Applications such as remote-desktop clients and software KVM switches may
+    // Applications such as remote-desktop clients nd software KVM switches may
     // request that niri stops processing the keyboard shortcuts defined here
     // so they may, for example, forward the key presses as-is to a remote machine.
     // It's a good idea to bind an escape hatch to toggle the inhibitor,

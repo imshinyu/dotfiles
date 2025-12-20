@@ -1,36 +1,36 @@
 
 # Syntax highlighting colors
 set -g fish_color_normal #111317
-set -g fish_color_command #a7c8ff
-set -g fish_color_quote #f0bf5b
-set -g fish_color_redirection #3b4a62
-set -g fish_color_end #b8c7e4
+set -g fish_color_command #a6c8ff
+set -g fish_color_quote #fbba61
+set -g fish_color_redirection #384760
+set -g fish_color_end #b7c7e5
 set -g fish_color_error #ffb4ab
-set -g fish_color_param #c3c6d1
-set -g fish_color_comment #8d919b
-set -g fish_color_match #f0bf5b
-set -g fish_color_selection--background=#3b4a62
-set -g fish_color_search_match --background=#3b4a62
+set -g fish_color_param #c2c6d1
+set -g fish_color_comment #8c919b
+set -g fish_color_match #fbba61
+set -g fish_color_selection--background=#384760
+set -g fish_color_search_match --background=#384760
 set -g fish_color_history_current --bold
-set -g fish_color_operator #3b4a62
+set -g fish_color_operator #384760
 set -g fish_color_escape #333539
-set -g fish_color_cwd #a7c8ff
+set -g fish_color_cwd #a6c8ff
 set -g fish_color_cwd_root #ffb4ab
 set -g fish_color_valid_path --underline
 set -g fish_color_autosuggestion #424750
-set -g fish_color_user #f0bf5b
+set -g fish_color_user #fbba61
 set -g fish_color_host #111317
 set -g fish_color_cancel -r
 
 # Pager colors
 set -g fish_pager_color_completion #111317
-set -g fish_pager_color_description #c3c6d1 #f0bf5b
+set -g fish_pager_color_description #c2c6d1 #fbba61
 set -g fish_pager_color_prefix #111317 --bold --underline
-set -g fish_pager_color_progress #333539 --background= #6a94d3
-set -g fish_pager_color_selected_background --background= #3b4a62
+set -g fish_pager_color_progress #333539 --background= #3665a3
+set -g fish_pager_color_selected_background --background= #384760
 
-set -g fish_color_option #c3c6d1
-set -g fish_color_keyword #a7c8ff
-set -g fish_color_host_remote #f0bf5b
+set -g fish_color_option #c2c6d1
+set -g fish_color_keyword #a6c8ff
+set -g fish_color_host_remote #fbba61
 set -g fish_color_status #ffb4ab
 

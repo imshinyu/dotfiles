@@ -1,15 +1,18 @@
 [config]
 version_check = false
 
-[templates.steam]
-input_path = '~/.config/matugen/templates/steam.css'
-output_path = '~/.steam/steam/steamui/skins/SteamUI-GoldenEra/colors.css'
 [templates.neovim]
 input_path = '~/.config/matugen/templates/nvim.lua'
 output_path = '~/.config/nvim/matugen.lua'
+
+[templates.helix]
+input_path = '~/.config/matugen/templates/helix.toml'
+output_path = '~/.config/helix/themes/matugen.toml'
+
 [templates.niri]
 input_path = '~/.config/matugen/templates/niri-colors.kdl'
 output_path = '~/.config/niri/colors.kdl'
+
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland-colors.conf'
 output_path = '~/.config/hypr/colors.conf'
@@ -52,6 +55,9 @@ output_path = '~/.local/share/color-schemes/Matugen.colors'
 [templates.vesktop]
 input_path = '~/.config/matugen/templates/midnight-discord.css'
 output_path = '~/.config/vesktop/themes/midnight.css'
+[templates.discord]
+input_path = '~/.config/matugen/templates/Material-Discord.css'
+output_path = '~/.config/vesktop/themes/material.css'
 
 [templates.fish]
 input_path = '~/.config/matugen/templates/fish-colors.theme'

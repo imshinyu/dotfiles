@@ -6,7 +6,7 @@ import qs.Colors as Colors
 Singleton {
     id: root
     readonly property string time: {
-        Qt.formatDateTime(clock.date, "hh\nmm\n|\nddd\nd")
+        Qt.formatDateTime(clock.date, "hh\nmm\n|\nd")
     }
     property int fontSize:Colors.Colour.fontSize
     property int fontWeight: Colors.Colour.fontWeight

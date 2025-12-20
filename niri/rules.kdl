@@ -3,7 +3,7 @@
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
 
 // Open the Firefox picture-in-picture player as floating by default.
-workspace "firefox" {
+workspace "browser" {
     open-on-output "HDMI-A-1"
 }
 workspace "launcher" {
@@ -17,14 +17,11 @@ workspace "terminal" {
 }
 
 window-rule {
-    match app-id=r#"firefox$"#
-    open-on-workspace "firefox"
+    match app-id=r#"floorp$"#
+    open-on-workspace "browser"
 }
 window-rule {
     match app-id=r#"steam$"#
-    open-on-workspace "launcher"
-}
-window-rule {
     match app-id=r#"heroic$"#
     open-on-workspace "launcher"
 }
@@ -39,6 +36,7 @@ window-rule {
 
 window-rule {
   match app-id=r#"clipse-gui$"#
+  match app-id=r#"com.github.hluk.copyq$"#
   open-floating true
 }
 
@@ -68,6 +66,7 @@ window-rule {
 }
 window-rule {
     match title=r#"Add Non-Steam Game$"#
+    match app-id=r#"com.github.hluk.copyq$"#
     open-floating true
     min-width 700
     max-width 700
@@ -101,10 +100,5 @@ window-rule {
 window-rule {
   match app-id=r#"waypaper$"#
   open-floating true
-}
-// Example: enable rounded corners for all windows.
-window-rule {
-    geometry-corner-radius 10
-    clip-to-geometry true
 }
 

@@ -1,7 +1,16 @@
 include "colors.kdl"
+// Example: enable rounded corners for all windows.
+window-rule {
+    geometry-corner-radius 10
+    clip-to-geometry true
+}
+
 layout {
     gaps 10
     center-focused-column "on-overflow"
+    focus-ring {
+      width 3
+    }
 
     preset-column-widths {
         proportion 0.33333
@@ -17,9 +26,10 @@ layout {
 
     default-column-width { proportion 1.0; }
     shadow {
-        softness 30
-        spread 5
-        offset x=0 y=5
+        on
+        softness 5
+        spread 3
+        offset x=0 y=0
     }
     struts {
         // left 64

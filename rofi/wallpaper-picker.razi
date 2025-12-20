@@ -1,0 +1,160 @@
+/*****----- Configuration -----*****/
+configuration {
+	modi:                       "drun";
+    show-icons:                 true;
+    display-drun:               " Apps";
+	drun-display-format:        "{name}";
+}
+
+/*****----- Global Properties -----*****/
+
+@import "colors.rasi"
+* {
+    active-background: @primary;
+    active-foreground: @surface;
+    normal-background: @surface;
+    normal-foreground: @primary;
+    urgent-background: @outline;
+    urgent-foreground: @primary;
+
+    alternate-active-background: @surface;
+    alternate-active-foreground: @primary;
+    alternate-normal-background: @surface;
+    alternate-normal-foreground: @primary;
+    alternate-urgent-background: @outline;
+    alternate-urgent-foreground: @primary;
+
+    selected-active-background: @outline;
+    selected-active-foreground: @primary;
+    selected-normal-background: @outline;
+    selected-normal-foreground: @primary;
+    selected-urgent-background: @outline;
+    selected-urgent-foreground: @primary;
+
+    background-color: @surface;
+    background: @surface;
+    foreground: #c1c2c5;
+    border-color: @surface;
+}
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       70%;
+    height:                      80%;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     20px;
+    border:                      3px solid;
+    border-radius:               10px;
+    border-color:                @primary;
+    background-color:            @background;
+    cursor:                      "default";
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px 0px 0px 0px;
+    border-color:                @primary;
+    background-color:            @background;
+    children:                    [ "listview" ];
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     3;
+    lines:                       2;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   true;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @primary;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    cursor:                      "default";
+}
+scrollbar {
+    handle-width:                5px ;
+    handle-color:                @primary;
+    border-radius:               0px;
+    background-color:            @surface;
+}
+
+/*****----- Elements -----*****/
+element {
+    enabled:                     true;
+    spacing:                     10px;
+    margin:                      0px 0px;
+    padding:                     -35px 10px;
+    border:                      0px solid;
+    border-radius:               10px;
+    border-color:                @primary;
+    background-color:            @background;
+    text-color:                  @foreground;
+    orientation:                 vertical;
+    cursor:                      pointer;
+}
+element normal.normal {
+    background-color:            @background;
+    text-color:                  @foreground;
+}
+element selected.normal {
+    background-color:            @surface;
+    border:                      1.5px solid;
+    border-radius:               8px;
+    border-color:                @primary;
+    text-color:                  @foreground;
+}
+element-icon {
+    padding:                     0px 0px 0px 0px;
+    background-color:            transparent;
+    text-color:                  inherit;
+    size:                        220px;
+    cursor:                      inherit;
+}
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    highlight:                   inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+/*****----- Message -----*****/
+error-message {
+    padding:                     50px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @primary;
+    background-color:            @background;
+    text-color:                  @foreground;
+}
+textbox {
+    background-color:            @background;
+    text-color:                  @foreground;
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+    highlight:                   none;
+}
