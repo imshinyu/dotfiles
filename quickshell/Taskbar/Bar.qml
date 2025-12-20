@@ -14,7 +14,7 @@ Variants {
   Scope {
     id: scope
     required property ShellScreen modelData
-    property real borderWidth: 5///18//20
+    property real borderWidth: 10///18//20
     property real cornerRadius: 10
     property real widgetRadius: 10
     property color barsColor: Colors.Colour.palette.background

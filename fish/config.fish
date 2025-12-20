@@ -3,7 +3,8 @@ if status is-interactive
 end
 #fish_config theme choose "Matugen"
 
-alias vim="nvim"
+alias vim="helix"
+alias hx="helix"
 alias rgcc="gcc -lraylib"
 export HSA_OVERRIDE_GFX_VERSION=8.0.3
 export OLLAMA_VULKAN=1
