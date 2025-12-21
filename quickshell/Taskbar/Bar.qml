@@ -62,16 +62,11 @@ Variants {
             Item{
               Layout.minimumHeight: 230
             }
-            Rectangle{
-              id: tray
+            Module.Tray{
               Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-              MarginWrapperManager {margin: 2.5}
+              MarginWrapperManager {margin: 8}
               radius: widgetRadius
               color: Appearance.Colors.palette.primary
-              Module.Tray {
-                id: sysTray
-                anchors.centerIn: parent
-              }
             }
             Rectangle {
               id: power
@@ -83,8 +78,13 @@ Variants {
               radius: widgetRadius
               MouseArea {
                 anchors.fill: power
-                onClicked:
-                contextMenu.popup()
+                onClicked: {
+                  powerMenu.visible = !powerMenu.visible
+                  //powerMenu.popup(30,645,power)
+                  powerMenu.x = 30
+                  powerMenu.y = 645
+                  powerMenu.open();
+                }
               }
                 Process {
                     id: logoutProcess
@@ -100,9 +100,10 @@ Variants {
                 }
 
                 Menu {
-                    id: contextMenu
+                    id: powerMenu
                     width: 150
                     popupType: Popup.Window
+                    closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
                     background: Rectangle {
                         color: Appearance.Colors.palette.background
                         radius: 10
@@ -141,7 +142,7 @@ Variants {
           }
         }
     }
-    PanelWindow {
+   PanelWindow {
       id: topBar
       screen: scope.modelData
       implicitHeight: borderWidth

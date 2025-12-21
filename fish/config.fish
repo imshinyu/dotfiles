@@ -5,6 +5,7 @@ end
 
 alias vim="helix"
 alias hx="helix"
+alias qmlls="qmlls6"
 alias rgcc="gcc -lraylib"
 export HSA_OVERRIDE_GFX_VERSION=8.0.3
 export OLLAMA_VULKAN=1

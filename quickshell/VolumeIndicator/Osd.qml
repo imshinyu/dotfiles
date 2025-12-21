@@ -3,6 +3,7 @@ import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.Pipewire
 import Quickshell.Widgets
+import qs.Appearance as Appearance
 
 Scope {
 	id: root
@@ -52,8 +53,8 @@ Scope {
 
 			Rectangle {
 				anchors.fill: parent
-				radius: height / 2
-				color: "#80000000"
+				radius: height / 3
+				color: Appearance.Colors.palette.background
 
 				RowLayout {
 					anchors {
@@ -64,7 +65,7 @@ Scope {
 
 					IconImage {
 						implicitSize: 30
-						source: Quickshell.iconPath("audio-volume-high-symbolic")
+						source: Quickshell.iconPath("audio-volume-high")
 					}
 
 					Rectangle {
@@ -73,16 +74,16 @@ Scope {
 
 						implicitHeight: 10
 						radius: 20
-						color: "#50ffffff"
-
+						color: Appearance.Colors.palette.primary_container
 						Rectangle {
+							color: Appearance.Colors.palette.primary
 							anchors {
 								left: parent.left
 								top: parent.top
 								bottom: parent.bottom
 							}
 
-							implicitWidth: parent.width * (Pipewire.defaultAudioSink?.audio.volume ?? 0)
+							implicitWidth: parent.width * (Pipewire.defaultAudioSink?.audio.volume ?? 0) /1.5
 							radius: parent.radius
 						}
 					}

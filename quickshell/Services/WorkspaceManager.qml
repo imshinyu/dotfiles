@@ -5,7 +5,7 @@ import QtQuick
 import Quickshell
 import Quickshell.Io
 import Quickshell.Hyprland
-import qs.Services.Niri
+import qs.Services as Services
 
 Singleton {
     id: root
@@ -117,7 +117,7 @@ Singleton {
     }
 
     function updateNiriWorkspaces() {
-        const niriWorkspaces = Niri.workspaces || [];
+        const niriWorkspaces = Services.Niri.workspaces || [];
         workspaces.clear();
         for (let i = 0; i < niriWorkspaces.length; i++) {
             const ws = niriWorkspaces[i];

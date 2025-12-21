@@ -13,26 +13,29 @@ PopupWindow {
     visible: false
     color: "transparent"
     property QsMenuHandle menu
+    // Keep anchor properties for backward compatibility
     property var anchorItem: null
-    property real anchorX
-    property real anchorY
+    property real x
+    property real y
     anchor.item: anchorItem ? anchorItem : null
     anchor.rect.x: anchorX
     anchor.rect.y: anchorY - 4
-
-    function showAt(item, x, y) {
-        if (!item) {
-            console.warn("CustomTrayMenu: anchorItem is undefined, not showing menu.");
-            return;
-        }
-        anchorItem = item
-        anchorX = x
-        anchorY = y
-        visible = true
-        forceActiveFocus()
-        Qt.callLater(() => trayMenu.anchor.updateAnchor())
-    }
-
+    
+    // New function for absolute positioning
+    // Add this function to Tray.qml
+    function showAtAbsolute(x, y) {
+        // Disable anchor system temporarily
+        anchor.enabled = false
+        // Set absolute position
+        this.x = x
+        this.y = y
+        // Show the menu
+        this.visible = true
+        // Re-enable anchor system after showing (optional)
+        Qt.callLater(() => {
+            anchor.enabled = true
+        })
+    }    
     function hideMenu() {
         trayMenu.visible = false
     }
@@ -117,6 +120,19 @@ PopupWindow {
                     }
                 }
 
+                // If MouseArea causes issues, try using a simple Rectangle with TapHandler
+                TapHandler {
+                    enabled: (modelData?.enabled ?? true) || !(modelData?.isSeparator ?? false) && trayMenu.visible
+                    onTapped: {
+                        if (modelData && !modelData.isSeparator) {
+                            modelData.triggered()
+                            trayMenu.hideMenu()
+                        }
+                    }
+                }
+                
+                // OR if you prefer MouseArea and it's available:
+                /*
                 MouseArea {
                     id: mouseArea
                     anchors.fill: parent
@@ -129,6 +145,7 @@ PopupWindow {
                         }
                     }
                 }
+                */
             }
         }
     }
