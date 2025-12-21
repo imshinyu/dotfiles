@@ -6,7 +6,7 @@ import Qt5Compat.GraphicalEffects
 import Quickshell.Services.SystemTray
 import Quickshell.Widgets
 import qs.Taskbar.Modules as Module
-import qs.Colors as Colors
+import qs.Appearance as Appearance
 
 Column {
     property var bar
@@ -50,7 +50,7 @@ Column {
                 width: 20
                 height: 20
                 radius: 20
-                color: Colors.Colour.palette.on_primary
+                color: Appearance.Colors.palette.on_primary
                 MarginWrapperManager {margin: 0}
                 clip: true
 

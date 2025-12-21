@@ -5,7 +5,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Shapes
-import qs.Colors as Colors
+import qs.Appearance as Appearance
 import qs.Services.Time as Clock
 import qs.Taskbar.Modules as Module
 
@@ -17,12 +17,12 @@ Variants {
     property real borderWidth: 10///18//20
     property real cornerRadius: 10
     property real widgetRadius: 10
-    property color barsColor: Colors.Colour.palette.background
-    property color bordercolor: Colors.Colour.palette.primary
+    property color barsColor: Appearance.Colors.palette.background
+    property color bordercolor: Appearance.Colors.palette.primary
 
     PanelWindow {
         id: leftBar
-        color: "transparent"
+        color: barsColor
         screen: scope.modelData
         anchors {
             top: true
@@ -30,59 +30,56 @@ Variants {
             bottom: true
         }
         implicitWidth: 40
-        Rectangle {
-          width: 40
+        implicitHeight: 100
+        Item {
+          width: parent.width
           height: parent.height
           anchors.left: parent.left
-          anchors.rightMargin: 4
-          color: barsColor
-          border.width: 0
-          border.color: Colors.Colour.palette.primary
           ColumnLayout {
             anchors.fill: parent
+            spacing: 5
             Rectangle {
               id: workspaceArea
-              Layout.alignment: Qt.AlignTop | Qt.AlignVCenter
+              Layout.alignment: Qt.AlignTop
+              Layout.topMargin: 10
+              Layout.leftMargin: 7
               color: "transparent"
-              Module.Workspace {
-                  id: workspace
-                  screen: modelData
-                  anchors.horizontalCenter: leftBar.horizontalCenter
-                  anchors.verticalCenter: leftBar.verticalCenter
-              }
+              Module.Workspace {}
             }
-            Item {
+            Item{
               Layout.fillHeight: true
             }
             Rectangle{
-              id: tray
-              Layout.alignment: Qt.AlignHCenter
-              MarginWrapperManager {margin: 3}
+              id: date
+              Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
+              MarginWrapperManager {margin: 7}
               radius: widgetRadius
-              color: Colors.Colour.palette.primary
+              color: Appearance.Colors.palette.primary
+              Module.ClockWidget{
+                anchors.fill: parent
+              }
+            }
+            Item{
+              Layout.minimumHeight: 230
+            }
+            Rectangle{
+              id: tray
+              Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
+              MarginWrapperManager {margin: 2.5}
+              radius: widgetRadius
+              color: Appearance.Colors.palette.primary
               Module.Tray {
                 id: sysTray
                 anchors.centerIn: parent
               }
             }
-            Rectangle{
-              id: date
-              Layout.alignment: Qt.AlignHCenter
-
-              MarginWrapperManager {margin: 8}
-              radius: widgetRadius
-              color: Colors.Colour.palette.primary
-              Module.ClockWidget{
-                anchors.fill: parent
-              }
-            }
             Rectangle {
               id: power
-              Layout.alignment: Qt.AlignHCenter
-              Layout.bottomMargin: 10
-              height: 30
-              width: 30
-              color: Colors.Colour.palette.primary
+              Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
+              Layout.bottomMargin: 11
+              height: 27
+              width: 27
+              color: Appearance.Colors.palette.primary
               radius: widgetRadius
               MouseArea {
                 anchors.fill: power
@@ -91,7 +88,7 @@ Variants {
               }
                 Process {
                     id: logoutProcess
-                    command: ["niri", "msg", "action", "quit"]
+                    command: ["mmsg", "-q"]
                 }
                 Process {
                     id: rebootProcess
@@ -107,14 +104,14 @@ Variants {
                     width: 150
                     popupType: Popup.Window
                     background: Rectangle {
-                        color: Colors.Colour.palette.background
+                        color: Appearance.Colors.palette.background
                         radius: 10
                     }
                     MenuItem {
                         text: "Logout"
                         onTriggered: logoutProcess.running = true
                         background: Rectangle {
-                            color: parent.hovered ? Colors.Colour.palette.primary : "transparent"
+                            color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
                             radius: 8
                         }
                     }
@@ -122,7 +119,7 @@ Variants {
                         text: "Reboot"
                         onTriggered: rebootProcess.running = true
                         background: Rectangle {
-                            color: parent.hovered ? Colors.Colour.palette.primary : "transparent"
+                            color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
                             radius: 8
                         }
                     }
@@ -130,7 +127,7 @@ Variants {
                         text: "Shutdown"
                         onTriggered: shutdownProcess.running = true
                         background: Rectangle {
-                            color: parent.hovered ? Colors.Colour.palette.primary : "transparent"
+                            color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
                             radius: 8
                         }
                     }
@@ -138,7 +135,7 @@ Variants {
               Text {
                 text: ""
                 anchors.centerIn: parent
-                color: Colors.Colour.palette.background
+                color: Appearance.Colors.palette.background
               }
             }
           }

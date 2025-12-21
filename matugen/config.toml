@@ -78,7 +78,7 @@ post_hook = 'pywalfox update'
 
 [templates.quickshell]
 input_path = '~/.config/matugen/templates/quickshell.json'
-output_path = '~/.config/quickshell/Colors/colors.json'
+output_path = '~/.config/quickshell/Appearance/colors.json'
 
 [templates.zed]
 input_path = '~/.config/matugen/templates/zed.json'

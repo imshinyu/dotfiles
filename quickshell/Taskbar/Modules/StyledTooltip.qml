@@ -1,6 +1,6 @@
 import QtQuick
 import QtQuick.Window 2.15
-import qs.Colors as Colors
+import qs.Appearance as Appearance
 import qs.Services.Time
 
 Window {
@@ -77,7 +77,7 @@ Window {
     Rectangle {
         anchors.fill: parent
         radius: 20
-        color: Colors.Colour.palette.background || "#222"
+        color: Appearance.Colors.palette.background || "#222"
         opacity: 0.97
         z: 1
     }
@@ -85,9 +85,9 @@ Window {
     Text {
         id: tooltipText
         text: tooltipWindow.text
-        color: Colors.Colour.palette.on_background
-        font.family: Colors.Colour.family
-        font.pixelSize: Colors.Colour.fontSize
+        color: Appearance.Colors.palette.on_background
+        font.family: Appearance.Colors.family
+        font.pixelSize: Appearance.Colors.fontSize
         anchors.centerIn: parent
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter

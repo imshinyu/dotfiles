@@ -3,35 +3,36 @@
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
 
 // Open the Firefox picture-in-picture player as floating by default.
-workspace "browser" {
+workspace "1" {
     open-on-output "HDMI-A-1"
 }
-workspace "launcher" {
+workspace "2" {
     open-on-output "HDMI-A-1"
 }
-workspace "vesktop" {
+workspace "3" {
     open-on-output "HDMI-A-1"
 }
-workspace "terminal" {
+workspace "4" {
     open-on-output "HDMI-A-1"
 }
 
 window-rule {
     match app-id=r#"floorp$"#
-    open-on-workspace "browser"
+    open-on-workspace "1"
 }
 window-rule {
     match app-id=r#"steam$"#
     match app-id=r#"heroic$"#
-    open-on-workspace "launcher"
+    open-on-workspace "2"
 }
 window-rule {
     match app-id=r#"vesktop$"#
-    open-on-workspace "vesktop"
+    match title="YouTube Music"
+    open-on-workspace "3"
 }
 window-rule {
     match app-id=r#"kitty$"#
-    open-on-workspace "terminal"
+    open-on-workspace "4"
 }
 
 window-rule {

@@ -3,7 +3,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import Quickshell
-import qs.Colors as Colors
+import qs.Appearance as Appearance
 
 PopupWindow {
     id: trayMenu
@@ -50,7 +50,7 @@ PopupWindow {
     Rectangle {
         id: bg
         anchors.fill: parent
-        color: Colors.Colour.palette.background || "#222"
+        color: Appearance.Colors.palette.background || "#222"
         radius: 12
         z: 0
     }
@@ -81,17 +81,17 @@ PopupWindow {
                 anchors.centerIn: parent
                 width: parent.width - 20
                 height: 1
-                color: Qt.darker(Colors.Colour.palette.surface || "#222", 1.4)
+                color: Qt.darker(Appearance.Colors.palette.surface || "#222", 1.4)
                 visible: modelData?.isSeparator ?? false
             }
 
             Rectangle {
                 id: bg
                 anchors.fill: parent
-                color: mouseArea.containsMouse ? Colors.Colour.palette.primary : "transparent"
+                color: mouseArea.containsMouse ? Appearance.Colors.palette.primary : "transparent"
                 radius: 8
                 visible: !(modelData?.isSeparator ?? false)
-                property color hoverTextColor: mouseArea.containsMouse ? Colors.Colour.palette.on_primary : Colors.Colour.palette.on_background
+                property color hoverTextColor: mouseArea.containsMouse ? Appearance.Colors.palette.on_primary : Appearance.Colors.palette.on_background
 
                 RowLayout {
                     anchors.fill: parent
@@ -101,9 +101,9 @@ PopupWindow {
 
                     Text {
                         Layout.fillWidth: true
-                        color: (modelData?.enabled ?? true) ? bg.hoverTextColor : Colors.Colour.palette.inverse_primary
+                        color: (modelData?.enabled ?? true) ? bg.hoverTextColor : Appearance.Colors.palette.inverse_primary
                         text: modelData?.text ?? ""
-                        font.family: Colors.Colour.family
+                        font.family: Appearance.Colors.family
                         verticalAlignment: Text.AlignVCenter
                         elide: Text.ElideRight
                     }
