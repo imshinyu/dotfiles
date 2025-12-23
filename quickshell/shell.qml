@@ -1,7 +1,12 @@
 import Quickshell
 import qs.Taskbar
-import qs.VolumeIndicator
+import qs.OSD
+
 Scope {
-  Bar{}
-  Osd{}
+    Bar {
+    }
+
+    Osd {
+    }
+
 }

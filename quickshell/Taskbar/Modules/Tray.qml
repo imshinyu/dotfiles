@@ -105,23 +105,6 @@ MouseArea {
     }
 }                }
 
-                MenuList {
-                    id: itemMenu
-
-                    items: trayMenu == null ? [] : trayMenu.children
-                    offset: systemTray.itemCount - SystemTray.items.indexOf(trayIcon.modelData)
-                    visible: itemMenu == systemTray.selectedMenu && trayIcon.isOpen
-
-                    Connections {
-                        target: systemTray
-
-                        function onSelectedMenuChanged() {
-                            if (systemTray.selectedMenu != itemMenu) {
-                                itemMenu.targetVisible = false;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
@@ -130,10 +113,4 @@ MouseArea {
     //     item: parent
     // }
 
-    Behavior on Layout.preferredWidth {
-        NumberAnimation {
-            duration: 100
-            easing.type: Easing.OutQuad
-        }
-    }
 }

@@ -5,22 +5,16 @@
 # Whitelist specific root files
 !.gitignore
 !README.md
-!xremap.yml
-!gpu_usage_waybar.toml
 !.bashrc
 # Whitelist entire directories and their contents recursively
 !systemd/**
-!aconfmgr/**
-!blocklist/**
 !btop/**
-!decman/**
-!dunst/**
 !fastfetch/**
 !fish/**
-!fuzzel/**
 !gtk-3.0/**
 !gtk-4.0/**
-!hypr/**
+!qt5ct/**
+!qt6ct/**
 !kitty/**
 !matugen/**
 !niri/**
@@ -28,13 +22,14 @@
 !qt6ct/**
 !quickshell/**
 !rofi/**
-!wal/**
-!waybar/**
 !waypaper/**
 !xdg-desktop-portal/**
 !mango/**
-google-chrome/
-nvim/
-heroic/
-r2modmanPlus-local/
-Local/
+!mimi/**
+!helix/**
+!mako/**
+!xdg-desktop-portal/**
+!yazi/**
+Local
+heroic
+nvim

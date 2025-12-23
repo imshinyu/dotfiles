@@ -1,14 +1,15 @@
 pragma Singleton
+pragma ComponentBehavior: Bound
 import Quickshell
 import Quickshell.Io
-import QtQml.Models
 
 Singleton {
   id: root
-  property string currentWorkspace: "0"
+  property var currentWorkspace
   Process {
     command: ["mmsg", "-w", "-t"]
     running: true
+    onRunningChanged: if (!running) running = true
     stdout: SplitParser {
       onRead: line => {
           let c=0;

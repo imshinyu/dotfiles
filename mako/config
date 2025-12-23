@@ -1,0 +1,8 @@
+include=~/.config/mako/mako-colors
+border-radius=10,10
+icon-border-radius= 10
+on-button-right=dismiss
+height=150
+width=400
+anchor=top-center
+default-timeout=1000

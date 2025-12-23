@@ -53,7 +53,7 @@ Scope {
 
 			Rectangle {
 				anchors.fill: parent
-				radius: height / 3
+				radius: Appearance.Settings.radius
 				color: Appearance.Colors.palette.background
 
 				RowLayout {
@@ -73,7 +73,7 @@ Scope {
 						Layout.fillWidth: true
 
 						implicitHeight: 10
-						radius: 20
+						radius: Appearance.Settings.radius
 						color: Appearance.Colors.palette.primary_container
 						Rectangle {
 							color: Appearance.Colors.palette.primary

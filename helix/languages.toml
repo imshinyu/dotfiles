@@ -1,0 +1,19 @@
+
+[language-server.qmlls]
+args = [ "-E" ]
+command = "qmlls6"
+
+[[language]]
+name = "rust"
+auto-format = true
+
+[[language]]
+name = "qmlls"
+scope = "source.qmlls"
+injection-regex = "qml"
+file-types = ["qml"]
+comment-tokens = "//"
+indent = { tab-width = 2, unit = "  " }
+formatter = { command = "qmlformat" , args = ["--i","%{buffer_name}"] }
+language-servers = [ "qmlls" ]
+

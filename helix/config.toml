@@ -1,0 +1,31 @@
+theme = "matugen"
+
+[editor]
+auto-completion = true
+line-number= "relative"
+mouse=true
+default-yank-register='+'
+
+[editor.word-completion]
+enable = true
+# Set the trigger length lower so that words are completed more often
+trigger-length = 2
+
+[editor.indent-guides]
+render = true
+character = "▏" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+[keys.normal]
+"X" = ["extend_line_up"]
+"C-l" = ["extend_to_line_end"]
+"C-j" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+"C-k" = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+[keys.insert]
+"C-x" = ["completion"]
+[keys.select]
+"A-c" = ["copy_selection_on_prev_line"]

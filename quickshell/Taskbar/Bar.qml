@@ -6,7 +6,7 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Shapes
 import qs.Appearance as Appearance
-import qs.Services.Time as Clock
+import qs.Services as Time
 import qs.Taskbar.Modules as Module
 
 Variants {
@@ -15,26 +15,32 @@ Variants {
     id: scope
     required property ShellScreen modelData
     property real borderWidth: 10///18//20
-    property real cornerRadius: 10
-    property real widgetRadius: 10
+    property real cornerRadius: Appearance.Settings.radius
+    property real widgetRadius: Appearance.Settings.radius
     property color barsColor: Appearance.Colors.palette.background
     property color bordercolor: Appearance.Colors.palette.primary
 
     PanelWindow {
         id: leftBar
-        color: barsColor
         screen: scope.modelData
+        color: 'transparent'
+        margins {
+          top: 10
+          bottom: 10
+          left: 5
+        }
         anchors {
             top: true
             left: true
             bottom: true
         }
         implicitWidth: 40
-        implicitHeight: 100
-        Item {
+        Rectangle {
           width: parent.width
           height: parent.height
           anchors.left: parent.left
+          color: barsColor
+          radius: cornerRadius
           ColumnLayout {
             anchors.fill: parent
             spacing: 5
@@ -42,12 +48,21 @@ Variants {
               id: workspaceArea
               Layout.alignment: Qt.AlignTop
               Layout.topMargin: 10
-              Layout.leftMargin: 7
+              Layout.leftMargin: 6
               color: "transparent"
               Module.Workspace {}
             }
             Item{
               Layout.fillHeight: true
+            }
+            Item{
+              Layout.fillHeight: true
+            }
+            Module.Tray{
+              Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
+              MarginWrapperManager {margin: 7}
+              radius: widgetRadius
+              color: Appearance.Colors.palette.primary
             }
             Rectangle{
               id: date
@@ -59,36 +74,27 @@ Variants {
                 anchors.fill: parent
               }
             }
-            Item{
-              Layout.minimumHeight: 230
-            }
-            Module.Tray{
-              Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-              MarginWrapperManager {margin: 8}
-              radius: widgetRadius
-              color: Appearance.Colors.palette.primary
-            }
             Rectangle {
               id: power
               Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
               Layout.bottomMargin: 11
-              height: 27
-              width: 27
+              height: 28
+              width: 28
               color: Appearance.Colors.palette.primary
               radius: widgetRadius
               MouseArea {
                 anchors.fill: power
                 onClicked: {
-                  powerMenu.visible = !powerMenu.visible
-                  //powerMenu.popup(30,645,power)
-                  powerMenu.x = 30
-                  powerMenu.y = 645
+                  // powerMenu.visible = !powerMenu.visible
+                  powerMenu.popup(40,660,power)
+                  // powerMenu.x = 40
+                  // powerMenu.y = 0
                   powerMenu.open();
                 }
               }
                 Process {
                     id: logoutProcess
-                    command: ["mmsg", "-q"]
+                    command: ["loginctl", "terminate-user",Quickshell.env('USER')]
                 }
                 Process {
                     id: rebootProcess
@@ -106,10 +112,13 @@ Variants {
                     closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
                     background: Rectangle {
                         color: Appearance.Colors.palette.background
-                        radius: 10
+                        radius: 8
                     }
                     MenuItem {
-                        text: "Logout"
+                        contentItem: Label {
+                          color: parent.hovered ? Appearance.Colors.palette.on_primary : "white"
+                          text: "Logout"
+                        }
                         onTriggered: logoutProcess.running = true
                         background: Rectangle {
                             color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
@@ -117,7 +126,10 @@ Variants {
                         }
                     }
                     MenuItem {
-                        text: "Reboot"
+                        contentItem: Label {
+                          color: parent.hovered ? Appearance.Colors.palette.on_primary : "white"
+                          text: "Restart"
+                        }
                         onTriggered: rebootProcess.running = true
                         background: Rectangle {
                             color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
@@ -125,7 +137,10 @@ Variants {
                         }
                     }
                     MenuItem {
-                        text: "Shutdown"
+                        contentItem: Label {
+                          color: parent.hovered ? Appearance.Colors.palette.on_primary : "white"
+                          text: "Shutdown"
+                        }
                         onTriggered: shutdownProcess.running = true
                         background: Rectangle {
                             color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
@@ -142,7 +157,7 @@ Variants {
           }
         }
     }
-   PanelWindow {
+   /* PanelWindow {
       id: topBar
       screen: scope.modelData
       implicitHeight: borderWidth
@@ -314,6 +329,6 @@ Variants {
           }
         }
       }
-    }
+    } */
   }
 }

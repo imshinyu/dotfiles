@@ -1,9 +1,0 @@
-modmap:                                                                                                                                                                                                       
-  - name: Default
-    remap: # Required
-      # Replace a key with another
-      CapsLock: Backspace # Required  
-keymap:
-  - name: enter
-    remap:
-      Shift-Space: Enter

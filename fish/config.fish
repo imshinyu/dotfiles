@@ -3,14 +3,11 @@ if status is-interactive
 end
 #fish_config theme choose "Matugen"
 
-alias vim="helix"
-alias hx="helix"
 alias qmlls="qmlls6"
 alias rgcc="gcc -lraylib"
 export HSA_OVERRIDE_GFX_VERSION=8.0.3
 export OLLAMA_VULKAN=1
 export ROC_ENABLE_PRE_VEGA=1
-set EDITOR nvim
 set -g theme_color_scheme Matugen
 
 # Created by `pipx` on 2025-11-09 19:10:06
