@@ -6,3 +6,6 @@ open = [{ run = 'xdg-open "$@"', desc = "Open" }]
 image_bound = [10000, 10000]
 [mgr]
 show_hidden = true
+prepend_keymap = [
+  { on = ["i"], run = "plugin recycle-bin",desc = "Open Recycle Bin menu" },
+]

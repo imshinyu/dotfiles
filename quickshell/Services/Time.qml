@@ -4,7 +4,10 @@ import QtQuick
 Singleton {
     id: root
     readonly property string time: {
-        Qt.formatDateTime(clock.date, "hh\nmm\n|\nd")
+        Qt.formatDateTime(clock.date, "hh\nmm\n|\nddd\nd")
+    }
+    readonly property string day: {
+        Qt.formatDateTime(clock.date,"dddd")
     }
 
     SystemClock {

@@ -4,10 +4,8 @@ import Quickshell.Widgets
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import QtQuick.Shapes
-import qs.Appearance as Appearance
-import qs.Services as Time
-import qs.Taskbar.Modules as Module
+import qs.Appearance
+import qs.Taskbar.Modules as Modules
 
 Variants {
   model: Quickshell.screens
@@ -15,20 +13,15 @@ Variants {
     id: scope
     required property ShellScreen modelData
     property real borderWidth: 10///18//20
-    property real cornerRadius: Appearance.Settings.radius
-    property real widgetRadius: Appearance.Settings.radius
-    property color barsColor: Appearance.Colors.palette.background
-    property color bordercolor: Appearance.Colors.palette.primary
+    property real cornerRadius: Settings.radius
+    property real widgetRadius: Settings.radius
+    property color barsColor: Colors.palette.background
+    property color bordercolor: Colors.palette.primary
 
     PanelWindow {
         id: leftBar
         screen: scope.modelData
         color: 'transparent'
-        margins {
-          top: 10
-          bottom: 10
-          left: 5
-        }
         anchors {
             top: true
             left: true
@@ -36,41 +29,57 @@ Variants {
         }
         implicitWidth: 40
         Rectangle {
+          id:idk
           width: parent.width
           height: parent.height
           anchors.left: parent.left
           color: barsColor
-          radius: cornerRadius
+          topRightRadius: cornerRadius
+          bottomRightRadius: cornerRadius
           ColumnLayout {
             anchors.fill: parent
-            spacing: 5
             Rectangle {
               id: workspaceArea
               Layout.alignment: Qt.AlignTop
               Layout.topMargin: 10
-              Layout.leftMargin: 6
+              Layout.leftMargin: 7
               color: "transparent"
-              Module.Workspace {}
+              Modules.Workspace {}
             }
             Item{
               Layout.fillHeight: true
             }
-            Item{
-              Layout.fillHeight: true
-            }
-            Module.Tray{
-              Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-              MarginWrapperManager {margin: 7}
+            Rectangle {
+              id: layoutArea
+              Layout.alignment: Qt.AlignVCenter
+              Layout.topMargin: 200
+              Layout.rightMargin: 0
+              Layout.leftMargin: 5
+              height: childrenRect.height + 40
+              width: 30
               radius: widgetRadius
-              color: Appearance.Colors.palette.primary
+              color: Colors.palette.primary
+              Modules.Layout {
+                anchors.centerIn: parent
+              }
+            }
+            Item{
+              Layout.fillHeight: true
+            }
+            Modules.Tray{
+              Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
+              MarginWrapperManager {margin: 5}
+              radius: widgetRadius
+              color: Colors.palette.primary
             }
             Rectangle{
               id: date
               Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-              MarginWrapperManager {margin: 7}
+              height: childrenRect.height + 45
+              width: 30
               radius: widgetRadius
-              color: Appearance.Colors.palette.primary
-              Module.ClockWidget{
+              color: Colors.palette.primary
+              Modules.ClockWidget{
                 anchors.fill: parent
               }
             }
@@ -80,10 +89,12 @@ Variants {
               Layout.bottomMargin: 11
               height: 28
               width: 28
-              color: Appearance.Colors.palette.primary
+              color: Colors.palette.primary
               radius: widgetRadius
               MouseArea {
                 anchors.fill: power
+                hoverEnabled: true
+                cursorShape: Qt.PointingHandCursor
                 onClicked: {
                   // powerMenu.visible = !powerMenu.visible
                   powerMenu.popup(40,660,power)
@@ -94,7 +105,7 @@ Variants {
               }
                 Process {
                     id: logoutProcess
-                    command: ["loginctl", "terminate-user",Quickshell.env('USER')]
+                    command: ["wayland-logout"]
                 }
                 Process {
                     id: rebootProcess
@@ -111,39 +122,39 @@ Variants {
                     popupType: Popup.Window
                     closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
                     background: Rectangle {
-                        color: Appearance.Colors.palette.background
+                        color: Colors.palette.background
                         radius: 8
                     }
                     MenuItem {
                         contentItem: Label {
-                          color: parent.hovered ? Appearance.Colors.palette.on_primary : "white"
+                          color: parent.hovered ? Colors.palette.on_primary : "white"
                           text: "Logout"
                         }
                         onTriggered: logoutProcess.running = true
                         background: Rectangle {
-                            color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
+                            color: parent.hovered ? Colors.palette.primary : "transparent"
                             radius: 8
                         }
                     }
                     MenuItem {
                         contentItem: Label {
-                          color: parent.hovered ? Appearance.Colors.palette.on_primary : "white"
+                          color: parent.hovered ? Colors.palette.on_primary : "white"
                           text: "Restart"
                         }
                         onTriggered: rebootProcess.running = true
                         background: Rectangle {
-                            color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
+                            color: parent.hovered ? Colors.palette.primary : "transparent"
                             radius: 8
                         }
                     }
                     MenuItem {
                         contentItem: Label {
-                          color: parent.hovered ? Appearance.Colors.palette.on_primary : "white"
+                          color: parent.hovered ? Colors.palette.on_primary : "white"
                           text: "Shutdown"
                         }
                         onTriggered: shutdownProcess.running = true
                         background: Rectangle {
-                            color: parent.hovered ? Appearance.Colors.palette.primary : "transparent"
+                            color: parent.hovered ? Colors.palette.primary : "transparent"
                             radius: 8
                         }
                     }
@@ -151,7 +162,7 @@ Variants {
               Text {
                 text: ""
                 anchors.centerIn: parent
-                color: Appearance.Colors.palette.background
+                color: Colors.palette.background
               }
             }
           }

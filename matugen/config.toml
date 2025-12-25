@@ -71,6 +71,10 @@ output_path = '~/.config/fish/themes/Matugen.theme'
 input_path = '~/.config/matugen/templates/btop.theme'
 output_path = '~/.config/btop/themes/matugen.theme'
 
+[templates.vivaldi]
+input_path = '~/.config/matugen/templates/vivaldi.css'
+output_path = '~/.config/vivaldi/themes/matugen.css'
+
 [templates.pywalfox]
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'

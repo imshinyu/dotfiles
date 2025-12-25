@@ -21,16 +21,14 @@ PopupWindow {
     anchor.rect.x: anchorX
     anchor.rect.y: anchorY - 4
     
-    // New function for absolute positioning
-    // Add this function to Tray.qml
-    function showAtAbsolute(x, y) {
+    function showAt(x, y) {
         // Disable anchor system temporarily
         anchor.enabled = false
         // Set absolute position
-        this.x = x
-        this.y = y
+        trayMenu.x = x
+        trayMenu.y = y
         // Show the menu
-        this.visible = true
+        trayMenu.visible = true
         // Re-enable anchor system after showing (optional)
         Qt.callLater(() => {
             anchor.enabled = true

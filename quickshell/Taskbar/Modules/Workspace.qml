@@ -1,22 +1,20 @@
 import Quickshell
-import qs.Appearance as Appearance
-import qs.Services as Services
+import Quickshell.Io
+import qs.Appearance
+import qs.Services
 import QtQuick
 import QtQuick.Layouts
 
 Rectangle {
     id: root
-    property var workspaces: Services.Mango.workspaces
-    color: Appearance.Colors.palette.primary_container
+    property var workspaces: Mango.workspaces
+    color: Colors.palette.primary_container
     implicitHeight: workCol.implicitHeight
-    radius: Appearance.Settings.radius
+    radius: Settings.radius
     width: workCol.implicitWidth
     ColumnLayout {
         id: workCol
-        anchors.bottom: parent.bottom
-        anchors.left: parent.left
-        anchors.top: parent.top
-        anchors.right: parent.right
+        anchors.fill: parent
         spacing: 2
         Repeater {
             id:workspacePill
@@ -24,28 +22,34 @@ Rectangle {
             delegate: Rectangle {
                 id: pill
                 required property int modelData
-                color: modelData==Services.Mango.currentWorkspace-1 ? Appearance.Colors.palette.primary : 'transparent';
+                color: modelData==(Mango.currentWorkspace-1 ?? Niri.Niri.focusedWorkspace) ? Colors.palette.primary : 'transparent';
                 implicitWidth: 28
                 implicitHeight: 25
-                radius: Appearance.Settings.radius
+                radius: Settings.radius
+                MouseArea {
+                    anchors.fill: pill
+                    hoverEnabled: true
+                    cursorShape: Qt.PointingHandCursor
+                    acceptedButtons: Qt.LeftButton
+                    onClicked: changeWorkspace.running = true
+                }
+                Process {
+                    id: changeWorkspace
+                    command: ["mmsg","-t",modelData+1]
+                }
                 Text {
                     id: workNum
                     anchors.centerIn: parent
-                    color: Appearance.Colors.palette.on_primary
+                    color: modelData==Mango.currentWorkspace-1 ? Colors.palette.on_primary : Colors.palette.on_surface
                     font {
-                        family: Appearance.Settings.fontFamily
-                        pixelSize: Appearance.Settings.fontpixelSize
-                        weight: Appearance.Settings.fontWeight
+                        family: Settings.fontFamily
+                        pixelSize: Settings.fontpixelSize
+                        weight: Settings.fontWeight
                     }
                     text: modelData + 1
+                    //text: Niri.NiriWindow.workspaceId
                     
                 }
-            }
-        }
-        MouseArea {
-            anchors.fill:pill
-            onClicked: {
-                command: ["mmsg","-t",workspacePill.model]
             }
         }
     }

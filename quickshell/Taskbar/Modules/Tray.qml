@@ -1,116 +1,67 @@
 import QtQuick
 import QtQuick.Layouts
 import Quickshell
+import Quickshell.Widgets
 import Quickshell.Services.SystemTray
-import qs.Taskbar.Modules as Modules
-import qs.Appearance as Appearance
+import qs.Taskbar.Modules
+import qs.Appearance
 
 Rectangle {
     id: systemTray
     visible: SystemTray.items.values.length > 0
-    // clip: true
-
-    property var selectedMenu: null
-    property var trayMenu: Modules.CustomTrayMenu{}
-
-    property int itemCount: SystemTray.items.values.length
-
+    property var trayMenu: CustomTrayMenu{}
     ColumnLayout {
-        spacing: 0
-        id: trayRow
-        anchors {
-            fill: parent
-            bottomMargin: 30
-            verticalCenter: parent.verticalCenter
-        }
-
+        id: tray
+        spacing: 5
         Repeater {
+            id: trayItem
             model: SystemTray.items
-
-            Item {
+            Rectangle {
                 id: trayIcon
-                required property var modelData
-
-                Layout.fillWidth: true
-                implicitHeight: 40
-
-                property bool isOpen: false
-
-
+                required property SystemTrayItem modelData
+                width: 20
+                height: 20
+                radius: 20
+                color: Colors.palette.background
+                // color: 'transparent'
+                 MouseArea {
+                     anchors.fill: parent
+                     hoverEnabled: true
+                     cursorShape: Qt.PointingHandCursor
+                     acceptedButtons: Qt.LeftButton | Qt.RightButton
+                     onClicked: event=> {
+                         switch (event.button) {
+                             case Qt.LeftButton:
+                                 trayIcon.modelData.activate();
+                                 break;
+                             case Qt.RightButton:
+                                 if(trayIcon.modelData.hasMenu){
+                                     // const x=20
+                                     // const y=400
+                                     // trayMenu.showAt(trayIcon.height + 10,trayIcon.width);
+                                     const window = QsWindow.window;
+                                     const widgetRect = window.contentItem.mapFromItem(trayIcon,40,trayIcon.height-20,trayIcon.width,trayIcon.height)
+                                     menuAnchor.anchor.rect = widgetRect;
+                                     menuAnchor.open();
+                                 }
+                                 break;
+                         }
+                     }
+                }
+                 QsMenuAnchor {
+                     id: menuAnchor
+                     menu: trayIcon.modelData.menu
+                     anchor.window: trayIcon.QsWindow.window ?? null
+                     anchor.adjustment: PopupAdjustment.Flip
+                 }
                 Image {
-                    source: parent.modelData.icon
-                    height: 20
-                    width: 20
-                    anchors {
-                        horizontalCenter: parent.horizontalCenter
-                    }
-
-MouseArea {
-    id: trayMouseArea
-    anchors.fill: parent
-    hoverEnabled: true
-    cursorShape: Qt.PointingHandCursor
-    acceptedButtons: Qt.LeftButton | Qt.RightButton | Qt.MiddleButton
-    onClicked: (mouse) => {
-        if (!modelData) return;
-        
-        if (mouse.button === Qt.LeftButton) {
-            // Close any open menu first
-            if (trayMenu && trayMenu.visible) {
-                trayMenu.hideMenu()
-            }
-            
-            if (!modelData.onlyMenu) {
-                modelData.activate()
-            }
-        } else if (mouse.button === Qt.MiddleButton) {
-            // Close any open menu first
-            if (trayMenu && trayMenu.visible) {
-                trayMenu.hideMenu()
-            }
-            
-            modelData.secondaryActivate && modelData.secondaryActivate()
-        } else if (mouse.button === Qt.RightButton) {
-            console.log("Right click on", modelData.id, "hasMenu:", modelData.hasMenu, "menu:", modelData.menu)
-            // If menu is already visible, close it
-            if (trayMenu && trayMenu.visible) {
-                trayMenu.hideMenu()
-                return
-            }
-            
-            if (modelData.hasMenu && modelData.menu && trayMenu) {
-                // Get the global position of the tray icon
-                var iconGlobalPos = trayMouseArea.mapToGlobal(0, 0)
-                
-                // Calculate absolute coordinates like the power menu
-                // Position menu centered below the icon
-                var menuX = iconGlobalPos.x + (width / 2) - (trayMenu.width / 2)
-                var menuY = iconGlobalPos.y + height + 20
-                
-                // Alternative: Use fixed offset like power menu (30, 645)
-                // var menuX = 30
-                // var menuY = 645
-                
-                trayMenu.menu = modelData.menu
-                
-                // Use absolute positioning
-                trayMenu.showAtAbsolute(menuX, menuY)
-                
-                // Or if you added a showAtPosition function:
-                // trayMenu.showAtPosition(menuX, menuY)
-            } else {
-                // console.log("No menu available for", modelData.id, "or trayMenu not set")
+                    id: icon
+                    anchors.fill: parent
+                    source: trayIcon.modelData.icon
+                    sourceSize.width: 20
+                    sourceSize.height: 20
+                }
             }
         }
     }
-}                }
-
-            }
-        }
-    }
-
-    // Hover {
-    //     item: parent
-    // }
-
 }

@@ -1,9 +1,9 @@
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
-    Mod+Q hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
+    Mod+Q hotkey-overlay-title="Open a Terminal: kitty" { spawn "cool-retro-term"; }
     Mod+R { spawn "rofi" "-show" "drun" "-icon-theme" "Win11-dark-theme" "-show-icons"; }
-    //Mod+E { spawn "kitty" "-e" "yazi"; }
-    Mod+E { spawn "dolphin";}
+    Mod+E { spawn "kitty" "-e" "yazi"; }
+    //Mod+E { spawn "dolphin";}
     Alt+V { spawn "clipse-gui";}
     //Mod+W { spawn "waypaper";}
     Mod+W { spawn-sh "./Applications/awww.sh";}

@@ -9,7 +9,7 @@ hotkey-overlay {
     skip-at-startup
 }
 include "startup.kdl"
-include "variables.kdl"
+include "env.kdl"
 include "input.kdl"
 include "rules.kdl"
 include "keybinds.kdl"

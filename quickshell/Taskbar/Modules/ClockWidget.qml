@@ -1,14 +1,14 @@
 import QtQuick
-import qs.Services as Services
-import qs.Appearance as Appearance
+import qs.Services
+import qs.Appearance
 Text {
-    text: Services.Time.time
+    text: Time.time
     horizontalAlignment: Text.AlignHCenter
     verticalAlignment: Text.AlignVCenter
-    color: Appearance.Colors.palette.on_primary
+    color: Colors.palette.on_primary
     font {
-      pixelSize: Appearance.Settings.fontSize
-      family: Appearance.Settings.fontFamily
-      weight: Appearance.Settings.fontWeight
+      pixelSize: Settings.fontSize
+      family: Settings.fontFamily
+      weight: Settings.fontWeight
     }
 }

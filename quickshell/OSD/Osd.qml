@@ -3,7 +3,7 @@ import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.Pipewire
 import Quickshell.Widgets
-import qs.Appearance as Appearance
+import qs.Appearance
 
 Scope {
 	id: root
@@ -53,8 +53,8 @@ Scope {
 
 			Rectangle {
 				anchors.fill: parent
-				radius: Appearance.Settings.radius
-				color: Appearance.Colors.palette.background
+				radius: Settings.radius
+				color: Colors.palette.background
 
 				RowLayout {
 					anchors {
@@ -73,10 +73,10 @@ Scope {
 						Layout.fillWidth: true
 
 						implicitHeight: 10
-						radius: Appearance.Settings.radius
-						color: Appearance.Colors.palette.primary_container
+						radius: Settings.radius
+						color: Colors.palette.primary_container
 						Rectangle {
-							color: Appearance.Colors.palette.primary
+							color: Colors.palette.primary
 							anchors {
 								left: parent.left
 								top: parent.top
