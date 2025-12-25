@@ -39,7 +39,7 @@ Scope{
     focusable: true
     aboveWindows: true
     color: 'transparent'
-    implicitWidth: (root.active) ? 250 : 1
+    implicitWidth: (root.active) ? 250 : 0
     anchors {
       top: true
       right: true
@@ -134,10 +134,10 @@ Scope{
     IpcHandler {
       target: "panel"
       function openclosepanel(){
-        if(panel.implicitWidth==250)
-         return panel.implicitWidth=1;
-        else if (panel.implicitWidth==1)
-        return panel.implicitWidth=250;
+        if(root.active==true)
+         return root.active=false;
+        else if (root.active==false)
+        return root.active=true;
       }
     }
   }
