@@ -31,6 +31,18 @@
 !mako/**
 !xdg-desktop-portal/**
 !yazi/**
+# Blacklist
+btop/themes/matugen.theme
+fish/themes/Matugen.theme
+gtk-3.0/colors.css
+gtk-4.0/colors.css
+helix/themes/matugen.toml
+kitty/kitty-colors.conf
+mako/mako-colors
+mango/colors.conf
+niri/colors.kdl
+quickshell/Appearance/colors.json
+rofi/colors.rasi
 Local
 heroic
 nvim
