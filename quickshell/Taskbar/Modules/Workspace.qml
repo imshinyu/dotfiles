@@ -1,4 +1,5 @@
 import Quickshell
+pragma ComponentBehavior: Bound
 import Quickshell.Io
 import qs.Appearance
 import qs.Services
@@ -39,7 +40,7 @@ Rectangle {
                 }
                 Text {
                     id: workNum
-                    anchors.centerIn: parent
+                    anchors.centerIn: pill
                     color: modelData==Mango.currentWorkspace-1 ? Colors.palette.on_primary : Colors.palette.on_surface
                     font {
                         family: Settings.fontFamily

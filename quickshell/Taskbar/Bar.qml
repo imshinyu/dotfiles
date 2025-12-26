@@ -55,12 +55,20 @@ Variants {
               Layout.topMargin: 200
               Layout.rightMargin: 0
               Layout.leftMargin: 5
-              height: childrenRect.height + 40
+              // MarginWrapperManager {margin: 7}
+              height: 60
               width: 30
               radius: widgetRadius
               color: Colors.palette.primary
               Modules.Layout {
                 anchors.centerIn: parent
+              }
+              MouseArea {
+                id: layoutMouse
+                anchors.fill: parent
+                cursorShape: Qt.PointingHandCursor
+                acceptedButtons: Qt.LeftButton
+                onClicked: Quickshell.execDetached(["mmsg", "-d", "switch_layout"])
               }
             }
             Item{
@@ -82,6 +90,25 @@ Variants {
               Modules.ClockWidget{
                 anchors.fill: parent
               }
+              // TODO
+              // MouseArea {
+              //   id: dateMouse
+              //   anchors.fill: parent
+              //   hoverEnabled: true
+              //   cursorShape: Qt.PointingHandCursor
+              //   acceptedButtons: Qt.LeftButton
+              //   onHoveredChanged: {
+              //     grid.visible=true
+              //   }
+              // }
+              // MonthGrid {
+              //   id: grid
+              //   visible: false
+              //   month: Calendar.December
+              //   year: 2022
+              //   locale: Qt.locale("en_US")
+              //   Layout.fillWidth: true
+              // }
             }
             Rectangle {
               id: power

@@ -13,6 +13,7 @@ set -g theme_color_scheme Matugen
 # Created by `pipx` on 2025-11-09 19:10:06
 set PATH $PATH /home/shinyu/.local/bin
 set PATH $PATH ~/Applications
+set PATH $PATH ~/Scripts
 set -U fish_greeting
 function fish_greeting
     echo " ｀、ヽ(↼_↼)(↼_↼)(↼_↼)(↼_↼)(↼_↼)｀、"

@@ -9,7 +9,6 @@ import qs.Appearance
 Rectangle {
     id: systemTray
     visible: SystemTray.items.values.length > 0
-    property var trayMenu: CustomTrayMenu{}
     ColumnLayout {
         id: tray
         spacing: 5
