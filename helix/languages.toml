@@ -1,4 +1,7 @@
 
+[language-server.discord-rpc]
+command = "discord-rpc-lsp"
+
 [language-server.qmlls]
 args = [ "-E" ]
 command = "qmlls6"

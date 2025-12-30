@@ -2,6 +2,7 @@ theme = "matugen"
 
 [editor]
 auto-completion = true
+auto-format= false
 line-number= "relative"
 mouse=true
 default-yank-register='+'

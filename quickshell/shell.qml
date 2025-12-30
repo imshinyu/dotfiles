@@ -4,7 +4,7 @@ import qs.Taskbar
 import qs.OSD
 import qs.Wallpaper
 
-Scope {
+ShellRoot {
     Bar {
     }
 

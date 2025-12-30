@@ -32,5 +32,6 @@ Text {
     if(layoutName == "VS") return "VScroller";
     if(layoutName == "VT") return "VTile";
     if(layoutName == "CT") return "CTile";
+    else return " ";
   }
 }

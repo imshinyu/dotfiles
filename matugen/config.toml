@@ -56,12 +56,21 @@ output_path = '~/.config/rofi/colors.rasi'
 input_path = '~/.config/matugen/templates/Matugen.colors'
 output_path = '~/.local/share/color-schemes/Matugen.colors'
 
-[templates.vesktop]
+[templates.discordMidnight]
 input_path = '~/.config/matugen/templates/midnight-discord.css'
 output_path = '~/.config/vesktop/themes/midnight.css'
-[templates.discord]
+
+[templates.discordMaterial]
 input_path = '~/.config/matugen/templates/Material-Discord.css'
 output_path = '~/.config/vesktop/themes/material.css'
+
+[templates.vesktopSystem24]
+input_path = '~/.config/matugen/templates/system24-discord.css'
+output_path = '~/.config/vesktop/themes/system24-discord.css'
+
+[templates.discordSystem24]
+input_path = '~/.config/matugen/templates/system24-discord.css'
+output_path = '~/.config/Vencord/themes/system24-discord.css'
 
 [templates.fish]
 input_path = '~/.config/matugen/templates/fish-colors.theme'

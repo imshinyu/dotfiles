@@ -3,6 +3,7 @@ import Quickshell.Io
 import Quickshell.Widgets
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Effects
 import QtQuick.Layouts
 import qs.Appearance
 import qs.Taskbar.Modules as Modules
@@ -29,20 +30,30 @@ Variants {
         }
         implicitWidth: 40
         Rectangle {
+          id: background
+          width: 20
+          height: parent.height
+          anchors.horizontalCenter: parent.horizontalCenter
+          color: scope.barsColor
+        }
+        Rectangle {
           id:idk
           width: parent.width
           height: parent.height
           anchors.left: parent.left
-          color: barsColor
-          topRightRadius: cornerRadius
-          bottomRightRadius: cornerRadius
+          // color: scope.barsColor
+          color: 'transparent'
+          topRightRadius: scope.cornerRadius
+          bottomRightRadius: scope.cornerRadius
           ColumnLayout {
+            id: barCol
             anchors.fill: parent
+            anchors.centerIn: parent
             Rectangle {
               id: workspaceArea
               Layout.alignment: Qt.AlignTop
               Layout.topMargin: 10
-              Layout.leftMargin: 7
+              Layout.leftMargin: 6
               color: "transparent"
               Modules.Workspace {}
             }
@@ -56,12 +67,12 @@ Variants {
               Layout.rightMargin: 0
               Layout.leftMargin: 5
               // MarginWrapperManager {margin: 7}
-              height: 60
-              width: 30
-              radius: widgetRadius
+              implicitHeight: 70
+              implicitWidth: 30
+              radius: scope.widgetRadius
               color: Colors.palette.primary
               Modules.Layout {
-                anchors.centerIn: parent
+                anchors.centerIn: layoutArea
               }
               MouseArea {
                 id: layoutMouse
@@ -83,39 +94,20 @@ Variants {
             Rectangle{
               id: date
               Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-              height: childrenRect.height + 45
-              width: 30
+              implicitHeight: 90
+              implicitWidth: 30
               radius: widgetRadius
               color: Colors.palette.primary
               Modules.ClockWidget{
                 anchors.fill: parent
               }
-              // TODO
-              // MouseArea {
-              //   id: dateMouse
-              //   anchors.fill: parent
-              //   hoverEnabled: true
-              //   cursorShape: Qt.PointingHandCursor
-              //   acceptedButtons: Qt.LeftButton
-              //   onHoveredChanged: {
-              //     grid.visible=true
-              //   }
-              // }
-              // MonthGrid {
-              //   id: grid
-              //   visible: false
-              //   month: Calendar.December
-              //   year: 2022
-              //   locale: Qt.locale("en_US")
-              //   Layout.fillWidth: true
-              // }
             }
             Rectangle {
               id: power
               Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
               Layout.bottomMargin: 11
-              height: 28
-              width: 28
+              implicitHeight: 28
+              implicitWidth: 28
               color: Colors.palette.primary
               radius: widgetRadius
               MouseArea {
@@ -146,44 +138,73 @@ Variants {
                 Menu {
                     id: powerMenu
                     width: 150
+                    height: 40
                     popupType: Popup.Window
                     closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
                     background: Rectangle {
                         color: Colors.palette.background
-                        radius: 8
+                        radius: 10
+                        border.width: 1
+                        border.color: Colors.palette.surface_bright
                     }
-                    MenuItem {
-                        contentItem: Label {
-                          color: parent.hovered ? Colors.palette.on_primary : "white"
-                          text: "Logout"
-                        }
-                        onTriggered: logoutProcess.running = true
-                        background: Rectangle {
-                            color: parent.hovered ? Colors.palette.primary : "transparent"
-                            radius: 8
-                        }
+                    WrapperItem {
+                      margin: 3
+                      bottomMargin: 0
+                      topMargin: 3
+                      MenuItem {
+                          contentItem: Label {
+                            color: parent.hovered ? Colors.palette.on_primary : "white"
+                            text: " Logout"
+                            font.pixelSize: Settings.fontpixelSize
+                            font.family: Settings.fontFamily
+                          }
+                          onTriggered: logoutProcess.running = true
+                          background: Rectangle {
+                              color: parent.hovered ? Colors.palette.on_surface : "transparent"
+                              height: 25
+                              radius: 8
+                          }
+                      }
                     }
-                    MenuItem {
-                        contentItem: Label {
-                          color: parent.hovered ? Colors.palette.on_primary : "white"
-                          text: "Restart"
-                        }
-                        onTriggered: rebootProcess.running = true
-                        background: Rectangle {
-                            color: parent.hovered ? Colors.palette.primary : "transparent"
-                            radius: 8
-                        }
+                    WrapperItem {
+                      margin: 3
+                      bottomMargin: 0
+                      topMargin: 0
+                      MenuItem {
+                          implicitTextPadding: 5
+                          contentItem: Label {
+                            color: parent.hovered ? Colors.palette.on_primary : "white"
+                            text: " Restart"
+                            font.pixelSize: Settings.fontpixelSize
+                            font.family: Settings.fontFamily
+                          }
+                          onTriggered: rebootProcess.running = true
+                          background: Rectangle {
+                              color: parent.hovered ? Colors.palette.on_surface : "transparent"
+                              height: 25
+                              radius: 8
+                          }
+                      }
                     }
-                    MenuItem {
-                        contentItem: Label {
-                          color: parent.hovered ? Colors.palette.on_primary : "white"
-                          text: "Shutdown"
-                        }
-                        onTriggered: shutdownProcess.running = true
-                        background: Rectangle {
-                            color: parent.hovered ? Colors.palette.primary : "transparent"
-                            radius: 8
-                        }
+                    WrapperItem {
+                      bottomMargin: -1
+                      leftMargin: 5
+                      rightMargin: 5
+                      topMargin: 0
+                      MenuItem {
+                          contentItem: Label {
+                            color: parent.hovered ? Colors.palette.on_primary : "white"
+                            text: " Shutdown"
+                            font.pixelSize: Settings.fontpixelSize
+                            font.family: Settings.fontFamily
+                          }
+                          onTriggered: shutdownProcess.running = true
+                          background: Rectangle {
+                              color: parent.hovered ? Colors.palette.on_surface : "transparent"
+                              height: 25
+                              radius: 7
+                          }
+                      }
                     }
                 }
               Text {
