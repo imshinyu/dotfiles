@@ -14,6 +14,7 @@ set -g theme_color_scheme Matugen
 set PATH $PATH /home/shinyu/.local/bin
 set PATH $PATH ~/Applications
 set PATH $PATH ~/Scripts
+set PATH $PATH $(go env GOPATH)/bin
 set -U fish_greeting
 function fish_greeting
     echo " ｀、ヽ(↼_↼)(↼_↼)(↼_↼)(↼_↼)(↼_↼)｀、"

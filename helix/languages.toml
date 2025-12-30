@@ -6,9 +6,22 @@ command = "discord-rpc-lsp"
 args = [ "-E" ]
 command = "qmlls6"
 
+[language-server.clangd]
+command = "clangd"
+
 [[language]]
 name = "rust"
 auto-format = true
+
+[[language]]
+name = "c"
+scope = "source.c"
+injection-regex = "c"
+file-types = ["c"]
+comment-token = "//"
+block-comment-tokens = { start = "/*", end = "*/" }
+language-servers = [ "clangd", "discord-rpc" ]
+indent = { tab-width = 2, unit = "  " }
 
 [[language]]
 name = "qmlls"
@@ -18,5 +31,5 @@ file-types = ["qml"]
 comment-tokens = "//"
 indent = { tab-width = 2, unit = "  " }
 formatter = { command = "qmlformat" , args = ["--i","%{buffer_name}"] }
-language-servers = [ "qmlls" ]
+language-servers = [ "qmlls" , "discord-rpc" ]
 

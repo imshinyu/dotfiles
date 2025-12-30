@@ -21,7 +21,7 @@ Scope {
             bottom: true
             right: true
         }
-        implicitWidth: 1
+        implicitWidth: 0
         color: 'transparent'
         MouseArea {
             anchors.fill: parent
@@ -48,7 +48,7 @@ Scope {
             }
             Rectangle {
                 width: 40
-                height: parent.height
+                height: parent.height - 10
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: (root.active) ? Colors.palette.background : 'transparent'
             }
@@ -73,10 +73,11 @@ Scope {
                     //     id: exit
                     //     Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
                     //     Layout.topMargin: 11
+                    //     Layout.bottomMargin: 5
                     //     implicitHeight: 30
                     //     implicitWidth: 30
                     //     color: (root.active) ? Colors.palette.primary : 'transparent'
-                    //     radius: Settings.radius
+                    //     radius: 20
                     //     Text {
                     //         text: ""
                     //         anchors.centerIn: parent
@@ -129,11 +130,12 @@ Scope {
                                 margin: 5
                                 required property string filePath
                                 ClippingWrapperRectangle {
-                                    radius: Settings.radius
+                                    radius: 10
                                     Layout.alignment: Qt.AlignHCenter
                                     border.width: 3
                                     border.color: (selectImage.containsMouse) ? Colors.palette.primary : 'transparent'
-                                    color: "transparent"
+                                    color: Colors.palette.background
+                                    margin: 5
                                     Image {
                                         id: image
                                         source: contentItem.filePath
@@ -150,7 +152,7 @@ Scope {
                                             hoverEnabled: true
                                             cursorShape: Qt.PointingHandCursor
                                             acceptedButtons: Qt.LeftButton
-                                            onClicked: Quickshell.execDetached(["sh", "-c", `awww img ${contentItem.filePath} --transition-type any --transition-step 63 --transition-fps 60 --transition-duration 2 && matugen image ${contentItem.filePath}`])
+                                            onClicked: Quickshell.execDetached(["sh", "-c", `awww img ${contentItem.filePath} --transition-type any --transition-step 63 --transition-fps 60 --transition-duration 2 && matugen --show-colors -t scheme-fidelity image ${contentItem.filePath}  $wallpaper -m dark`])
                                         }
                                     }
                                 }

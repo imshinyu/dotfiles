@@ -9,7 +9,7 @@ import QtQuick.Layouts
 Rectangle {
     id: root
     property var workspaces: Mango.workspaces
-    color: Colors.palette.primary_container
+    color: Colors.palette.inverse_on_surface
     implicitHeight: workCol.implicitHeight
     radius: Settings.radius
     width: workCol.implicitWidth

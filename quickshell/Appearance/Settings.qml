@@ -8,5 +8,5 @@ Singleton {
   property int fontpixelSize: 13
   property int fontWeight: Font.ExtraBold
   property string fontFamily: "JetBrains Mono"
-  property int radius: 5
+  property int radius: 10
 }

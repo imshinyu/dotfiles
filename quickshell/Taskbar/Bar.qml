@@ -32,7 +32,7 @@ Variants {
         Rectangle {
           id: background
           width: 20
-          height: parent.height
+          height: parent.height - 15
           anchors.horizontalCenter: parent.horizontalCenter
           color: scope.barsColor
         }
