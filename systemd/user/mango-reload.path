@@ -1,0 +1,6 @@
+[Unit]
+Description=Watch Mango config file for changes
+[Path]
+PathModified=%h/.config/mango/
+[Install]
+WantedBy=default.target

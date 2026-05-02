@@ -1,0 +1,59 @@
+/* GTK NAMED COLORS
+   ----------------
+   use responsibly! */
+/* widget text/foreground color */
+@define-color theme_fg_color {{colors.on_surface.default.hex}};
+/* text color for entries, views and content in general */
+@define-color theme_text_color {{colors.on_surface.default.hex}};
+/* widget base background color */
+@define-color theme_bg_color {{colors.surface_dim.default.hex}};
+/* text widgets and the like base background color */
+@define-color theme_base_color {{colors.surface.default.hex}};
+/* base background color of selections */
+@define-color theme_selected_bg_color {{colors.primary.default.hex}};
+/* text/foreground color of selections */
+@define-color theme_selected_fg_color {{colors.on_primary.default.hex}};
+/* base background color of disabled widgets */
+@define-color insensitive_bg_color {{colors.surface_container.default.hex}};
+/* text foreground color of disabled widgets */
+@define-color insensitive_fg_color {{colors.on_surface_variant.default.hex}};
+/* disabled text widgets and the like base background color */
+@define-color insensitive_base_color {{colors.surface.default.hex}};
+/* widget text/foreground color on backdrop windows */
+@define-color theme_unfocused_fg_color {{colors.on_surface_variant.default.hex}};
+/* text color for entries, views and content in general on backdrop windows */
+@define-color theme_unfocused_text_color {{colors.on_surface.default.hex}};
+/* widget base background color on backdrop windows */
+@define-color theme_unfocused_bg_color {{colors.surface_dim.default.hex}};
+/* text widgets and the like base background color on backdrop windows */
+@define-color theme_unfocused_base_color {{colors.surface_container.default.hex}};
+/* base background color of selections on backdrop windows */
+@define-color theme_unfocused_selected_bg_color {{colors.primary.default.hex}};
+/* text/foreground color of selections on backdrop windows */
+@define-color theme_unfocused_selected_fg_color {{colors.on_primary.default.hex}};
+/* widgets main borders color */
+@define-color borders {{colors.shadow.default.hex}};
+/* widgets main borders color on backdrop windows */
+@define-color unfocused_borders {{colors.shadow.default.hex}};
+/* these are pretty self explicative */
+@define-color warning_color {{colors.tertiary.default.hex}};
+@define-color error_color {{colors.error.default.hex}};
+@define-color success_color {{colors.secondary.default.hex}};
+/* these colors are exported for the window manager and shouldn't be used in applications,
+read if you used those and something break with a version upgrade you're on your own... */
+@define-color wm_title shade({{colors.on_surface.default.hex}}, 1.8);
+@define-color wm_unfocused_title {{colors.on_surface_variant.default.hex}};
+@define-color wm_highlight rgba(0, 0, 0, 0);
+@define-color wm_borders_edge rgba(255, 255, 255, 0.1);
+@define-color wm_bg_a shade({{colors.surface_dim.default.hex}}, 1.2);
+@define-color wm_bg_b {{colors.surface_dim.default.hex}};
+@define-color wm_shadow alpha(black, 0.35);
+@define-color wm_border alpha(black, 0.18);
+@define-color wm_button_hover_color_a shade({{colors.surface_dim.default.hex}}, 1.3);
+@define-color wm_button_hover_color_b {{colors.surface_dim.default.hex}};
+@define-color wm_button_active_color_a shade({{colors.surface_dim.default.hex}}, 0.85);
+@define-color wm_button_active_color_b shade({{colors.surface_dim.default.hex}}, 0.89);
+@define-color wm_button_active_color_c shade({{colors.surface_dim.default.hex}}, 0.90);
+@define-color content_view_bg {{colors.surface.default.hex}};
+@define-color budgie_tasklist_indicator_color {{colors.primary.default.hex}};
+@define-color budgie_tasklist_indicator_color_active {{colors.primary.default.hex}};

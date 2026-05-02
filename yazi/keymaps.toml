@@ -1,0 +1,14 @@
+[[manager.prepend_keymap]]
+on   = "i"
+run  = "plugin recycle-bin"
+desc = "Open Recycle Bin menu"
+
+[[manager.prepend_keymap]]
+on   = "D"
+run  = "plugin sudo -- remove --permanently"
+desc = "sudo delete"
+
+[[manager.prepend_keymap]]
+desc = "Exit the process"
+on = "q"
+run = "plugin confirm-quit"

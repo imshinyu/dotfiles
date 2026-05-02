@@ -1,0 +1,26 @@
+window {
+    background-color: {{colors.background.default.hex}};
+    color: #eeeeee;
+    height: 150;
+    border-radius: 20px
+}
+
+list {
+    background: none;
+    border-radius: 20px
+}
+
+entry {
+    background-color: {{colors.surface_bright.default.hex}};
+    border-radius: 20px
+}
+
+button {
+    background: none;
+    border: none
+}
+
+button:hover {
+    background-color: {{colors.surface_bright.default.hex}}
+}
+

@@ -1,0 +1,35 @@
+
+[language-server.discord-rpc]
+command = "discord-rpc-lsp"
+
+[language-server.qmlls]
+args = [ "-E" ]
+command = "qmlls6"
+
+[language-server.clangd]
+command = "clangd"
+
+[[language]]
+name = "rust"
+auto-format = true
+
+[[language]]
+name = "c"
+scope = "source.c"
+injection-regex = "c"
+file-types = ["c"]
+comment-token = "//"
+block-comment-tokens = { start = "/*", end = "*/" }
+language-servers = [ "clangd", "discord-rpc" ]
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "qmlls"
+scope = "source.qmlls"
+injection-regex = "qml"
+file-types = ["qml"]
+comment-tokens = "//"
+indent = { tab-width = 4, unit = "    " }
+formatter = { command = "qmlformat-stdin" }
+language-servers = [ "qmlls" , "discord-rpc" ]
+

@@ -1,0 +1,92 @@
+[config]
+version_check = false
+
+[templates.wswitch]
+input_path = "~/.config/matugen/templates/wswitch.ini"
+output_path = "~/.config/wswitch/themes/matugen.ini"
+[templates.swaync]
+input_path = "~/.config/matugen/templates/colors.css"
+output_path = "~/.config/swaync/colors.css"
+post_hook = "swaync-client -rs"
+[templates.yazi]
+input_path = '~/.config/matugen/templates/yazi-theme.toml'
+output_path = '~/.config/yazi/theme.toml'
+
+[templates.neovim]
+input_path = '~/.config/matugen/templates/nvim.lua'
+output_path = '~/.config/nvim/matugen.lua'
+
+[templates.helix]
+input_path = '~/.config/matugen/templates/helix.toml'
+output_path = '~/.config/helix/themes/matugen.toml'
+
+[templates.mangowc]
+input_path = '~/.config/matugen/templates/mangowc.conf'
+output_path = '~/.config/mango/colors.conf'
+
+[templates.niri]
+input_path = '~/.config/matugen/templates/niri-colors.kdl'
+output_path = '~/.config/niri/colors.kdl'
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty-colors.conf'
+output_path = '~/.config/kitty/kitty-colors.conf'
+
+[templates.mako]
+input_path = '~/.config/matugen/templates/mako'
+output_path = '~/.config/mako/mako-colors'
+post_hook = 'makoctl reload'
+
+[templates.squared]
+input_path ='~/.config/matugen/templates/squared.css'
+output_path = '~/.local/share/themes/Squared/colors.css'
+
+[templates.gtk3]
+input_path = '~/.config/matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-3.0/colors.css'
+post_hook = 'papirus-folders -C "{colors.primary.default.hex}"'
+
+[templates.gtk4]
+input_path = '~/.config/matugen/templates/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/colors.css'
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
+[templates.color-scheme]
+input_path = '~/.config/matugen/templates/Matugen.colors'
+output_path = '~/.local/share/color-schemes/Matugen.colors'
+
+[templates.discordMidnight]
+input_path = '~/.config/matugen/templates/midnight-discord.css'
+output_path = '~/.config/Equicord/themes/midnight.css'
+
+[templates.discordMaterial]
+input_path = '~/.config/matugen/templates/Material-Discord.css'
+output_path = '~/.config/Equicord/themes/material.css'
+
+[templates.discordSystem24]
+input_path = '~/.config/matugen/templates/system24-discord.css'
+output_path = '~/.config/Equicord/themes/system24-discord.css'
+
+[templates.fish]
+input_path = '~/.config/matugen/templates/fish-colors.theme'
+output_path = '~/.config/fish/themes/Matugen.theme'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+[templates.quickshell]
+input_path = '~/.config/matugen/templates/quickshell.json'
+output_path = '~/.config/quickshell/Appearance/colors.json'
+
+[templates.zed]
+input_path = '~/.config/matugen/templates/zed.json'
+output_path = '~/.config/zed/themes/matugen.json'

@@ -1,0 +1,14 @@
+[opener]
+play = [{ run = 'elisa "$@"', orphan = true, for = "unix" }]
+edit = [{ run = 'hx "$@"', block = true, for = "unix" }]
+open = [{ run = 'xdg-open "$@"', desc = "Open" }]
+[tasks]
+image_bound = [10000, 10000]
+[mgr]
+show_hidden = true
+linemode = "size"
+scrolloff = 0
+sort_by = "mtime"
+sort_reverse = true
+[preview]
+inline_preview = true 
