@@ -1,0 +1,126 @@
+// Window rules let you adjust behavior for individual windows.
+// Find more information on the wiki:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Window-Rules
+
+// Open the Firefox picture-in-picture player as floating by default.
+workspace "1" {
+    open-on-output "HDMI-A-1"
+}
+workspace "2" {
+    open-on-output "HDMI-A-1"
+}
+workspace "3" {
+    open-on-output "HDMI-A-1"
+}
+workspace "4" {
+    open-on-output "HDMI-A-1"
+}
+workspace "5" {
+    open-on-output "HDMI-A-1"
+}
+
+window-rule {
+    match app-id=r#"floorp$"#
+    match app-id=r#"firefox$"#
+    match app-id=r#"librewolf$"#
+    match app-id=r#"helium$"#
+    match app-id=r#"chromium$"#
+    match app-id=r#"zen$"#
+    open-on-workspace "1"
+}
+window-rule {
+    match app-id=r#"steam$"#
+    match app-id=r#"heroic$"#
+    match app-id=r#"hydralauncher$"#
+    match app-id=r#"twintaillauncher$"#
+    match app-id=r#"page.kramo.Cartridges$"#
+    match app-id=r#"elysia$"#
+    open-on-workspace "2"
+}
+window-rule {
+    match app-id=r#"vesktop$"#
+    match app-id=r#"discord$"#
+    match app-id=r#"equibop$"#
+    match app-id=r#"fluxer_app$"#
+    match app-id=r#"stoat-desktop$"#
+    open-on-workspace "3"
+}
+window-rule {
+    match app-id=r#"kitty$"#
+    match app-id=r#"foot$"#
+    open-on-workspace "4"
+}
+
+window-rule {
+    match app-id=r#"steam_proton$"#
+    match app-id=r#"feishin$"#
+    match title="ZenlessZoneZero"
+    match title="Wuthering Waves"
+    match title="Umamusume"
+    match title="Genshin Impact"
+    match title="Rocket League"
+    match title="Minecraft"
+    match title="Endfield"
+    open-on-workspace "5"
+}
+window-rule {
+    match title=r#"Calculator$"#
+    match title=r#"clipse$"#
+    open-floating true
+    min-width 350
+    max-width 350
+    min-height 650
+    max-height 650
+}
+window-rule {
+    match app-id=r#"com.github.hluk.copyq$"#
+    open-floating true
+    min-width 450
+    max-width 450
+    min-height 700
+    max-height 700
+}
+window-rule {
+    match title=r#"Steam Settings$"#
+    match app-id=r#"steam$"#
+    exclude title="^Steam$"
+    open-floating true
+}
+window-rule {
+    match app-id=r#"com.github.hluk.copyq$"#
+    open-floating true
+    min-width 650
+    max-width 650
+    min-height 500
+    max-height 500
+}
+window-rule {
+    match app-id=r#"org.freedesktop.impl.portal.desktop.kde$"#
+    open-floating true
+    min-width 750
+    max-width 750
+    min-height 600
+    max-height 600
+}
+
+window-rule {
+  match app-id=r#"pavucontrol-qt$"#
+  match app-id=r#"pwvucontrol$"#
+  match title=r#"Volume Control$"#
+  min-width 650
+  max-width 650
+  min-height 450
+  max-height 450
+  open-floating true
+}
+window-rule {
+  match app-id=r#"ark$"#
+  match app-id=r#"xarchiver$"#
+  match app-id=r#"org.gnome.FileRoller$"#
+  open-floating true
+}
+window-rule {
+  match app-id=r#"waypaper$"#
+  open-floating true
+}
+
